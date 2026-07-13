@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14161F">
+<meta name="description" content="Track your subscriptions and never miss a cancellation window.">
+<title>SubTrack</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SubTrack">
+<style>
+  @font-face{font-family:'Archivo';font-style:normal;font-weight:400 700;font-display:swap;
+    src:local('Archivo'),local('Archivo-Regular');}
+  :root{
+    --bg:#14161F; --card:#1D2029; --line:#2E3342; --text:#EDEEF2; --dim:#9BA0B0;
+    --brass:#E4B04A; --warn:#E4634A; --save:#7FB08A;
+    --ui:'Archivo','Segoe UI',system-ui,-apple-system,sans-serif;
+    --mono:'IBM Plex Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{background:var(--bg);color:var(--text);font-family:var(--ui)}
+  body{max-width:460px;margin:0 auto;min-height:100vh;padding:0 16px 120px;
+    padding-bottom:calc(120px + env(safe-area-inset-bottom));
+    padding-top:env(safe-area-inset-top);}
+  .mono{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+  .dim{color:var(--dim)}
+  button{font-family:inherit;color:inherit;background:none;border:none;cursor:pointer;font-size:1rem}
+  h1{font-size:1.35rem;font-weight:700;letter-spacing:-.02em}
+
+  header{display:flex;align-items:center;justify-content:space-between;padding:22px 2px 8px}
+  .brandmark{display:flex;align-items:center;gap:10px}
+  .brandmark .dot{width:26px;height:26px;border-radius:8px;background:var(--brass);
+    display:grid;place-items:center;color:#14161F;font-weight:700;font-family:var(--mono);font-size:.85rem}
+
+  /* summary */
+  .summary{background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:20px;margin-top:6px}
+  .summary .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
+  .summary .total{font-family:var(--mono);font-size:2.5rem;font-weight:500;line-height:1.05;
+    margin-top:6px;letter-spacing:-.03em}
+  .summary .total small{font-size:1rem;color:var(--dim);font-weight:400}
+  .summary .extra{margin-top:4px;font-family:var(--mono);font-size:.85rem;color:var(--dim)}
+  .summary .yearly{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;align-items:baseline;font-size:.85rem;color:var(--dim)}
+  .summary .yearly b{font-family:var(--mono);color:var(--text);font-weight:500;font-size:1.05rem}
+
+  .section-h{display:flex;align-items:center;justify-content:space-between;
+    margin:26px 4px 12px;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
+
+  /* sub row */
+  ul{list-style:none}
+  .row{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);
+    border-radius:16px;padding:14px 16px;margin-bottom:10px;width:100%;text-align:left;position:relative;
+    transition:transform .12s ease,border-color .12s ease}
+  .row:active{transform:scale(.985)}
+  .row .initial{flex:0 0 auto;width:38px;height:38px;border-radius:11px;display:grid;place-items:center;
+    font-weight:700;color:#14161F;font-family:var(--mono);font-size:1rem}
+  .row .mid{flex:1 1 auto;min-width:0}
+  .row .name{display:block;font-weight:600;font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .sub{display:block;font-size:.78rem;color:var(--dim);margin-top:3px;font-family:var(--mono)}
+  .row .price{font-family:var(--mono);font-size:1rem;font-weight:500;text-align:right;white-space:nowrap}
+  .row .price small{display:block;font-size:.68rem;color:var(--dim);font-weight:400}
+  .fuse{position:absolute;left:16px;right:16px;bottom:8px;height:3px;border-radius:3px;background:var(--line);overflow:hidden}
+  .fuse i{display:block;height:100%;border-radius:3px;background:var(--brass);
+    transition:width .3s ease}
+  .fuse.warn i{background:var(--warn)}
+  .row{padding-bottom:20px}
+
+  .empty{text-align:center;color:var(--dim);padding:40px 20px;font-size:.9rem;line-height:1.6}
+
+  /* cancelled */
+  .cancelled-head{display:flex;align-items:center;justify-content:space-between;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;width:100%}
+  .cancelled-head .tally{font-family:var(--mono);color:var(--save);font-size:.85rem}
+  .cancelled-head .chev{transition:transform .2s ease;color:var(--dim)}
+  .cancelled-head.open .chev{transform:rotate(180deg)}
+  .cancelled-list{margin-top:10px;display:none}
+  .cancelled-list.open{display:block}
+  .crow{display:flex;align-items:center;gap:12px;padding:11px 14px;border:1px solid var(--line);
+    border-radius:13px;margin-bottom:8px;background:rgba(29,32,41,.5)}
+  .crow .initial{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
+    font-weight:700;color:#14161F;font-family:var(--mono);font-size:.85rem;opacity:.7}
+  .crow .name{flex:1;font-size:.92rem;color:var(--dim)}
+  .crow .price{font-family:var(--mono);font-size:.85rem;color:var(--dim)}
+  .crow button.react{color:var(--brass);font-size:.8rem;font-weight:600;padding:6px 4px}
+
+  /* FAB */
+  .fab{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom));
+    background:var(--brass);color:#14161F;font-weight:700;border-radius:30px;padding:15px 26px;
+    display:flex;align-items:center;gap:8px;box-shadow:0 8px 30px rgba(0,0,0,.45);font-size:1rem;z-index:20}
+  .fab:active{transform:translateX(-50%) scale(.96)}
+
+  /* sheets */
+  .scrim{position:fixed;inset:0;background:rgba(6,7,11,.6);opacity:0;pointer-events:none;
+    transition:opacity .2s ease;z-index:30;backdrop-filter:blur(2px)}
+  .scrim.show{opacity:1;pointer-events:auto}
+  .sheet{position:fixed;left:0;right:0;bottom:0;max-width:460px;margin:0 auto;background:var(--card);
+    border:1px solid var(--line);border-bottom:none;border-radius:22px 22px 0 0;z-index:40;
+    padding:8px 18px calc(26px + env(safe-area-inset-bottom));transform:translateY(100%);
+    transition:transform .26s cubic-bezier(.2,.8,.2,1);max-height:88vh;overflow-y:auto}
+  .sheet.show{transform:translateY(0)}
+  .grabber{width:38px;height:4px;border-radius:4px;background:var(--line);margin:8px auto 14px}
+  .sheet h2{font-size:1.15rem;font-weight:700;margin-bottom:4px}
+
+  .preset-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+  .preset{display:flex;flex-direction:column;align-items:center;gap:7px;padding:14px 6px;
+    border:1px solid var(--line);border-radius:14px;background:rgba(20,22,31,.4)}
+  .preset:active{border-color:var(--brass)}
+  .preset .initial{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
+    font-weight:700;color:#14161F;font-family:var(--mono)}
+  .preset .pn{font-size:.72rem;color:var(--dim);text-align:center;line-height:1.2}
+
+  label.field{display:block;margin:14px 0 0}
+  label.field .cap{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-bottom:6px;display:block}
+  input,select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:12px;
+    padding:13px 14px;color:var(--text);font-size:1rem;font-family:var(--mono)}
+  input:focus,select:focus{outline:none;border-color:var(--brass)}
+  select{font-family:var(--ui);appearance:none}
+  .two{display:flex;gap:10px}
+  .two>*{flex:1}
+  input[type=color]{padding:4px;height:48px;cursor:pointer}
+  input[type=date]{font-family:var(--mono)}
+
+  .btn{display:block;width:100%;text-align:center;border-radius:13px;padding:15px;font-weight:700;font-size:1rem;margin-top:8px}
+  .btn.primary{background:var(--brass);color:#14161F}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+  .btn.warn{background:transparent;border:1px solid var(--warn);color:var(--warn)}
+  .btn.link{background:transparent;color:var(--brass);border:1px solid var(--line)}
+  .btn:active{transform:scale(.98)}
+
+  /* detail sheet */
+  .d-head{display:flex;align-items:center;gap:14px;margin:6px 0 18px}
+  .d-head .initial{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;
+    font-weight:700;color:#14161F;font-family:var(--mono);font-size:1.2rem}
+  .d-head .d-name{font-size:1.25rem;font-weight:700}
+  .d-head .d-price{font-family:var(--mono);color:var(--dim);font-size:.85rem;margin-top:2px}
+  .d-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+  .d-cell{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .d-cell .k{font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}
+  .d-cell .v{font-family:var(--mono);font-size:1.15rem;font-weight:500;margin-top:6px}
+  .d-cell .v.warn{color:var(--warn)}
+  .d-actions>*{margin-top:10px}
+  .row-actions{display:flex;gap:10px}
+  .row-actions>*{flex:1}
+  .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));
+    background:var(--line);color:var(--text);padding:11px 18px;border-radius:12px;font-size:.85rem;z-index:60;
+    opacity:0;transition:opacity .2s ease;pointer-events:none}
+  .toast.show{opacity:1}
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none!important;animation:none!important}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brandmark">
+    <div class="dot mono">S</div>
+    <h1>SubTrack</h1>
+  </div>
+  <div class="dim mono" style="font-size:.8rem" id="today"></div>
+</header>
+
+<section class="summary" aria-label="Monthly spend">
+  <div class="label">Total monthly</div>
+  <div class="total mono" id="totalMonthly">R0<small>/mo</small></div>
+  <div class="extra mono" id="totalExtra"></div>
+  <div class="yearly"><span>Yearly equivalent</span><b class="mono" id="totalYearly">R0</b></div>
+</section>
+
+<div class="section-h"><span>Upcoming charges</span><span id="activeCount" class="mono"></span></div>
+<ul id="list"></ul>
+
+<div id="cancelledWrap" style="display:none">
+  <div class="section-h"><span>Cancelled</span></div>
+  <button class="cancelled-head" id="cancelledHead" aria-expanded="false">
+    <span>Saving <span class="tally mono" id="savingsTally">R0/mo</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="cancelled-list" id="cancelledList"></div>
+</div>
+
+<button class="fab" id="addBtn" aria-label="Add subscription">＋ Add</button>
+
+<!-- Scrim + sheets -->
+<div class="scrim" id="scrim"></div>
+
+<!-- Add / picker sheet -->
+<div class="sheet" id="addSheet" role="dialog" aria-label="Add subscription">
+  <div class="grabber"></div>
+  <div id="pickerView">
+    <h2>Add a subscription</h2>
+    <div class="dim" style="font-size:.85rem;margin-top:2px">Pick a service or add your own.</div>
+    <div class="preset-grid" id="presetGrid"></div>
+  </div>
+  <div id="formView" style="display:none">
+    <h2 id="formTitle">New subscription</h2>
+    <label class="field"><span class="cap">Name</span><input id="f-name" placeholder="e.g. Netflix" autocomplete="off"></label>
+    <div class="two">
+      <label class="field"><span class="cap">Price</span><input id="f-price" inputmode="decimal" placeholder="0.00"></label>
+      <label class="field"><span class="cap">Currency</span>
+        <select id="f-currency">
+          <option value="ZAR">ZAR (R)</option><option value="USD">USD ($)</option>
+          <option value="EUR">EUR (€)</option><option value="GBP">GBP (£)</option>
+        </select></label>
+    </div>
+    <div class="two">
+      <label class="field"><span class="cap">Cycle</span>
+        <select id="f-cycle">
+          <option value="monthly">Monthly</option><option value="yearly">Yearly</option><option value="weekly">Weekly</option>
+        </select></label>
+      <label class="field"><span class="cap">Next charge</span><input id="f-date" type="date"></label>
+    </div>
+    <label class="field"><span class="cap">Cancellation link (optional)</span><input id="f-url" placeholder="https://…" autocomplete="off"></label>
+    <label class="field" id="colorField"><span class="cap">Brand colour</span><input id="f-color" type="color" value="#E4B04A"></label>
+    <button class="btn primary" id="f-save">Save subscription</button>
+    <button class="btn ghost" id="f-back">Back</button>
+  </div>
+</div>
+
+<!-- Detail sheet -->
+<div class="sheet" id="detailSheet" role="dialog" aria-label="Subscription detail">
+  <div class="grabber"></div>
+  <div class="d-head">
+    <div class="initial" id="d-initial"></div>
+    <div><div class="d-name" id="d-name"></div><div class="d-price mono" id="d-price"></div></div>
+  </div>
+  <div class="d-grid">
+    <div class="d-cell"><div class="k">Per month</div><div class="v mono" id="d-monthly"></div></div>
+    <div class="d-cell"><div class="k">Per year</div><div class="v mono" id="d-yearly"></div></div>
+    <div class="d-cell"><div class="k">Next charge</div><div class="v mono" id="d-next"></div></div>
+    <div class="d-cell"><div class="k">Countdown</div><div class="v mono" id="d-count"></div></div>
+  </div>
+  <div class="d-actions">
+    <a class="btn link" id="d-open" target="_blank" rel="noopener">Open cancellation page ↗</a>
+    <button class="btn ghost" id="d-ics">Add reminder to calendar</button>
+    <button class="btn warn" id="d-cancel">Mark as cancelled</button>
+    <div class="row-actions">
+      <button class="btn ghost" id="d-edit">Edit</button>
+      <button class="btn warn" id="d-delete">Delete</button>
+    </div>
+  </div>
+</div>
+
+<!-- Confirm sheet -->
+<div class="sheet" id="confirmSheet" role="dialog" aria-label="Confirm">
+  <div class="grabber"></div>
+  <h2 id="confirmTitle">Delete subscription?</h2>
+  <div class="dim" id="confirmMsg" style="font-size:.9rem;margin:6px 0 4px"></div>
+  <button class="btn warn" id="confirmYes">Delete</button>
+  <button class="btn ghost" id="confirmNo">Keep it</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+(function(){
+  const STORE_KEY = "subtrack-v1";
+  const DAY = 86400000;
+
+  const PRESETS = [
+    {name:"Netflix",         color:"#E50914", url:"https://www.netflix.com/cancelplan"},
+    {name:"Spotify",         color:"#1DB954", url:"https://www.spotify.com/account/subscription/"},
+    {name:"YouTube Premium", color:"#FF0000", url:"https://www.youtube.com/paid_memberships"},
+    {name:"Showmax",         color:"#1DB5A6", url:"https://www.showmax.com/my-account/subscription"},
+    {name:"DStv",            color:"#0077C8", url:"https://now.dstv.com/manage-account"},
+    {name:"Apple",           color:"#A2AAAD", url:"https://apps.apple.com/account/subscriptions"},
+    {name:"Google Play",     color:"#01875F", url:"https://play.google.com/store/account/subscriptions"},
+    {name:"Google One",      color:"#1A73E8", url:"https://one.google.com/settings"},
+    {name:"Disney+",         color:"#113CCF", url:"https://www.disneyplus.com/account/subscription"},
+    {name:"Prime",           color:"#00A8E1", url:"https://www.amazon.com/gp/primecentral"},
+    {name:"Microsoft 365",   color:"#D83B01", url:"https://account.microsoft.com/services"},
+    {name:"Xbox Game Pass",  color:"#107C10", url:"https://account.microsoft.com/services"},
+    {name:"PlayStation Plus",color:"#003791", url:"https://www.playstation.com/subscriptions/"},
+    {name:"Claude",          color:"#D97757", url:"https://claude.ai/settings/billing"},
+    {name:"ChatGPT",         color:"#10A37F", url:"https://chatgpt.com/#settings/Subscription"},
+    {name:"Canva",           color:"#00C4CC", url:"https://www.canva.com/settings/billing-and-teams"},
+    {name:"Adobe",           color:"#FA0F00", url:"https://account.adobe.com/plans"},
+    {name:"Audible",         color:"#F8991C", url:"https://www.audible.com/account/membership-details"}
+  ];
+
+  const SYM = {ZAR:"R", USD:"$", EUR:"€", GBP:"£"};
+
+  /* ---------- state ---------- */
+  let subs = [];
+  let editingId = null;      // id when the form is in edit mode
+  let detailId = null;       // id currently shown in detail sheet
+  let confirmAction = null;  // fn run when confirm "yes"
+
+  function uid(){
+    try{ if(self.crypto && crypto.randomUUID) return crypto.randomUUID(); }catch(e){}
+    return "s-" + Date.now().toString(36) + "-" + Math.random().toString(16).slice(2,8);
+  }
+
+  function load(){
+    try{
+      const raw = localStorage.getItem(STORE_KEY);
+      subs = raw ? JSON.parse(raw) : [];
+      if(!Array.isArray(subs)) subs = [];
+    }catch(e){ subs = []; }
+  }
+  function save(){
+    try{ localStorage.setItem(STORE_KEY, JSON.stringify(subs)); }catch(e){}
+  }
+
+  /* ---------- date helpers ---------- */
+  function todayMidnight(){ const d=new Date(); d.setHours(0,0,0,0); return d; }
+  function parseDate(s){ const d = new Date(s + "T00:00:00"); return isNaN(d) ? todayMidnight() : d; }
+  function fmtISO(d){ const z=n=>String(n).padStart(2,"0"); return d.getFullYear()+"-"+z(d.getMonth()+1)+"-"+z(d.getDate()); }
+  function fmtNice(d){ return d.toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"}); }
+
+  function advance(dateStr, cycle){
+    const d = parseDate(dateStr);
+    if(cycle==="weekly") d.setDate(d.getDate()+7);
+    else if(cycle==="yearly") d.setFullYear(d.getFullYear()+1);
+    else d.setMonth(d.getMonth()+1);
+    return fmtISO(d);
+  }
+  function cycleDays(dateStr, cycle){
+    const end = parseDate(dateStr);
+    const start = new Date(end);
+    if(cycle==="weekly") start.setDate(start.getDate()-7);
+    else if(cycle==="yearly") start.setFullYear(start.getFullYear()-1);
+    else start.setMonth(start.getMonth()-1);
+    return Math.max(1, Math.round((end - start)/DAY));
+  }
+  function daysUntil(dateStr){
+    return Math.round((parseDate(dateStr) - todayMidnight())/DAY);
+  }
+
+  // roll any past nextDate forward by its cycle
+  function rollForward(){
+    let changed = false;
+    const today = todayMidnight();
+    subs.forEach(s=>{
+      if(s.cancelled) return;
+      let guard = 0;
+      while(parseDate(s.nextDate) < today && guard < 600){
+        s.nextDate = advance(s.nextDate, s.cycle);
+        changed = true; guard++;
+      }
+    });
+    if(changed) save();
+  }
+
+  /* ---------- money ---------- */
+  function monthly(s){
+    const p = Number(s.price)||0;
+    if(s.cycle==="yearly") return p/12;
+    if(s.cycle==="weekly") return p*52/12;
+    return p;
+  }
+  function fmtMoney(cur, amt){
+    const sym = SYM[cur]||"";
+    const n = Math.round(amt*100)/100;
+    const str = (n % 1 === 0) ? n.toLocaleString(undefined,{maximumFractionDigits:0})
+                              : n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+    return sym + str;
+  }
+
+  /* ---------- rendering ---------- */
+  const $ = id => document.getElementById(id);
+
+  function render(){
+    const active = subs.filter(s=>!s.cancelled);
+    const cancelled = subs.filter(s=>s.cancelled);
+
+    // totals by currency
+    const byCur = {};
+    active.forEach(s=>{ byCur[s.currency]=(byCur[s.currency]||0)+monthly(s); });
+    const zar = byCur.ZAR || 0;
+    $("totalMonthly").innerHTML = fmtMoney("ZAR",zar) + '<small>/mo</small>';
+    const extras = Object.keys(byCur).filter(c=>c!=="ZAR"&&byCur[c]>0)
+      .map(c=>"+ "+fmtMoney(c,byCur[c])+"/mo");
+    $("totalExtra").textContent = extras.join("   ");
+    $("totalExtra").style.display = extras.length ? "block" : "none";
+    $("totalYearly").textContent = fmtMoney("ZAR", zar*12);
+
+    // active list, sorted by days until next charge
+    active.sort((a,b)=>daysUntil(a.nextDate)-daysUntil(b.nextDate));
+    $("activeCount").textContent = active.length ? active.length : "";
+    const list = $("list");
+    list.innerHTML = "";
+    if(!active.length){
+      const li=document.createElement("li");
+      li.className="empty";
+      li.innerHTML = cancelled.length ? "No active subscriptions.<br>Everything below is cancelled 🎉"
+                                      : "Nothing tracked yet.<br>Tap ＋ Add to start.";
+      list.appendChild(li);
+    }
+    active.forEach(s=>{
+      const li=document.createElement("li");
+      const btn=document.createElement("button");
+      btn.className="row";
+      btn.setAttribute("data-id", s.id);
+      const d = daysUntil(s.nextDate);
+      const total = cycleDays(s.nextDate, s.cycle);
+      const elapsed = Math.min(total, Math.max(0, total - d));
+      const pct = Math.max(3, Math.min(100, Math.round(elapsed/total*100)));
+      const warn = d <= 3;
+      const when = d<=0 ? "due today" : ("in "+d+" day"+(d===1?"":"s"));
+      btn.innerHTML =
+        '<span class="initial" style="background:'+s.color+'">'+initial(s.name)+'</span>'+
+        '<span class="mid"><span class="name">'+esc(s.name)+'</span>'+
+        '<span class="sub">'+when+' · '+s.cycle+'</span></span>'+
+        '<span class="price">'+fmtMoney(s.currency,Number(s.price)||0)+
+          '<small>'+capCycle(s.cycle)+'</small></span>'+
+        '<span class="fuse'+(warn?" warn":"")+'"><i style="width:'+pct+'%"></i></span>';
+      btn.addEventListener("click", ()=>openDetail(s.id));
+      li.appendChild(btn);
+      list.appendChild(li);
+    });
+
+    // cancelled section
+    const wrap = $("cancelledWrap");
+    if(cancelled.length){
+      wrap.style.display="block";
+      let saved = 0;
+      cancelled.forEach(s=>{ if(s.currency==="ZAR") saved += monthly(s); });
+      // include a rough all-currency note only in ZAR to keep one tally
+      $("savingsTally").textContent = fmtMoney("ZAR", saved) + "/mo";
+      const cl = $("cancelledList");
+      cl.innerHTML="";
+      cancelled.forEach(s=>{
+        const div=document.createElement("div");
+        div.className="crow";
+        div.innerHTML =
+          '<span class="initial" style="background:'+s.color+'">'+initial(s.name)+'</span>'+
+          '<span class="name">'+esc(s.name)+'</span>'+
+          '<span class="price">'+fmtMoney(s.currency,monthly(s))+'/mo</span>';
+        const react=document.createElement("button");
+        react.className="react"; react.textContent="Reactivate";
+        react.addEventListener("click",()=>reactivate(s.id));
+        div.appendChild(react);
+        cl.appendChild(div);
+      });
+    } else {
+      wrap.style.display="none";
+    }
+  }
+
+  function initial(name){ return (name||"?").trim().charAt(0).toUpperCase() || "?"; }
+  function capCycle(c){ return c==="monthly"?"/mo":c==="yearly"?"/yr":"/wk"; }
+  function esc(s){ return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m])); }
+
+  /* ---------- sheets ---------- */
+  function openSheet(el){ $("scrim").classList.add("show"); el.classList.add("show"); }
+  function closeSheets(){
+    $("scrim").classList.remove("show");
+    ["addSheet","detailSheet","confirmSheet"].forEach(id=>$(id).classList.remove("show"));
+  }
+  $("scrim").addEventListener("click", closeSheets);
+
+  /* ---------- add / picker ---------- */
+  function buildPresetGrid(){
+    const g=$("presetGrid"); g.innerHTML="";
+    PRESETS.forEach(p=>{
+      const b=document.createElement("button");
+      b.className="preset"; b.setAttribute("data-name",p.name);
+      b.innerHTML='<span class="initial" style="background:'+p.color+'">'+initial(p.name)+'</span>'+
+                  '<span class="pn">'+esc(p.name)+'</span>';
+      b.addEventListener("click",()=>chooseForm(p));
+      g.appendChild(b);
+    });
+    const custom=document.createElement("button");
+    custom.className="preset"; custom.setAttribute("data-name","Custom");
+    custom.innerHTML='<span class="initial" style="background:var(--line);color:var(--text)">＋</span>'+
+                     '<span class="pn">Custom</span>';
+    custom.addEventListener("click",()=>chooseForm(null));
+    g.appendChild(custom);
+  }
+
+  function showPicker(){
+    editingId=null;
+    $("pickerView").style.display="block";
+    $("formView").style.display="none";
+    openSheet($("addSheet"));
+  }
+
+  function chooseForm(preset){
+    $("pickerView").style.display="none";
+    $("formView").style.display="block";
+    $("formTitle").textContent = preset ? ("Add "+preset.name) : "Custom subscription";
+    $("f-name").value = preset ? preset.name : "";
+    $("f-price").value = "";
+    $("f-currency").value = "ZAR";
+    $("f-cycle").value = "monthly";
+    $("f-date").value = fmtISO(defaultNext());
+    $("f-url").value = preset ? preset.url : "";
+    $("f-color").value = preset ? preset.color : "#E4B04A";
+    $("colorField").style.display = "block";
+  }
+
+  function defaultNext(){ const d=todayMidnight(); d.setDate(d.getDate()+30); return d; }
+
+  function openEdit(id){
+    const s = subs.find(x=>x.id===id); if(!s) return;
+    editingId = id;
+    closeSheets();
+    $("pickerView").style.display="none";
+    $("formView").style.display="block";
+    $("formTitle").textContent = "Edit "+s.name;
+    $("f-name").value=s.name;
+    $("f-price").value=s.price;
+    $("f-currency").value=s.currency;
+    $("f-cycle").value=s.cycle;
+    $("f-date").value=s.nextDate;
+    $("f-url").value=s.cancelUrl||"";
+    $("f-color").value=s.color;
+    openSheet($("addSheet"));
+  }
+
+  function saveForm(){
+    const name = ($("f-name").value||"").trim() || "Untitled";
+    const price = parseFloat($("f-price").value);
+    const data = {
+      name,
+      price: isNaN(price)?0:price,
+      currency: $("f-currency").value,
+      cycle: $("f-cycle").value,
+      nextDate: $("f-date").value || fmtISO(defaultNext()),
+      cancelUrl: ($("f-url").value||"").trim(),
+      color: $("f-color").value || "#E4B04A"
+    };
+    if(editingId){
+      const s = subs.find(x=>x.id===editingId);
+      if(s) Object.assign(s, data);
+      editingId=null;
+    } else {
+      subs.push(Object.assign({id:uid(), cancelled:false}, data));
+    }
+    save(); render(); closeSheets();
+    toast(editingId?"Saved":"Added "+name);
+  }
+
+  /* ---------- detail ---------- */
+  function openDetail(id){
+    const s = subs.find(x=>x.id===id); if(!s) return;
+    detailId = id;
+    $("d-initial").textContent = initial(s.name);
+    $("d-initial").style.background = s.color;
+    $("d-name").textContent = s.name;
+    $("d-price").textContent = fmtMoney(s.currency, Number(s.price)||0) + " " + capCycle(s.cycle);
+    $("d-monthly").textContent = fmtMoney(s.currency, monthly(s));
+    $("d-yearly").textContent = fmtMoney(s.currency, monthly(s)*12);
+    $("d-next").textContent = fmtNice(parseDate(s.nextDate));
+    const d = daysUntil(s.nextDate);
+    const cEl = $("d-count");
+    cEl.textContent = d<=0 ? "Due today" : (d+" day"+(d===1?"":"s"));
+    cEl.classList.toggle("warn", d<=3);
+    const open = $("d-open");
+    if(s.cancelUrl){ open.style.display="block"; open.href=s.cancelUrl; }
+    else open.style.display="none";
+    openSheet($("detailSheet"));
+  }
+
+  function markCancelled(){
+    const s = subs.find(x=>x.id===detailId); if(!s) return;
+    s.cancelled = true;
+    save(); render(); closeSheets();
+    toast("Marked cancelled");
+  }
+  function reactivate(id){
+    const s = subs.find(x=>x.id===id); if(!s) return;
+    s.cancelled = false;
+    // roll date forward so it lands in the future
+    const today = todayMidnight();
+    let guard=0;
+    while(parseDate(s.nextDate) < today && guard<600){ s.nextDate=advance(s.nextDate,s.cycle); guard++; }
+    save(); render();
+    toast("Reactivated "+s.name);
+  }
+  function deleteSub(){
+    subs = subs.filter(x=>x.id!==detailId);
+    save(); render(); closeSheets();
+    toast("Deleted");
+  }
+
+  /* ---------- .ics ---------- */
+  function makeICS(){
+    const s = subs.find(x=>x.id===detailId); if(!s) return;
+    const freq = s.cycle==="weekly"?"WEEKLY":s.cycle==="yearly"?"YEARLY":"MONTHLY";
+    const dt = s.nextDate.replace(/-/g,"");
+    const stamp = fmtISO(todayMidnight()).replace(/-/g,"")+"T000000Z";
+    const uidv = (s.id||"sub")+"@subtrack";
+    const ics = [
+      "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//SubTrack//EN","CALSCALE:GREGORIAN",
+      "BEGIN:VEVENT",
+      "UID:"+uidv,
+      "DTSTAMP:"+stamp,
+      "DTSTART;VALUE=DATE:"+dt,
+      "RRULE:FREQ="+freq+";INTERVAL=1",
+      "SUMMARY:"+s.name+" renews ("+fmtMoney(s.currency,Number(s.price)||0)+")",
+      "DESCRIPTION:Cancel before you're charged."+(s.cancelUrl?(" "+s.cancelUrl):""),
+      "BEGIN:VALARM","ACTION:DISPLAY","DESCRIPTION:"+s.name+" charges in 2 days","TRIGGER:-P2D","END:VALARM",
+      "END:VEVENT","END:VCALENDAR"
+    ].join("\r\n");
+    try{
+      const blob = new Blob([ics], {type:"text/calendar"});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href=url; a.download=(s.name.replace(/[^a-z0-9]+/gi,"-")||"reminder")+".ics";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url), 1000);
+      toast("Reminder downloaded");
+    }catch(e){ toast("Couldn't create file"); }
+  }
+
+  /* ---------- confirm ---------- */
+  function askConfirm(title,msg,fn){
+    $("confirmTitle").textContent=title;
+    $("confirmMsg").textContent=msg;
+    confirmAction=fn;
+    // keep detail context but bring confirm on top
+    $("detailSheet").classList.remove("show");
+    openSheet($("confirmSheet"));
+  }
+
+  /* ---------- toast ---------- */
+  let toastT=null;
+  function toast(msg){
+    const t=$("toast"); t.textContent=msg; t.classList.add("show");
+    clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),1800);
+  }
+
+  /* ---------- wire up ---------- */
+  function bind(){
+    $("addBtn").addEventListener("click", showPicker);
+    $("f-save").addEventListener("click", saveForm);
+    $("f-back").addEventListener("click", showPicker);
+    $("d-cancel").addEventListener("click", markCancelled);
+    $("d-ics").addEventListener("click", makeICS);
+    $("d-edit").addEventListener("click", ()=>openEdit(detailId));
+    $("d-delete").addEventListener("click", ()=>{
+      const s=subs.find(x=>x.id===detailId);
+      askConfirm("Delete subscription?", "“"+(s?s.name:"")+"” will be removed for good.", deleteSub);
+    });
+    $("confirmYes").addEventListener("click", ()=>{ if(confirmAction) confirmAction(); confirmAction=null; });
+    $("confirmNo").addEventListener("click", closeSheets);
+    $("cancelledHead").addEventListener("click", ()=>{
+      const h=$("cancelledHead"), l=$("cancelledList");
+      const open=h.classList.toggle("open"); l.classList.toggle("open",open);
+      h.setAttribute("aria-expanded", open?"true":"false");
+    });
+  }
+
+  /* ---------- init ---------- */
+  function init(){
+    try{ $("today").textContent = todayMidnight().toLocaleDateString(undefined,{day:"numeric",month:"short"}); }catch(e){}
+    load();
+    rollForward();
+    buildPresetGrid();
+    bind();
+    render();
+  }
+
+  // expose a tiny hook for automated smoke testing (no effect on UX)
+  window.SubTrack = { get subs(){return subs;}, STORE_KEY, reload(){load();rollForward();render();} };
+
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+
+  /* ---------- PWA registration (fully guarded) ---------- */
+  window.addEventListener("load", function(){
+    try{
+      if("serviceWorker" in navigator){
+        navigator.serviceWorker.register("sw.js").catch(function(){/* offline features optional */});
+      }
+    }catch(e){/* never let PWA wiring break the app */}
+  });
+})();
+</script>
+</body>
+</html>

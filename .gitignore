@@ -1,0 +1,5 @@
+node_modules/
+scripts/icons.json
+scripts/home.png
+scripts/picker.png
+package-lock.json
