@@ -11,8 +11,10 @@ import UIKit
 @MainActor
 enum PDFExporter {
 
-    private static let pageSize = CGRect(x: 0, y: 0, width: 612, height: 792) // US Letter
-    private static let margin: CGFloat = 40
+    // nonisolated: referenced from nested helper functions inside the PDF
+    // renderer closure, which don't inherit the enum's MainActor isolation.
+    private nonisolated static let pageSize = CGRect(x: 0, y: 0, width: 612, height: 792) // US Letter
+    private nonisolated static let margin: CGFloat = 40
 
     /// Renders the given day's publications to a PDF and returns the file URL.
     static func exportDailySnapshot(date: Date, publications: [Publication]) throws -> URL {
