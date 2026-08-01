@@ -1,0 +1,63 @@
+# Builds the OTC Pulse daily feed once a day and publishes it to the `feed`
+# branch, where the app fetches it from:
+#   https://raw.githubusercontent.com/psnIOjnb/fuzzy-octo-doodle/refs/heads/feed/daily.json
+#
+# NOTE: scheduled workflows only run from the repository's DEFAULT branch,
+# so this file must be merged to main before the cron fires. Use the
+# "Run workflow" button (workflow_dispatch) to test it manually any time.
+
+name: Daily OTC Pulse feed
+
+on:
+  schedule:
+    # 20:30 UTC daily — after US market hours, before the Asian morning.
+    - cron: "30 20 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install feedparser python-dateutil
+
+      - name: Generate daily.json
+        run: python feedgen/generate_feed.py --hours 48 --out daily.json
+
+      - name: Publish to feed branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          # Reuse the existing feed branch (keeps daily history) or start one.
+          if git ls-remote --exit-code "$REPO_URL" refs/heads/feed >/dev/null 2>&1; then
+            git clone --depth 1 --branch feed "$REPO_URL" publish
+          else
+            mkdir publish
+            git -C publish init -b feed
+            git -C publish remote add origin "$REPO_URL"
+          fi
+
+          cp daily.json publish/daily.json
+          mkdir -p publish/history
+          cp daily.json "publish/history/$(date -u +%F).json"
+
+          cd publish
+          git config user.name "otc-pulse-feed[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feed: $(date -u +%FT%TZ)" || { echo "No changes to publish"; exit 0; }
+          git push origin feed

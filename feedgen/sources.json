@@ -1,0 +1,83 @@
+{
+  "comment": "Official regulator RSS/Atom feeds aggregated into the OTC Pulse daily feed. All URLs verified working. region must be one of: Americas, Europe, Asia-Pacific, MEA, International Bodies (matching the app's Region enum). To add a source, append an entry here — nothing else needs to change.",
+  "sources": [
+    {
+      "code": "CFTC",
+      "name": "Commodity Futures Trading Commission",
+      "region": "Americas",
+      "country": "United States",
+      "relevance": "all",
+      "feeds": ["https://www.cftc.gov/RSS/RSSGP/rssgp.xml"]
+    },
+    {
+      "code": "SEC",
+      "name": "Securities and Exchange Commission",
+      "region": "Americas",
+      "country": "United States",
+      "feeds": ["https://www.sec.gov/news/pressreleases.rss"]
+    },
+    {
+      "code": "FRB",
+      "name": "Federal Reserve Board",
+      "region": "Americas",
+      "country": "United States",
+      "feeds": ["https://www.federalreserve.gov/feeds/press_all.xml"]
+    },
+    {
+      "code": "OSFI",
+      "name": "Office of the Superintendent of Financial Institutions",
+      "region": "Americas",
+      "country": "Canada",
+      "feeds": ["https://www.osfi-bsif.gc.ca/en/rss.xml"]
+    },
+    {
+      "code": "ESMA",
+      "name": "European Securities and Markets Authority",
+      "region": "Europe",
+      "country": "France",
+      "feeds": ["https://www.esma.europa.eu/rss.xml"]
+    },
+    {
+      "code": "EBA",
+      "name": "European Banking Authority",
+      "region": "Europe",
+      "country": "France",
+      "feeds": ["https://www.eba.europa.eu/rss.xml"]
+    },
+    {
+      "code": "FCA",
+      "name": "Financial Conduct Authority",
+      "region": "Europe",
+      "country": "United Kingdom",
+      "feeds": ["https://www.fca.org.uk/news/rss.xml"]
+    },
+    {
+      "code": "BOE",
+      "name": "Bank of England / PRA",
+      "region": "Europe",
+      "country": "United Kingdom",
+      "feeds": ["https://www.bankofengland.co.uk/rss/news"]
+    },
+    {
+      "code": "FINMA",
+      "name": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "country": "Switzerland",
+      "feeds": ["https://www.finma.ch/en/rss/news/"]
+    },
+    {
+      "code": "FSB",
+      "name": "Financial Stability Board",
+      "region": "International Bodies",
+      "country": "Switzerland (Basel)",
+      "feeds": ["https://www.fsb.org/feed/"]
+    },
+    {
+      "code": "BCBS",
+      "name": "Basel Committee on Banking Supervision",
+      "region": "International Bodies",
+      "country": "Switzerland (Basel)",
+      "feeds": ["https://www.bis.org/doclist/bcbspubls.rss"]
+    }
+  ]
+}
