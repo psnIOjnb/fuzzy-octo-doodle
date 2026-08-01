@@ -59,7 +59,7 @@ OTCPulse/
 3. Select the **OTCPulse** scheme and any iPhone simulator (iOS 17+).
 4. Press **⌘R**.
 
-First launch seeds the regulator catalog, generates 30 days of realistic history, and ingests the bundled `sample-daily.json` re-based to today — the app is fully populated and usable offline immediately. Pull-to-refresh generates a fresh mock daily feed (demo mode) until you configure a real endpoint.
+First launch seeds the regulator catalog and pulls the live cloud feed (see **Live data pipeline** below). Real OTC-derivatives regulatory flow is sparse — expect a handful of publications per week, with quiet days in between; the archive grows permanently with every refresh.
 
 ## Install on a real iPhone
 
@@ -77,12 +77,28 @@ First launch seeds the regulator catalog, generates 30 days of realistic history
 
 Free-account caveats: the app expires after **7 days** (re-run from Xcode to renew), max 3 sideloaded apps at once. A paid Apple Developer Program membership ($99/yr) removes both limits and allows TestFlight distribution.
 
-## Point the app at a real daily feed
+## Live data pipeline (zero configuration)
 
-1. Host a JSON document (any static host works — S3, GitHub Pages, a nightly CI job) containing **only the last 24 hours** of publications in the format below.
-2. In the app: **Settings → Daily Feed** → paste the URL → **Refresh Now**.
+The repo contains a fully automated feed generator — the app needs no setup at all:
 
-Merging is idempotent: records are deduplicated by `url` (when present) or `id`, so overlapping or re-downloaded feeds never create duplicates. Everything ingested accumulates permanently and remains available offline.
+- **`feedgen/sources.json`** — 11 verified official regulator RSS feeds (CFTC, SEC, Federal Reserve, OSFI, ESMA, EBA, FCA, Bank of England, FINMA, FSB, BCBS). Add a source by appending an entry; nothing else changes.
+- **`feedgen/generate_feed.py`** — fetches every source, keeps items relevant to OTC derivatives (CFTC passes wholesale via `"relevance": "all"`; broad regulators go through a keyword gate), infers document type and topics, scores impact, extracts deadlines, and emits `daily.json` in the exact `DailyFeedDTO` wire format. IDs are UUIDv5 of the item URL, so re-runs are stable and the app's dedup makes overlapping windows harmless.
+- **`.github/workflows/daily-feed.yml`** — GitHub Action running daily at 20:30 UTC (plus a manual **Run workflow** button). Publishes `daily.json` and a dated copy under `history/` to the **`feed`** branch.
+- The app's built-in default feed URL points at that branch:
+  `https://raw.githubusercontent.com/psnIOjnb/fuzzy-octo-doodle/refs/heads/feed/daily.json`
+  Settings → Daily Feed stays empty unless you want to override it with your own endpoint.
+
+One-time requirements for the pipeline to serve the app:
+
+1. **The repository must be public** — `raw.githubusercontent.com` URLs of private repos require authentication the app doesn't have. (GitHub → repo **Settings → General → Danger Zone → Change visibility**.)
+2. **The workflow must be on the default branch** (`main`) — GitHub only runs scheduled workflows from there.
+3. Optionally trigger the first run manually: **Actions → Daily OTC Pulse feed → Run workflow** — this creates the `feed` branch immediately instead of waiting for the nightly cron.
+
+Data-volume expectation: OTC derivatives regulation is a low-volume domain. A typical day yields 0–3 relevant publications globally; consultations and final rules cluster around quarter-ends. Quiet days are correct behavior, not a bug.
+
+## Feed hosting alternatives
+
+Any static host works if you'd rather not use the GitHub pipeline — put a JSON document in the format below at a public HTTPS URL and paste it into **Settings → Daily Feed**. Merging is idempotent: records are deduplicated by `url` (when present) or `id`, so overlapping or re-downloaded feeds never create duplicates. Everything ingested accumulates permanently and remains available offline.
 
 ### Feed format (`DailyFeedDTO`)
 

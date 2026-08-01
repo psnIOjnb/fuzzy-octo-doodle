@@ -80,12 +80,18 @@ final class Publication {
 enum AppConfig {
     /// Publications scoring at or above this value are flagged high-impact.
     static let highImpactThreshold: Double = 7.5
-    /// UserDefaults key for the remote daily feed URL (empty = mock mode).
+    /// Built-in daily feed produced by the GitHub Actions pipeline in this
+    /// repo (feedgen/ + .github/workflows/daily-feed.yml). Used whenever no
+    /// custom URL is set in Settings — the app works with zero configuration.
+    static let defaultFeedURL = "https://raw.githubusercontent.com/psnIOjnb/fuzzy-octo-doodle/refs/heads/feed/daily.json"
+    /// UserDefaults key for a custom feed URL override (empty = default feed).
     static let feedURLKey = "feedURL"
     /// UserDefaults key for the last successful refresh timestamp.
     static let lastRefreshKey = "lastRefreshDate"
     /// UserDefaults key for high-impact local notifications opt-in.
     static let notificationsEnabledKey = "notificationsEnabled"
-    /// UserDefaults key marking that first-launch seeding completed.
-    static let didBootstrapKey = "didBootstrapV1"
+    /// UserDefaults key marking that first-launch setup completed (v2 = live feed).
+    static let didBootstrapKey = "didBootstrapV2"
+    /// v1 flag from demo-data builds; presence triggers a one-time cleanup.
+    static let legacyBootstrapKey = "didBootstrapV1"
 }

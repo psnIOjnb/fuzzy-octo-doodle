@@ -2,9 +2,9 @@
 //  MockDataGenerator.swift
 //  OTC Pulse
 //
-//  Produces realistic sample daily feeds so the app is fully usable
-//  offline from first launch. Swap in a real feed URL in Settings when
-//  you have one — the wire format is identical (DailyFeedDTO).
+//  Produces realistic sample daily feeds in the DailyFeedDTO wire format.
+//  Not used by production builds (the app pulls the live cloud feed) —
+//  kept for previews, tests and offline demos.
 //
 
 import Foundation

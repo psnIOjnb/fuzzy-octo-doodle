@@ -64,7 +64,7 @@ struct SettingsView: View {
                 } header: {
                     Text("Daily Feed")
                 } footer: {
-                    Text("Leave empty to run in demo mode with realistic sample data. Point to a JSON endpoint matching the DailyFeed format (see README) to go live. Data is merged with deduplication — refreshing twice never duplicates records.")
+                    Text("Leave empty to use the built-in OTC Pulse cloud feed, regenerated daily at 20:30 UTC from official regulator sources (CFTC, ESMA, FCA, BoE, FSB, BCBS…). Enter a URL only to override it with your own JSON endpoint. Data merges with deduplication — refreshing twice never duplicates records.")
                 }
 
                 // MARK: Notifications
@@ -89,17 +89,6 @@ struct SettingsView: View {
                     LabeledContent("Publications", value: "\(allPublications.count)")
                     LabeledContent("Days archived", value: "\(snapshots.count)")
                     LabeledContent("Watchlist items", value: "\(watchlist.count)")
-
-                    Button {
-                        Task {
-                            isWorking = true
-                            await dataService.regenerateSampleData()
-                            isWorking = false
-                        }
-                    } label: {
-                        Label("Regenerate Sample Data", systemImage: "wand.and.stars")
-                    }
-                    .disabled(isWorking)
 
                     Button(role: .destructive) {
                         showEraseConfirm = true

@@ -40,33 +40,25 @@ final class DataService {
 
     // MARK: - Bootstrap
 
-    /// First-launch setup: seed the regulator catalog, generate 30 days of
-    /// realistic history, then ingest today's feed (bundled sample JSON).
+    /// First-launch setup: seed the regulator catalog and pull the live feed.
+    /// Also migrates old demo installs by wiping their generated sample data,
+    /// so the archive only ever contains real publications.
     func bootstrapIfNeeded() async {
+        let defaults = UserDefaults.standard
+
+        if defaults.bool(forKey: AppConfig.legacyBootstrapKey) {
+            eraseAllData()
+            defaults.removeObject(forKey: AppConfig.legacyBootstrapKey)
+        }
+
         seedRegulatorsIfNeeded()
 
-        let defaults = UserDefaults.standard
-        guard !defaults.bool(forKey: AppConfig.didBootstrapKey) else {
+        if defaults.bool(forKey: AppConfig.didBootstrapKey) {
             await refreshIfStale()
-            return
-        }
-
-        // 30 days of accumulated history so Search/Library/Deadlines are alive.
-        for feed in MockDataGenerator.makeHistory(days: 30) {
-            merge(feed: feed, notify: false)
-        }
-
-        // Today's feed: prefer the bundled sample JSON (re-based to today) to
-        // demonstrate the real decode path; fall back to the generator.
-        if let feed = loadBundledSampleFeed(rebasedTo: .now) {
-            merge(feed: feed, notify: false)
         } else {
-            merge(feed: MockDataGenerator.makeDailyFeed(for: .now), notify: false)
+            defaults.set(true, forKey: AppConfig.didBootstrapKey)
+            await refresh()
         }
-
-        try? context.save()
-        defaults.set(true, forKey: AppConfig.didBootstrapKey)
-        lastRefresh = .now
     }
 
     /// Seeds the static regulator catalog exactly once.
@@ -92,9 +84,9 @@ final class DataService {
 
     /// Manual/pull-to-refresh entry point.
     ///
-    /// If a feed URL is configured in Settings, downloads and decodes the
-    /// daily JSON from it. Otherwise generates a fresh mock feed for today
-    /// so the demo experience keeps producing new intel.
+    /// Downloads and decodes the daily JSON — from the custom URL configured
+    /// in Settings if present, otherwise from the built-in cloud feed that
+    /// the repo's GitHub Actions pipeline regenerates every day.
     func refresh() async {
         guard !isRefreshing else { return }
         isRefreshing = true
@@ -102,19 +94,15 @@ final class DataService {
         defer { isRefreshing = false }
 
         do {
-            let feed: DailyFeedDTO
-            let urlString = UserDefaults.standard.string(forKey: AppConfig.feedURLKey) ?? ""
+            let configured = UserDefaults.standard.string(forKey: AppConfig.feedURLKey) ?? ""
+            let urlString = configured.isEmpty ? AppConfig.defaultFeedURL : configured
+            guard let url = URL(string: urlString) else { throw URLError(.badURL) }
 
-            if !urlString.isEmpty, let url = URL(string: urlString) {
-                let (data, response) = try await URLSession.shared.data(from: url)
-                if let http = response as? HTTPURLResponse, !(200..<300).contains(http.statusCode) {
-                    throw URLError(.badServerResponse)
-                }
-                feed = try JSONDecoder.feed.decode(DailyFeedDTO.self, from: data)
-            } else {
-                // Demo mode: synthesize a fresh last-24h feed.
-                feed = MockDataGenerator.makeDailyFeed(for: .now)
+            let (data, response) = try await URLSession.shared.data(from: url)
+            if let http = response as? HTTPURLResponse, !(200..<300).contains(http.statusCode) {
+                throw URLError(.badServerResponse)
             }
+            let feed = try JSONDecoder.feed.decode(DailyFeedDTO.self, from: data)
 
             merge(feed: feed, notify: true)
             try context.save()
@@ -202,41 +190,6 @@ final class DataService {
         }
     }
 
-    // MARK: - Bundled sample
-
-    /// Loads Resources/sample-daily.json and shifts its dates onto `day`,
-    /// so the bundled example is always "today" on first launch.
-    private func loadBundledSampleFeed(rebasedTo day: Date) -> DailyFeedDTO? {
-        guard let url = Bundle.main.url(forResource: "sample-daily", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let feed = try? JSONDecoder.feed.decode(DailyFeedDTO.self, from: data)
-        else { return nil }
-
-        let calendar = Calendar.current
-        let startOfDay = calendar.startOfDay(for: day)
-        let rebased = feed.publications.map { dto in
-            // Keep the original time-of-day, move onto the target day.
-            let hour = calendar.component(.hour, from: dto.publicationDate)
-            let minute = calendar.component(.minute, from: dto.publicationDate)
-            let newDate = startOfDay.addingTimeInterval(Double(hour) * 3600 + Double(minute) * 60)
-            var newDeadline: DeadlineDTO? = nil
-            if let deadline = dto.deadline {
-                // Preserve the deadline's distance from the original publication day.
-                let distance = deadline.date.timeIntervalSince(calendar.startOfDay(for: dto.publicationDate))
-                newDeadline = DeadlineDTO(date: startOfDay.addingTimeInterval(distance), label: deadline.label)
-            }
-            return PublicationDTO(
-                id: dto.id, title: dto.title, summary: dto.summary,
-                regulatorCode: dto.regulatorCode, regulatorName: dto.regulatorName,
-                region: dto.region, publicationDate: newDate,
-                documentType: dto.documentType, impactScore: dto.impactScore,
-                url: dto.url, tags: dto.tags, fullText: dto.fullText,
-                deadline: newDeadline
-            )
-        }
-        return DailyFeedDTO(date: DailySnapshot.key(for: startOfDay), generatedAt: .now, publications: rebased)
-    }
-
     // MARK: - Storage management
 
     /// Deletes every stored record (used by Settings → Storage).
@@ -247,11 +200,5 @@ final class DataService {
         try? context.save()
         UserDefaults.standard.set(false, forKey: AppConfig.didBootstrapKey)
         lastRefresh = nil
-    }
-
-    /// Erases and re-seeds the demo dataset.
-    func regenerateSampleData() async {
-        eraseAllData()
-        await bootstrapIfNeeded()
     }
 }
