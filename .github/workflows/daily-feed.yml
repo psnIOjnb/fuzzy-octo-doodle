@@ -12,7 +12,12 @@ on:
   schedule:
     # 20:30 UTC daily — after US market hours, before the Asian morning.
     - cron: "30 20 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: "Lookback window in hours (720 ≈ 30-day backfill; default 48)"
+        required: false
+        default: "48"
 
 permissions:
   contents: write
@@ -33,7 +38,9 @@ jobs:
         run: pip install feedparser python-dateutil
 
       - name: Generate daily.json
-        run: python feedgen/generate_feed.py --hours 48 --out daily.json
+        # Scheduled runs use the 48h default; manual runs may widen the
+        # window (the app dedupes by id/url, so overlap is always safe).
+        run: python feedgen/generate_feed.py --hours "${{ github.event.inputs.hours || '48' }}" --out daily.json
 
       - name: Publish to feed branch
         env:
