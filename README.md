@@ -81,8 +81,8 @@ Free-account caveats: the app expires after **7 days** (re-run from Xcode to ren
 
 The repo contains a fully automated feed generator — the app needs no setup at all:
 
-- **`feedgen/sources.json`** — 11 verified official regulator RSS feeds (CFTC, SEC, Federal Reserve, OSFI, ESMA, EBA, FCA, Bank of England, FINMA, FSB, BCBS). Add a source by appending an entry; nothing else changes.
-- **`feedgen/generate_feed.py`** — fetches every source, keeps items relevant to OTC derivatives (CFTC passes wholesale via `"relevance": "all"`; broad regulators go through a keyword gate), infers document type and topics, scores impact, extracts deadlines, and emits `daily.json` in the exact `DailyFeedDTO` wire format. IDs are UUIDv5 of the item URL, so re-runs are stable and the app's dedup makes overlapping windows harmless.
+- **`feedgen/sources.json`** — 14 verified official regulator RSS feeds (CFTC, SEC, Federal Reserve, OCC, FDIC, OSFI, ECB, ESMA, EBA, FCA, Bank of England, FINMA, FSB, BCBS). Add a source by appending an entry; nothing else changes.
+- **`feedgen/generate_feed.py`** — fetches every source and keeps everything a regulator publishes (minus digests/reposts); OTC-derivatives relevance acts as a ranking boost, so derivatives items score higher while general financial-regulation items rank ~1.5 lower. Set `"relevance": "keyword"` on a source to restrict it to OTC-matching items only. Infers document type and topics, scores impact, extracts deadlines, and emits `daily.json` in the exact `DailyFeedDTO` wire format. IDs are UUIDv5 of the item URL, so re-runs are stable and the app's dedup makes overlapping windows harmless.
 - **`.github/workflows/daily-feed.yml`** — GitHub Action running daily at 20:30 UTC (plus a manual **Run workflow** button). Publishes `daily.json` and a dated copy under `history/` to the **`feed`** branch.
 - The app's built-in default feed URL points at that branch:
   `https://raw.githubusercontent.com/psnIOjnb/fuzzy-octo-doodle/refs/heads/feed/daily.json`
@@ -94,7 +94,7 @@ One-time requirements for the pipeline to serve the app:
 2. **The workflow must be on the default branch** (`main`) — GitHub only runs scheduled workflows from there.
 3. Optionally trigger the first run manually: **Actions → Daily OTC Pulse feed → Run workflow** — this creates the `feed` branch immediately instead of waiting for the nightly cron.
 
-Data-volume expectation: OTC derivatives regulation is a low-volume domain. A typical day yields 0–3 relevant publications globally; consultations and final rules cluster around quarter-ends. Quiet days are correct behavior, not a bug.
+Data-volume expectation: roughly 2–4 publications per weekday across the 14 sources (~80/month), with near-quiet weekends. High-impact days (major final rules, consultations) are rarer; the impact score is what separates them from routine flow.
 
 ## Feed hosting alternatives
 

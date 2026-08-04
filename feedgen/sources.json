@@ -1,5 +1,5 @@
 {
-  "comment": "Official regulator RSS/Atom feeds aggregated into the OTC Pulse daily feed. All URLs verified working. region must be one of: Americas, Europe, Asia-Pacific, MEA, International Bodies (matching the app's Region enum). To add a source, append an entry here — nothing else needs to change.",
+  "comment": "Official regulator RSS/Atom feeds aggregated into the OTC Pulse daily feed. All URLs verified working. region must be one of: Americas, Europe, Asia-Pacific, MEA, International Bodies (matching the app's Region enum). Default relevance policy is 'all' (wide net — every publication kept, derivatives items ranked higher); set \"relevance\": \"keyword\" to restrict a source to OTC-matching items only. To add a source, append an entry here — nothing else needs to change (add its code to the app's RegulatorCatalog for heatmap/directory placement).",
   "sources": [
     {
       "code": "CFTC",
@@ -24,11 +24,32 @@
       "feeds": ["https://www.federalreserve.gov/feeds/press_all.xml"]
     },
     {
+      "code": "OCC",
+      "name": "Office of the Comptroller of the Currency",
+      "region": "Americas",
+      "country": "United States",
+      "feeds": ["https://www.occ.gov/rss/occ_news.xml"]
+    },
+    {
+      "code": "FDIC",
+      "name": "Federal Deposit Insurance Corporation",
+      "region": "Americas",
+      "country": "United States",
+      "feeds": ["https://www.fdic.gov/rss.xml"]
+    },
+    {
       "code": "OSFI",
       "name": "Office of the Superintendent of Financial Institutions",
       "region": "Americas",
       "country": "Canada",
       "feeds": ["https://www.osfi-bsif.gc.ca/en/rss.xml"]
+    },
+    {
+      "code": "ECB",
+      "name": "European Central Bank",
+      "region": "Europe",
+      "country": "Germany",
+      "feeds": ["https://www.ecb.europa.eu/rss/press.xml"]
     },
     {
       "code": "ESMA",
