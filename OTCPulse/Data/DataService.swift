@@ -61,17 +61,19 @@ final class DataService {
         }
     }
 
-    /// Seeds the static regulator catalog exactly once.
+    /// Upserts the static regulator catalog: inserts any codes not yet in
+    /// the store, so catalog additions reach existing installs too.
     private func seedRegulatorsIfNeeded() {
-        let count = (try? context.fetchCount(FetchDescriptor<Regulator>())) ?? 0
-        guard count == 0 else { return }
-        for seed in RegulatorCatalog.all {
+        let existing = Set(((try? context.fetch(FetchDescriptor<Regulator>())) ?? []).map(\.code))
+        var inserted = false
+        for seed in RegulatorCatalog.all where !existing.contains(seed.code) {
             context.insert(Regulator(
                 code: seed.code, name: seed.name, region: seed.region.rawValue,
                 country: seed.country, latitude: seed.lat, longitude: seed.lon
             ))
+            inserted = true
         }
-        try? context.save()
+        if inserted { try? context.save() }
     }
 
     // MARK: - Refresh

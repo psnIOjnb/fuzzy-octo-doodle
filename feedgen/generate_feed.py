@@ -46,8 +46,9 @@ RELEVANCE_TERMS = [
     "market infrastructure", "financial market infrastructure",
 ]
 
-# Items matching these are dropped regardless of source (digests, reposts).
-EXCLUDE_TERMS = ["e-mail alert", "email alert", "icymi"]
+# Items matching these are dropped regardless of source (digests, reposts,
+# sanctions-list housekeeping).
+EXCLUDE_TERMS = ["e-mail alert", "email alert", "icymi", "sanktionsmeldung"]
 
 # topic tag -> trigger terms (first matching topics become the item's tags)
 TOPIC_RULES = [
@@ -218,14 +219,21 @@ def collect(sources: list[dict], window_hours: int) -> list[dict]:
                 haystack = f"{title} {summary}"
                 if is_excluded(haystack):
                     continue
-                # Sources whose entire output is derivatives regulation
-                # (relevance: "all", e.g. CFTC) skip the keyword gate —
-                # their feeds often carry title-only entries.
-                if source.get("relevance", "keyword") != "all" and not is_relevant(haystack):
+                # Wide-net policy: everything a regulator publishes is kept
+                # (default "all"); OTC-derivatives relevance boosts ranking
+                # instead of gating. Set "relevance": "keyword" on a source
+                # to restrict it to OTC-matching items only.
+                relevant = is_relevant(haystack)
+                if source.get("relevance", "all") == "keyword" and not relevant:
                     continue
                 seen_urls.add(link)
 
                 doctype = infer_doctype(title)
+                impact = score_impact(haystack, doctype, source["region"])
+                if not relevant:
+                    # General financial-regulation item: keep it, rank it
+                    # below comparable derivatives-specific publications.
+                    impact = round(max(0.0, impact - 1.5), 1)
                 publications.append({
                     "id": str(uuid.uuid5(uuid.NAMESPACE_URL, link)).upper(),
                     "title": title[:300],
@@ -235,7 +243,7 @@ def collect(sources: list[dict], window_hours: int) -> list[dict]:
                     "region": source["region"],
                     "publicationDate": published.strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "documentType": doctype,
-                    "impactScore": score_impact(haystack, doctype, source["region"]),
+                    "impactScore": impact,
                     "url": link,
                     "tags": infer_tags(haystack),
                     "fullText": None,

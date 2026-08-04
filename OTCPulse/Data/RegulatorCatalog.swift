@@ -24,11 +24,13 @@ enum RegulatorCatalog {
         .init(code: "SEC",   name: "Securities and Exchange Commission", region: .americas, country: "United States", lat: 38.89, lon: -77.01),
         .init(code: "FRB",   name: "Federal Reserve Board", region: .americas, country: "United States", lat: 38.89, lon: -77.04),
         .init(code: "OCC",   name: "Office of the Comptroller of the Currency", region: .americas, country: "United States", lat: 38.90, lon: -77.02),
+        .init(code: "FDIC",  name: "Federal Deposit Insurance Corporation", region: .americas, country: "United States", lat: 38.90, lon: -77.04),
         .init(code: "OSFI",  name: "Office of the Superintendent of Financial Institutions", region: .americas, country: "Canada", lat: 45.42, lon: -75.70),
         .init(code: "CVM",   name: "Comissão de Valores Mobiliários", region: .americas, country: "Brazil", lat: -22.90, lon: -43.17),
         .init(code: "CNBV",  name: "Comisión Nacional Bancaria y de Valores", region: .americas, country: "Mexico", lat: 19.43, lon: -99.13),
 
         // Europe
+        .init(code: "ECB",   name: "European Central Bank", region: .europe, country: "Germany", lat: 50.11, lon: 8.70),
         .init(code: "ESMA",  name: "European Securities and Markets Authority", region: .europe, country: "France", lat: 48.85, lon: 2.35),
         .init(code: "EBA",   name: "European Banking Authority", region: .europe, country: "France", lat: 48.86, lon: 2.34),
         .init(code: "FCA",   name: "Financial Conduct Authority", region: .europe, country: "United Kingdom", lat: 51.52, lon: -0.07),
