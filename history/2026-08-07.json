@@ -1,7 +1,41 @@
 {
   "date": "2026-08-07",
-  "generatedAt": "2026-08-07T00:57:13Z",
+  "generatedAt": "2026-08-07T21:16:23Z",
   "publications": [
+    {
+      "id": "6DA0BCA5-D151-5F21-ADED-30CF4F47B1FA",
+      "title": "CFTC Reminds Markets to Display Clear Pricing Information",
+      "summary": "Commodity Futures Trading Commission published: CFTC Reminds Markets to Display Clear Pricing Information",
+      "regulatorCode": "CFTC",
+      "regulatorName": "Commodity Futures Trading Commission",
+      "region": "Americas",
+      "publicationDate": "2026-08-07T21:00:57Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9278-26",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "92580149-7873-59D4-B580-B99F38883B87",
+      "title": "ECB publishes consolidated banking data for end-March 2026",
+      "summary": "European Central Bank published: ECB publishes consolidated banking data for end-March 2026",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-08-07T08:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "2D353626-7E37-5B66-9ED7-7FA15E13D58B",
       "title": "Secretary of the Treasury Scott Bessent, Comptroller of the Currency Jonathan Gould Highlight Community Bank Comeback at Arizona Bankers Association Roundtable",
@@ -49,42 +83,6 @@
       "url": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
       "tags": [
         "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "BBD3B64E-8555-51EA-B558-36613BD7A159",
-      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
-      "summary": "The Securities and Exchange Commission today announced it is establishing a new specialized unit within the Division of Enforcement to provide the dedicated expertise, focus, and capacity to pursue accounting and financial reporting fraud cases as well…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-08-05T18:30:00Z",
-      "documentType": "Enforcement Action",
-      "impactScore": 3.5,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
-      "tags": [
-        "Trade Reporting",
-        "Trading Venues",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "B463CE17-9A3F-5AB6-A1CE-67F48992DCAB",
-      "title": "Artificial Intelligence Consortium minutes – June 2026",
-      "summary": "The Artificial Intelligence Consortium (AIC) aims to provide a platform for public-private engagement to further dialogue on the capabilities, development, deployment, use, and potential risks of artificial intelligence (AI) in UK financial services.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-08-05T10:51:26Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.bankofengland.co.uk/minutes/2026/june/ai-consortium-minutes-3-june-2026",
-      "tags": [
-        "General"
       ],
       "fullText": null,
       "deadline": null
