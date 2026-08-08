@@ -1,3 +1,8 @@
+> **This repository holds two independent iOS apps.** Everything below documents
+> **OTC Pulse** (`OTCPulse.xcodeproj`). The second app, **DayPage** — an offline
+> events / reminders / daily-note planner (`DayPage.xcodeproj`) — is documented
+> in [`DayPage.md`](DayPage.md).
+
 # OTC Pulse
 
 **Offline-first iOS intelligence app for OTC derivatives regulation.**
