@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "generatedAt": "2026-08-29T02:53:46Z",
+  "generatedAt": "2026-08-29T22:45:24Z",
   "publications": [
     {
       "id": "68D7169D-CFCA-51B5-B2FE-D677DBF682A7",
@@ -30,109 +30,6 @@
       "documentType": "Publication",
       "impactScore": 3.0,
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5982184E-0CC7-553C-ACCE-6A445A65D0D1",
-      "title": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
-      "summary": "The Securities and Exchange Commission today charged 38 entities alleging that they made material misrepresentations in Forms ADV filed with the Commission between 2025 and 2026 to falsely portray themselves as legitimate advisory firms to U.S. investors…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-08-27T21:30:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors",
-      "tags": [
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "B168105D-DDBD-5D0D-81B7-C8021E2F9EE4",
-      "title": "OCC Acts to Improve Transparency and Consistency to Bank Enforcement and Supervisory Standards",
-      "summary": "OCC Acts to Improve Transparency and Consistency to Bank Enforcement and Supervisory Standards OCC issues two revised policies and procedures manuals; proposes amendments to Violations of Laws and Regulations framework WASHINGTON-The Office of the Comptroller of the Currency (OCC) today announced additional actions to focus supervisory attention on the most significant risks and violations and to provide banks greater clarity, consistency and certainty in how Matters Requiring Attention (MRA) and enforcement actions are issued.",
-      "regulatorCode": "OCC",
-      "regulatorName": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "publicationDate": "2026-08-27T20:00:02Z",
-      "documentType": "Enforcement Action",
-      "impactScore": 3.5,
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-72.html",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "1FC97852-3843-537A-97DD-1D9390623747",
-      "title": "Agencies Issue Final Rule to Prioritize Material Financial Risks",
-      "summary": "The Office of the Comptroller of the Currency and the Federal Deposit Insurance Corporation (the agencies) today issued a final rule that continues their effort to focus examiners' and institutions' attention on material financial risks and compliance with banking and banking-related laws and regulations. The final rule is consistent with the objectives of the agencies' proposal issued in October 2025, with certain modifications to clarify how the agencies will exercise their enforcement and supervisory authority.",
-      "regulatorCode": "OCC",
-      "regulatorName": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "publicationDate": "2026-08-27T20:00:00Z",
-      "documentType": "Final Rule",
-      "impactScore": 5.5,
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-71.html",
-      "tags": [
-        "Trade Reporting",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "1E0690C6-40A6-5BA8-A395-09809E74AE4E",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-08-27T15:00:00Z",
-      "documentType": "Enforcement Action",
-      "impactScore": 3.5,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "B38657F4-8D2C-5AFB-B67E-8E5C0019839F",
-      "title": "Delay to the November 2026 RTGS standards release",
-      "summary": "Bank of England statement",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-08-27T13:16:29Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "98F740CF-9EB8-575A-A7F3-72A09B85113A",
-      "title": "Meeting of 22-23 July 2026",
-      "summary": "European Central Bank published: Meeting of 22-23 July 2026",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-08-27T11:30:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
       "tags": [
         "General"
       ],
