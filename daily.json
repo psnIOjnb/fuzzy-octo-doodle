@@ -1,7 +1,95 @@
 {
   "date": "2026-09-01",
-  "generatedAt": "2026-09-01T00:02:18Z",
+  "generatedAt": "2026-09-01T22:46:29Z",
   "publications": [
+    {
+      "id": "86C3035E-9764-5C15-B203-6AA89D68D5BD",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+      "summary": "The Securities and Exchange Commission today announced the agenda and panelists for its Sept. 17, 2026, roundtable on preparations for 24-hour trading.The roundtable will be held at the SEC’s headquarters at 100 F Street, N.E., Washington, D.C., from 10…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-09-01T19:17:39Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading",
+      "tags": [
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "C288C79D-E046-5957-920F-1FF15BD50F16",
+      "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
+      "summary": "The Securities and Exchange Commission today charged Mark D. Hanf, the former CEO of Novato, California-based Pacific Private Money Group LLC (PPMG), and Hoai-Nam Chu Phan, the former COO of a PPMG subsidiary, with orchestrating an offering fraud that…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-09-01T17:52:32Z",
+      "documentType": "Enforcement Action",
+      "impactScore": 3.5,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-82-sec-charges-san-francisco-bay-area-private-fund-executives-multimillion-dollar-ponzi-scheme",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9D6111A2-3C75-5D41-8D59-3A6124613876",
+      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
+      "summary": "European Central Bank published: Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-09-01T16:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "1E7E8889-AC9F-5AD3-B2B7-6116184FA92B",
+      "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
+      "summary": "The Securities and Exchange Commission today proposed to update the rules and forms that apply to registered transfer agents.Transfer agents are a key component of the national clearance and settlement system. Transfer agents now perform a more diverse…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-09-01T14:57:00Z",
+      "documentType": "Proposed Rule",
+      "impactScore": 4.7,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents",
+      "tags": [
+        "Trading Venues",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "B41FCCF5-E6C8-570F-80BA-EE03C0D22109",
+      "title": "OCC Releases CRA Performance Evaluations for 23 National Banks and Federal Savings Associations",
+      "summary": "The Office of the Comptroller of the Currency (OCC) today released a list of Community Reinvestment Act (CRA) performance evaluations that became public during the period of August 1, 2026, through August 31, 2026.",
+      "regulatorCode": "OCC",
+      "regulatorName": "Office of the Comptroller of the Currency",
+      "region": "Americas",
+      "publicationDate": "2026-09-01T14:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-74.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "415D560A-1B45-5809-8CE8-D03C3BE83F34",
       "title": "CFTC Further Extends Compliance Date for Amendments to Form PF",
