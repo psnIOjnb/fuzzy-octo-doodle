@@ -1,7 +1,196 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-12T11:48:46Z",
+  "generatedAt": "2026-09-12T11:49:54Z",
   "publications": [
+    {
+      "id": "3576297C-44F2-57DF-8D2A-A5A29CF35BDD",
+      "title": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
+      "summary": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism 10 September 2026 Press Releases Risk monitoring The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, published today its second risk monitoring report of 2026 , setting out the main risks and vulnerabilities in EU financial markets. ESMA finds that, while markets have remained resilient, stretched technology valuations and heightened geopolitical tensions are testing this resilience, in a climate of persistent inflation and weaker economic growth. Despite heightened market volatility and event-driven uncertainty, strong performance in technology and AI-related sectors has been helping to sustain fast recovery of investor optimism and financial markets valuations. This resilience should not be mistaken as an absence of vulnerabilities. The disconnect ",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Publication",
+      "impactScore": 5.7,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor",
+      "tags": [
+        "CCP Risk",
+        "Clearing Obligation",
+        "Trade Reporting",
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "CCB946EB-D597-5C05-A6CD-6C153D3AF0DD",
+      "title": "ESMA consults on disclosure requirements and updates guidelines and Q&As under the Prospectus Regulation",
+      "summary": "ESMA consults on disclosure requirements and updates guidelines and Q&As under the Prospectus Regulation 09 September 2026 Guidelines and Technical standards Prospectus Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published a package of materials under the Prospectus Regulation to reflect changes introduced by the Listing Act. The measures aim to promote supervisory convergence and contribute to ESMA’s simplification and burden-reduction efforts. The package includes: a Consultation Paper on the update of the Guidelines on disclosure requirements ; updated Q&As ; a Final Report on Guidelines for supplements that introduce new securities to a base prospectus (“product supplements”); and a Final Report on regulatory technical standards (RTS) on key financial information to be included in p",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Consultation Paper",
+      "impactScore": 6.0,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-disclosure-requirements-and-updates-guidelines-and-qas-under",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AC266136-DBA0-5726-9B92-67954B297792",
+      "title": "ESMA signs Memorandum of Understanding with the Securities and Exchange Board of India",
+      "summary": "ESMA signs Memorandum of Understanding with the Securities and Exchange Board of India 04 September 2026 CCP International cooperation The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has signed a Memorandum of Understanding (MoU) with the Securities and Exchange Board of India (SEBI) to facilitate cooperation and exchange of information in relation to the recognition of central counterparties (CCPs) established in India and supervised by SEBI. Following the signature of an MoU between ESMA and the Reserve Bank of India (RBI) earlier this year, this agreement marks a further significant step towards restoring access for EU clearing members to Indian CCPs and follows more than two years of sustained engagement between ESMA and Indian authorities. This MoU is the result of close and constructive cooperation between ESMA and SEBI and",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Publication",
+      "impactScore": 6.3,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-signs-memorandum-understanding-securities-and-exchange-board-india",
+      "tags": [
+        "CCP Risk",
+        "Clearing Obligation",
+        "Trading Venues",
+        "Cross-border"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "785D42BB-4D28-5C3B-9EBC-E221C2E71EEB",
+      "title": "ESMA to host Data Day 2026: ‘Data in the Savings and Investment Union – from burden to opportunity’",
+      "summary": "ESMA to host Data Day 2026: ‘Data in the Savings and Investment Union – from burden to opportunity’ 04 September 2026 Market data Technology, use of data and simplification of reporting requirements will be at the centre of the European Securities and Markets Authority (ESMA) Data Day 2026 , taking place on 24 November in Paris. Building on the success of the first edition, the event ‘Data in the Savings and Investment Union – from burden to opportunity’ will bring together over 200 industry participants, regulators and other stakeholders to discuss key developments in supervisory reporting and regulatory disclosures, as well as the role of data in supporting more effective supervision and further integration in capital markets across the European Union. The agenda of the full day event will include parallel sessions covering several strategic initiatives, including simplification and bu",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Publication",
+      "impactScore": 5.1,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-host-data-day-2026-data-savings-and-investment-union-burden-opportunity",
+      "tags": [
+        "Trade Reporting",
+        "Capital Requirements",
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "58CC97BE-441E-53B2-B648-09052D2EE04B",
+      "title": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs",
+      "summary": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs 18 August 2026 CCP Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, has launched a consultation on a proposed annual reporting framework under EMIR for clearing activity at recognised third-country central counterparties (CCPs), aimed at improving supervisory visibility of EU firms' exposures to such CCPs. The consultation paper sets out ESMA's proposed Regulatory Technical Standards (RTS) and Implementing Technical Standards (ITS) under European Market Infrastructure Regulation (EMIR). The reporting obligation will apply to clearing members and clients that clear transactions through recognised third country CCPs. The objective is to provide supervisory authorities with a structured and consistent overvi",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Consultation Paper",
+      "impactScore": 7.8,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-reporting-framework-clearing-activity-recognised-third-country",
+      "tags": [
+        "CCP Risk",
+        "Clearing Obligation",
+        "Trade Reporting",
+        "Cross-border"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "596F85A2-2354-5D09-B772-85FEFD409711",
+      "title": "ESMA confirms go-live for weekly commodity derivatives position reporting",
+      "summary": "ESMA confirms go-live for weekly commodity derivatives position reporting 14 August 2026 Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, announces that the new weekly commodity derivatives position reporting framework will go live on 3 September 2026. From this date, market participants will be required to submit weekly position reports in accordance with the updated requirements, technical specifications and validation rules introduced by XML schema version v2.0. Following ESMA's original announcement and the decision to postpone the rollout , additional time has been dedicated to technical and operational preparations to support a smooth transition to the new reporting arrangements. The updated technical documentation ( reporting instructions and XML schema ) is now available to support market participants in completing",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Report",
+      "impactScore": 5.5,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-confirms-go-live-weekly-commodity-derivatives-position-reporting",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "782F6096-B007-505B-9A0A-4DADCE2E634D",
+      "title": "EBA, EIOPA and ESMA propose amendments to bilateral margin requirements",
+      "summary": "EBA, EIOPA and ESMA propose amendments to bilateral margin requirements 03 August 2026 Joint Committee Trading The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published a final report on draft Regulatory Technical Standards (RTS), proposing to simplify the bilateral margin requirements of the European Commission’s Delegated Regulation (EU) 2016/2251. The proposed amendments aim to simplify the bilateral margin framework for counterparties that are subject to initial margin requirements and that are below the €8 billion threshold for exchanging initial margin foreseen by the European Market Infrastructure Regulation (EMIR). The changes are intended to facilitate the phase-out of initial margin requirements for these counterparties. They also support greater consistency with the treatment applied in other jurisdictions. In the current framework, counterparties t",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Proposed Rule",
+      "impactScore": 8.7,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-propose-amendments-bilateral-margin-requirements",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trade Reporting",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "87ED23F2-EE59-54ED-A754-BC7D67FE6790",
+      "title": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector",
+      "summary": "EBA, EIOPA and ESMA call for enhanced governance and consistent supervision to mitigate ICT risks from frontier AI models in the EU financial sector 31 July 2026 Digital Finance and Innovation Joint Committee The European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) today published a statement calling for a cross-sectoral, risk-based and consistent supervisory approach to mitigate the ICT risks stemming from frontier AI models. The statement takes into account existing regulatory requirements, the European Commission’s Action Plan on Cybersecurity and Artificial Intelligence, as well as recent publications by the European Systemic Risk Board (ESRB), the European Union Agency for Cybersecurity (ENISA), the Single Supervisory Mechanism (SSM) and other competent authorities. The ESAs outline measures to help financial entities strengthen their operational resilience against cybe",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced-governance-and-consistent-supervision",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9A5C482C-9B7B-5D2D-80F5-FAFDC9C69D8B",
+      "title": "ESMA publishes latest edition of its newsletter",
+      "summary": "ESMA publishes latest edition of its newsletter 31 July 2026 ESMA newsletter The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published today the latest edition of its Spotlight on Markets newsletter, covering key activities and publications from June and July 2026. This edition opens with the statement on the end of the MiCA transitional period, calling on unauthorised crypto-asset service providers to wind down their activities in an orderly manner while safeguarding clients’ interests and protecting market integrity. Top news highlights include the final report on simplifying transaction reporting, identifying up to €1 billion in potential annual savings through a \"report once\" approach, ESMA’s call on firms to finalise preparations ahead of T+1 settlement deadlines, and the publication of 2025 Annual Report , focusing on s",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Publication",
+      "impactScore": 6.3,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues",
+        "Cross-border",
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A07F38E1-69C9-5CC0-B1BF-451B70434F7B",
+      "title": "ESMA authorises EuroCTP as the Consolidated Tape Provider for shares and exchange-traded funds",
+      "summary": "ESMA authorises EuroCTP as the Consolidated Tape Provider for shares and exchange-traded funds 27 July 2026 Market data Press Releases Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has authorised EuroCTP B.V. (EuroCTP) to operate as the Consolidated Tape Provider (CTP) for shares and exchange-traded funds (ETFs). Natasha Cazenave, ESMA’s Executive Director, said: “This authorisation marks a key step in the implementation of the consolidated tape framework, strengthening the transparency and efficiency of EU equity capital markets. By bringing pre-trade and post-trade data from multiple data contributors into a single stream, the CTP for shares and ETFs will give market participants a comprehensive view of trading activity. It will thus support better price discovery and facilitate more informed investment decisions for ",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T11:49:39Z",
+      "documentType": "Publication",
+      "impactScore": 5.1,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-authorises-euroctp-consolidated-tape-provider-shares-and-exchange-traded",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues",
+        "Capital Requirements"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "46E01473-999A-5F8F-9CA5-E3CE8DA7683B",
       "title": "Christine Lagarde: Europe seen from Normandy",
@@ -13,6 +202,23 @@
       "documentType": "Publication",
       "impactScore": 3.0,
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "94E52ABA-71F6-57C8-B184-456ACE5A2E63",
+      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on September 15, 2026",
+      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, September 15, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 5,00,000 1 09:30 AM to 10:00 AM September 16, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1108",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-11T19:05:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63586",
       "tags": [
         "General"
       ],
@@ -37,6 +243,24 @@
       "deadline": null
     },
     {
+      "id": "64D0985A-48B6-567A-AFC8-6986A0FDCEA0",
+      "title": "RBI announces OMO Sale of Government of India Securities",
+      "summary": "On a review of current and evolving liquidity conditions, the Reserve Bank has decided to conduct OMO sale auctions of Government of India securities for an aggregate amount of &#8377;1,00,000 crore in three tranches of &#8377;50,000 crore, &#8377;25,000 crore, and &#8377;25,000 crore to be held on September 17, 2026, September 21, 2026, and September 28, 2026, respectively, through multi-security auction using the multiple price method. 2. The securities being offered for sale in the auction to be held on September 17, 2026, are as below: S. No. ISIN Security Date of Maturity Aggregate Amount 1 IN0020150069 7.59% GS 2029 20-Mar-2029 &#8377;50,000 crore (There is no security-wise notified amount) 2 IN0020160118 6.79% GS 2029 26-Dec-2029 3 IN0020160019 7.61% GS 2030 09-May-2030 4 IN0020200153 5.77% GS 2030 03-Aug-2030 5 IN0020170042 6.68% GS 2031 17-Sep-2031 6 IN0020060086 8.28% GS 2032 1",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-11T17:40:00Z",
+      "documentType": "Statement",
+      "impactScore": 5.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63584",
+      "tags": [
+        "Margin",
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
       "id": "E37FC465-E09C-5378-81A3-B0AD5939E528",
       "title": "Philip R. Lane: Outlook for the euro area economy",
       "summary": "European Central Bank published: Philip R. Lane: Outlook for the euro area economy",
@@ -49,6 +273,25 @@
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260911~a4d6526f00.en.pdf",
       "tags": [
         "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3B5BA609-E7C9-55B1-A709-0A4EA96FBD0C",
+      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+      "summary": "1. Reserve Bank of India - Liabilities and Assets* (&#8377; Crore) Item 2025 2026 Variation Sep. 05 Aug. 28 Sep. 04 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government 0 0 0 0 0 4.2 State Governments 44070 3116 27940 24824 -16130 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Sep. 04, 2026 Variation over Week End-March 2026 Year &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 7424473 785706 357815 44903 870612 94599 1261784 87438 1.1 Foreign Currency Assets # 6124821 648168 394989 47498 887454 95886 966446 63692 1.2 Gold 1075494 113816 -34944 -2594 -18816 -1580 278548 23517 1.3 SDRs 177703 18806 -1725 -4 1114 184 12294 64 1.4 Reserve Position in the IMF 46455 4916 -505 2 859 108 4495 166 * Difference, if any, is due to rounding off. # Excludes (a) SDR",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-11T17:00:00Z",
+      "documentType": "Report",
+      "impactScore": 6.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63581",
+      "tags": [
+        "Margin",
+        "Trade Reporting",
+        "Trading Venues"
       ],
       "fullText": null,
       "deadline": null
@@ -108,23 +351,6 @@
       "deadline": null
     },
     {
-      "id": "752A677D-EE76-56B6-BD51-38581F825FE9",
-      "title": "OCC Delivers on Community Bank Comeback, Reduces Burden for Third-Party Risk Management",
-      "summary": "The Office of the Comptroller of the Currency today continued to empower community banks and reduce their burden with a proposal to tailor third-party risk management to actual risk, and by providing greater clarity regarding supervision and enforcement of core service providers.",
-      "regulatorCode": "OCC",
-      "regulatorName": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T14:00:10Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-78.html",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
       "id": "E6422F69-62E8-54CF-A7CC-8FB66E0F43DB",
       "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
       "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
@@ -142,23 +368,6 @@
       "deadline": null
     },
     {
-      "id": "168E4817-0045-5AC4-84C3-F61EF5EAB8A9",
-      "title": "Agencies Seek Comment on Proposed Third-Party Risk Management Guidance and Issue Statement on Community Bank Engagement with Core Service Providers",
-      "summary": "Today the Federal Deposit Insurance Corporation, the Federal Reserve Board, the National Credit Union Administration, and the Office of the Comptroller of the Currency (collectively, the agencies) requested comment on proposed guidance to assist financial institutions with managing risks associated with third-party relationships.",
-      "regulatorCode": "OCC",
-      "regulatorName": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T14:00:00Z",
-      "documentType": "Guidance",
-      "impactScore": 4.0,
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-77.html",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
       "id": "56490D79-AA62-5163-A442-F3901A71D313",
       "title": "Deputy Superintendent Radiskovic participates in a fireside chat at IIF-CBA Canada Forum 2026",
       "summary": "Deputy Superintendent Radiskovic participates in a fireside chat at IIF-CBA Canada Forum 2026 Lily.Szeto@osfi-bsif.gc.ca Fri, 09/11/2026 - 09:47 Date September 11, 2026 Link /en/news/deputy-superintendent-radiskovic-participates-fireside-chat-iif-cba-ca…",
@@ -169,143 +378,6 @@
       "documentType": "Publication",
       "impactScore": 3.0,
       "url": "https://www.osfi-bsif.gc.ca/en/deputy-superintendent-radiskovic-participates-fireside-chat-iif-cba-canada-forum-2026",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "2C6A4B62-9C77-5340-8B64-4A1E88AD651E",
-      "title": "CFTC Chairman Selig and Kansas State University Announce Agenda for October 22-23 AgCon Conference in Overland Park",
-      "summary": "Commodity Futures Trading Commission published: CFTC Chairman Selig and Kansas State University Announce Agenda for October 22-23 AgCon Conference in Overland Park",
-      "regulatorCode": "CFTC",
-      "regulatorName": "Commodity Futures Trading Commission",
-      "region": "Americas",
-      "publicationDate": "2026-09-10T20:36:53Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9295-26",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "19C56132-C3A7-5B5A-99F5-D9B441C200C1",
-      "title": "OCC Advances Community Bank Comeback, Reduces Exam Burden for Smallest Institutions",
-      "summary": "The Office of the Comptroller of the Currency today published an interim final rule that raises the asset threshold for certain supervised institutions with less than $6 billion in total assets to qualify for an 18-month on-site examination cycle, pursuant to the 21st Century ROAD to Housing Act.",
-      "regulatorCode": "OCC",
-      "regulatorName": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "publicationDate": "2026-09-10T20:00:03Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-76.html",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "222A81C2-A0B5-54F2-9466-1F0E192C9E4B",
-      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-09-10T20:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "65BE99DC-5FD6-5347-A926-341E2D22ED68",
-      "title": "Agencies Reduce Regulatory Burden for Community Banks, Increase Eligibility for 18-Month Exam Cycle",
-      "summary": "The federal bank regulatory agencies today issued an interim final rule increasing the number of community banks eligible for an 18-month exam cycle.",
-      "regulatorCode": "OCC",
-      "regulatorName": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "publicationDate": "2026-09-10T20:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-75.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "FF5A673A-DC4B-5F7B-8DF8-DC89BFBECD7E",
-      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
-      "summary": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-09-10T17:45:22Z",
-      "documentType": "Enforcement Action",
-      "impactScore": 3.5,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
-      "tags": [
-        "Trading Venues",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "4CAB9382-03CC-56D6-BED2-192122C15403",
-      "title": "OSFI’s Quarterly Release: resilience that enables competition, innovation, and sustainable economic growth",
-      "summary": "OSFI’s Quarterly Release: resilience that enables competition, innovation, and sustainable economic growth Lily.Szeto@osfi-bsif.gc.ca Thu, 09/10/2026 - 09:57 Date September 10, 2026 Link /en/news/osfis-quarterly-release-resilience-enables-competition-innovation-sust…",
-      "regulatorCode": "OSFI",
-      "regulatorName": "Office of the Superintendent of Financial Institutions",
-      "region": "Americas",
-      "publicationDate": "2026-09-10T13:57:12Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.osfi-bsif.gc.ca/en/osfis-quarterly-release-resilience-enables-competition-innovation-sustainable-economic-growth",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "1F88A941-BC63-52C6-8CDF-8EA46A57B9BF",
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "summary": "European Central Bank published: Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-09-10T13:00:00Z",
-      "documentType": "Guidance",
-      "impactScore": 4.0,
-      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "25E66C0C-C7BF-5B24-8463-EDC492B57287",
-      "title": "Monetary policy decisions",
-      "summary": "European Central Bank published: Monetary policy decisions",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-09-10T12:15:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
       "tags": [
         "General"
       ],
