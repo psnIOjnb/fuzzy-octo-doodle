@@ -1,7 +1,24 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-12T11:49:54Z",
+  "generatedAt": "2026-09-12T22:29:47Z",
   "publications": [
+    {
+      "id": "A74D41D7-F146-56E7-9149-78BB0BC41CFB",
+      "title": "Christine Lagarde: Interview with Ouest-France",
+      "summary": "European Central Bank published: Christine Lagarde: Interview with Ouest-France",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-09-12T20:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "3576297C-44F2-57DF-8D2A-A5A29CF35BDD",
       "title": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
@@ -202,182 +219,6 @@
       "documentType": "Publication",
       "impactScore": 3.0,
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "94E52ABA-71F6-57C8-B184-456ACE5A2E63",
-      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on September 15, 2026",
-      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, September 15, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 5,00,000 1 09:30 AM to 10:00 AM September 16, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1108",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-11T19:05:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63586",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "844BE940-7A99-5138-BA0F-B0735C505F05",
-      "title": "CFTC Approves Final Rule Concerning Whistleblower Awards",
-      "summary": "Commodity Futures Trading Commission published: CFTC Approves Final Rule Concerning Whistleblower Awards",
-      "regulatorCode": "CFTC",
-      "regulatorName": "Commodity Futures Trading Commission",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T18:08:58Z",
-      "documentType": "Final Rule",
-      "impactScore": 5.5,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9297-26",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "64D0985A-48B6-567A-AFC8-6986A0FDCEA0",
-      "title": "RBI announces OMO Sale of Government of India Securities",
-      "summary": "On a review of current and evolving liquidity conditions, the Reserve Bank has decided to conduct OMO sale auctions of Government of India securities for an aggregate amount of &#8377;1,00,000 crore in three tranches of &#8377;50,000 crore, &#8377;25,000 crore, and &#8377;25,000 crore to be held on September 17, 2026, September 21, 2026, and September 28, 2026, respectively, through multi-security auction using the multiple price method. 2. The securities being offered for sale in the auction to be held on September 17, 2026, are as below: S. No. ISIN Security Date of Maturity Aggregate Amount 1 IN0020150069 7.59% GS 2029 20-Mar-2029 &#8377;50,000 crore (There is no security-wise notified amount) 2 IN0020160118 6.79% GS 2029 26-Dec-2029 3 IN0020160019 7.61% GS 2030 09-May-2030 4 IN0020200153 5.77% GS 2030 03-Aug-2030 5 IN0020170042 6.68% GS 2031 17-Sep-2031 6 IN0020060086 8.28% GS 2032 1",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-11T17:40:00Z",
-      "documentType": "Statement",
-      "impactScore": 5.3,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63584",
-      "tags": [
-        "Margin",
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E37FC465-E09C-5378-81A3-B0AD5939E528",
-      "title": "Philip R. Lane: Outlook for the euro area economy",
-      "summary": "European Central Bank published: Philip R. Lane: Outlook for the euro area economy",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-09-11T17:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260911~a4d6526f00.en.pdf",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3B5BA609-E7C9-55B1-A709-0A4EA96FBD0C",
-      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-      "summary": "1. Reserve Bank of India - Liabilities and Assets* (&#8377; Crore) Item 2025 2026 Variation Sep. 05 Aug. 28 Sep. 04 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government 0 0 0 0 0 4.2 State Governments 44070 3116 27940 24824 -16130 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on Sep. 04, 2026 Variation over Week End-March 2026 Year &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 7424473 785706 357815 44903 870612 94599 1261784 87438 1.1 Foreign Currency Assets # 6124821 648168 394989 47498 887454 95886 966446 63692 1.2 Gold 1075494 113816 -34944 -2594 -18816 -1580 278548 23517 1.3 SDRs 177703 18806 -1725 -4 1114 184 12294 64 1.4 Reserve Position in the IMF 46455 4916 -505 2 859 108 4495 166 * Difference, if any, is due to rounding off. # Excludes (a) SDR",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-11T17:00:00Z",
-      "documentType": "Report",
-      "impactScore": 6.3,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63581",
-      "tags": [
-        "Margin",
-        "Trade Reporting",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "DE7FEFDC-870E-5DF9-8FDE-CAC751B40E0F",
-      "title": "FSB hosts roundtable on public-private sector collaboration to strengthen operational resilience",
-      "summary": "Roundtable to explore how collaboration efforts between the public and private sectors can be structured and applied to prepare for and manage significant operational disruptions.",
-      "regulatorCode": "FSB",
-      "regulatorName": "Financial Stability Board",
-      "region": "International Bodies",
-      "publicationDate": "2026-09-11T15:50:55Z",
-      "documentType": "Publication",
-      "impactScore": 3.5,
-      "url": "https://www.fsb.org/2026/09/fsb-hosts-roundtable-on-public-private-sector-collaboration-to-strengthen-operational-resilience/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "AD066CD4-35A6-56C9-B685-4E6A8DB120AB",
-      "title": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
-      "summary": "Senior officials from the Securities and Exchange Commission, Federal Deposit Insurance Corporation, Commodity Futures Trading Commission, Federal Reserve Board, and Bank of England convened for a tabletop exercise on Sept. 3, 2026, to discuss certain…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T15:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.3,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution",
-      "tags": [
-        "CCP Risk",
-        "Trade Reporting",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "B9283A96-E488-5694-9D94-E09D6D1A791D",
-      "title": "Joint Readout of Principals’ Meeting of UK and U.S. Authorities Regarding Central Counterparty Resolution",
-      "summary": "Commodity Futures Trading Commission published: Joint Readout of Principals’ Meeting of UK and U.S. Authorities Regarding Central Counterparty Resolution",
-      "regulatorCode": "CFTC",
-      "regulatorName": "Commodity Futures Trading Commission",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T14:20:08Z",
-      "documentType": "Publication",
-      "impactScore": 5.3,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9296-26",
-      "tags": [
-        "CCP Risk",
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E6422F69-62E8-54CF-A7CC-8FB66E0F43DB",
-      "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-      "summary": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T14:00:00Z",
-      "documentType": "Guidance",
-      "impactScore": 4.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "56490D79-AA62-5163-A442-F3901A71D313",
-      "title": "Deputy Superintendent Radiskovic participates in a fireside chat at IIF-CBA Canada Forum 2026",
-      "summary": "Deputy Superintendent Radiskovic participates in a fireside chat at IIF-CBA Canada Forum 2026 Lily.Szeto@osfi-bsif.gc.ca Fri, 09/11/2026 - 09:47 Date September 11, 2026 Link /en/news/deputy-superintendent-radiskovic-participates-fireside-chat-iif-cba-ca…",
-      "regulatorCode": "OSFI",
-      "regulatorName": "Office of the Superintendent of Financial Institutions",
-      "region": "Americas",
-      "publicationDate": "2026-09-11T13:47:40Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.osfi-bsif.gc.ca/en/deputy-superintendent-radiskovic-participates-fireside-chat-iif-cba-canada-forum-2026",
       "tags": [
         "General"
       ],
