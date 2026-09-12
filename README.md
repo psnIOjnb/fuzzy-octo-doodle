@@ -2,7 +2,7 @@
 
 **Offline-first iOS intelligence app for OTC derivatives regulation.**
 
-A daily 24-hour feed of publications from global financial regulators (CFTC, ESMA, FCA, MAS, FSB, IOSCO, ASIC, BCBS, …) is downloaded once per day, merged into a permanent on-device archive, and stays fully searchable with zero connectivity. Dark navy + electric cyan, glassmorphic cards, Bloomberg-meets-intelligence-dashboard aesthetic.
+A daily 24-hour feed of publications from global financial regulators (CFTC, SEC, ESMA, FCA, Bank of England, ECB, SFC, Bank of Japan, APRA, FSB, BIS, ISDA, …) is downloaded once per day, merged into a permanent on-device archive, and stays fully searchable with zero connectivity. Dark navy + electric cyan, glassmorphic cards, Bloomberg-meets-intelligence-dashboard aesthetic.
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@ A daily 24-hour feed of publications from global financial regulators (CFTC, ESM
 
 - **Global** — daily stats strip, animated world heatmap (pure SwiftUI `Canvas`), today's publication cards, pull-to-refresh, PDF export of the daily snapshot.
 - **Regions** — Americas / Europe / Asia-Pacific / MEA / International Bodies with filtered stats, mini heatmap and cards.
-- **Regulators** — searchable directory of 27 regulators; tap through to any regulator's full historical archive.
+- **Regulators** — searchable directory of 37 regulators and international bodies; tap through to any regulator's full historical archive.
 - **Topics** — pre-defined taxonomy (Margin, CCP Risk, Trade Reporting, Trading Venues, Capital Requirements, Cross-border, …) merged with dynamic tags from the feed.
 - **High Impact** — everything scoring ≥ 7.5, all-time.
 - **Deadlines** — extracted consultation-close / effective / compliance dates bucketed into Overdue, Next 7 Days, Next 30 Days, Later.
@@ -43,7 +43,7 @@ OTCPulse/
 │   ├── FeedDTO.swift        Codable wire format of the daily JSON
 │   ├── DataService.swift    Download → decode → merge/dedupe → snapshot → notify
 │   ├── MockDataGenerator.swift  Realistic sample feeds (today + 30-day history)
-│   └── RegulatorCatalog.swift   27 regulators with HQ coordinates (heatmap)
+│   └── RegulatorCatalog.swift   37 regulators with HQ coordinates (heatmap)
 ├── Services/
 │   ├── NotificationManager.swift  Local high-impact alerts (UserNotifications)
 │   └── PDFExporter.swift          Daily snapshot → dark-branded PDF
@@ -59,7 +59,7 @@ OTCPulse/
 3. Select the **OTCPulse** scheme and any iPhone simulator (iOS 17+).
 4. Press **⌘R**.
 
-First launch seeds the regulator catalog and pulls the live cloud feed (see **Live data pipeline** below). Real OTC-derivatives regulatory flow is sparse — expect a handful of publications per week, with quiet days in between; the archive grows permanently with every refresh.
+First launch seeds the regulator catalog and pulls the live cloud feed (see **Live data pipeline** below), giving you the previous 24 hours of global regulatory publications. The archive grows permanently with every refresh.
 
 ## Install on a real iPhone
 
@@ -81,9 +81,13 @@ Free-account caveats: the app expires after **7 days** (re-run from Xcode to ren
 
 The repo contains a fully automated feed generator — the app needs no setup at all:
 
-- **`feedgen/sources.json`** — 14 verified official regulator RSS feeds (CFTC, SEC, Federal Reserve, OCC, FDIC, OSFI, ECB, ESMA, EBA, FCA, Bank of England, FINMA, FSB, BCBS). Add a source by appending an entry; nothing else changes.
-- **`feedgen/generate_feed.py`** — fetches every source and keeps everything a regulator publishes (minus digests/reposts); OTC-derivatives relevance acts as a ranking boost, so derivatives items score higher while general financial-regulation items rank ~1.5 lower. Set `"relevance": "keyword"` on a source to restrict it to OTC-matching items only. Infers document type and topics, scores impact, extracts deadlines, and emits `daily.json` in the exact `DailyFeedDTO` wire format. IDs are UUIDv5 of the item URL, so re-runs are stable and the app's dedup makes overlapping windows harmless.
-- **`.github/workflows/daily-feed.yml`** — GitHub Action running daily at 20:30 UTC (plus a manual **Run workflow** button). Publishes `daily.json` and a dated copy under `history/` to the **`feed`** branch.
+- **`feedgen/sources.json`** — 23 verified official sources across all five regions (CFTC, SEC, Federal Reserve, FDIC, OSFI, CVM; ECB, ESMA, EBA, ESRB, FCA, Bank of England, FINMA; SFC, APRA, RBA, Bank of Japan, SEBI, RBI; JSE; FSB, BIS, ISDA). Add a source by appending an entry and adding its code to the app's `RegulatorCatalog`.
+- **`feedgen/generate_feed.py`** — fetches every source and keeps everything a regulator publishes (digests, reposts and vacancy notices excluded); OTC-derivatives relevance acts as a ranking boost, so derivatives items score highest while general financial-regulation items rank 1.5 lower. Set `"relevance": "keyword"` on a source to restrict it to OTC-matching items only (used for the two highest-volume docket feeds, SEBI and RBI). Infers document type and topics, scores impact, extracts deadlines, and emits `daily.json` in the exact `DailyFeedDTO` wire format. IDs are UUIDv5 of the item URL, so re-runs are stable and the app's dedup makes overlapping windows harmless.
+- **Snapshot window** — the previous **24 hours**. Two mechanisms keep that strict window from losing publications:
+  - *Gap coverage.* The window widens automatically to cover the time since the last successful run, recorded in `feed-state.json` on the `feed` branch. GitHub's scheduler drifts (observed up to ~75 minutes), so consecutive runs can be more than 24 hours apart; without this, items landing in the drift gap would never appear in any snapshot.
+  - *Undated feeds.* Some regulators (ESMA among them) publish RSS with no date on each item. The same state file records when each such URL was first seen, so those publications enter exactly one daily snapshot, on the day they appear, instead of being dropped.
+- **Date parsing** — feed timestamps are read from the structured fields first, then from raw strings via `dateutil` (the FCA, for instance, publishes `"Thursday, September 10, 2026 - 15:04"`, which standard RSS parsers ignore).
+- **`.github/workflows/daily-feed.yml`** — GitHub Action running daily at 20:30 UTC (plus a manual **Run workflow** button that accepts an `hours` input for backfills). Publishes `daily.json`, a dated copy under `history/`, and the state file to the **`feed`** branch.
 - The app's built-in default feed URL points at that branch:
   `https://raw.githubusercontent.com/psnIOjnb/fuzzy-octo-doodle/refs/heads/feed/daily.json`
   Settings → Daily Feed stays empty unless you want to override it with your own endpoint.
@@ -94,7 +98,7 @@ One-time requirements for the pipeline to serve the app:
 2. **The workflow must be on the default branch** (`main`) — GitHub only runs scheduled workflows from there.
 3. Optionally trigger the first run manually: **Actions → Daily OTC Pulse feed → Run workflow** — this creates the `feed` branch immediately instead of waiting for the nightly cron.
 
-Data-volume expectation: roughly 2–4 publications per weekday across the 14 sources (~80/month), with near-quiet weekends. High-impact days (major final rules, consultations) are rarer; the impact score is what separates them from routine flow.
+Data-volume expectation: roughly 15–25 publications in a typical 24-hour weekday window across the 23 sources, with quieter weekends. Only a handful score 7.5+ (the High Impact tab) on any given day — that separation is the point: everything is captured, and the impact score surfaces what actually moves OTC derivatives markets.
 
 ## Feed hosting alternatives
 

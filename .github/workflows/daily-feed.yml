@@ -1,10 +1,15 @@
-# Builds the OTC Pulse daily feed once a day and publishes it to the `feed`
-# branch, where the app fetches it from:
+# Builds the OTC Pulse daily snapshot and publishes it to the `feed` branch,
+# where the app fetches it from:
 #   https://raw.githubusercontent.com/psnIOjnb/fuzzy-octo-doodle/refs/heads/feed/daily.json
 #
+# The snapshot covers the previous 24 hours. The generator keeps a small
+# state file (feed-state.json) on the `feed` branch recording the last run
+# and a first-seen index for regulators whose RSS carries no per-item dates;
+# that is what makes a strict 24-hour window safe.
+#
 # NOTE: scheduled workflows only run from the repository's DEFAULT branch,
-# so this file must be merged to main before the cron fires. Use the
-# "Run workflow" button (workflow_dispatch) to test it manually any time.
+# so this file must be on main for the cron to fire. Use the "Run workflow"
+# button (workflow_dispatch) to run it on demand at any time.
 
 name: Daily OTC Pulse feed
 
@@ -15,9 +20,9 @@ on:
   workflow_dispatch:
     inputs:
       hours:
-        description: "Lookback window in hours (720 ≈ 30-day backfill; default 48)"
+        description: "Snapshot window in hours (24 = previous day; 720 ≈ 30-day backfill)"
         required: false
-        default: "48"
+        default: "24"
 
 permissions:
   contents: write
@@ -37,19 +42,14 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser python-dateutil
 
-      - name: Generate daily.json
-        # Scheduled runs use the 48h default; manual runs may widen the
-        # window (the app dedupes by id/url, so overlap is always safe).
-        run: python feedgen/generate_feed.py --hours "${{ github.event.inputs.hours || '48' }}" --out daily.json
-
-      - name: Publish to feed branch
+      - name: Check out the feed branch (carries daily.json + state)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-
-          # Reuse the existing feed branch (keeps daily history) or start one.
+          # Reuse the existing feed branch (keeps daily history and the
+          # first-seen state) or start one from scratch.
           if git ls-remote --exit-code "$REPO_URL" refs/heads/feed >/dev/null 2>&1; then
             git clone --depth 1 --branch feed "$REPO_URL" publish
           else
@@ -58,9 +58,20 @@ jobs:
             git -C publish remote add origin "$REPO_URL"
           fi
 
-          cp daily.json publish/daily.json
+      - name: Generate the daily snapshot
+        # The window widens automatically if the previous run was more than
+        # `hours` ago, so cron drift can never drop publications.
+        run: |
+          python feedgen/generate_feed.py \
+            --hours "${{ github.event.inputs.hours || '24' }}" \
+            --out publish/daily.json \
+            --state publish/feed-state.json
+
+      - name: Publish to the feed branch
+        run: |
+          set -euo pipefail
           mkdir -p publish/history
-          cp daily.json "publish/history/$(date -u +%F).json"
+          cp publish/daily.json "publish/history/$(date -u +%F).json"
 
           cd publish
           git config user.name "otc-pulse-feed[bot]"

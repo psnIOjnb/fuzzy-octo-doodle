@@ -1,104 +1,217 @@
 {
-  "comment": "Official regulator RSS/Atom feeds aggregated into the OTC Pulse daily feed. All URLs verified working. region must be one of: Americas, Europe, Asia-Pacific, MEA, International Bodies (matching the app's Region enum). Default relevance policy is 'all' (wide net — every publication kept, derivatives items ranked higher); set \"relevance\": \"keyword\" to restrict a source to OTC-matching items only. To add a source, append an entry here — nothing else needs to change (add its code to the app's RegulatorCatalog for heatmap/directory placement).",
+  "comment": "Official regulator RSS/Atom feeds aggregated into the OTC Pulse daily feed. Every URL here was verified to return dated entries. region must be one of: Americas, Europe, Asia-Pacific, MEA, International Bodies (matching the app's Region enum). Default relevance policy is 'all' (wide net — every publication kept, OTC-derivatives items ranked higher); set \"relevance\": \"keyword\" to restrict a source to OTC-matching items only. Feeds that omit per-item dates (ESMA, SEBI, RBI) are dated by first sighting via the generator's state file. To add a source, append an entry here and add its code to the app's RegulatorCatalog for heatmap/directory placement.",
   "sources": [
     {
       "code": "CFTC",
       "name": "Commodity Futures Trading Commission",
       "region": "Americas",
       "country": "United States",
-      "relevance": "all",
-      "feeds": ["https://www.cftc.gov/RSS/RSSGP/rssgp.xml"]
+      "feeds": [
+        "https://www.cftc.gov/RSS/RSSGP/rssgp.xml"
+      ]
     },
     {
       "code": "SEC",
       "name": "Securities and Exchange Commission",
       "region": "Americas",
       "country": "United States",
-      "feeds": ["https://www.sec.gov/news/pressreleases.rss"]
+      "feeds": [
+        "https://www.sec.gov/news/pressreleases.rss"
+      ]
     },
     {
       "code": "FRB",
       "name": "Federal Reserve Board",
       "region": "Americas",
       "country": "United States",
-      "feeds": ["https://www.federalreserve.gov/feeds/press_all.xml"]
-    },
-    {
-      "code": "OCC",
-      "name": "Office of the Comptroller of the Currency",
-      "region": "Americas",
-      "country": "United States",
-      "feeds": ["https://www.occ.gov/rss/occ_news.xml"]
+      "feeds": [
+        "https://www.federalreserve.gov/feeds/press_all.xml"
+      ]
     },
     {
       "code": "FDIC",
       "name": "Federal Deposit Insurance Corporation",
       "region": "Americas",
       "country": "United States",
-      "feeds": ["https://www.fdic.gov/rss.xml"]
+      "feeds": [
+        "https://www.fdic.gov/rss.xml"
+      ]
     },
     {
       "code": "OSFI",
       "name": "Office of the Superintendent of Financial Institutions",
       "region": "Americas",
       "country": "Canada",
-      "feeds": ["https://www.osfi-bsif.gc.ca/en/rss.xml"]
+      "feeds": [
+        "https://www.osfi-bsif.gc.ca/en/rss.xml"
+      ]
+    },
+    {
+      "code": "CVM",
+      "name": "Comissão de Valores Mobiliários",
+      "region": "Americas",
+      "country": "Brazil",
+      "feeds": [
+        "https://www.gov.br/cvm/pt-br/assuntos/noticias/RSS"
+      ]
     },
     {
       "code": "ECB",
       "name": "European Central Bank",
       "region": "Europe",
       "country": "Germany",
-      "feeds": ["https://www.ecb.europa.eu/rss/press.xml"]
+      "feeds": [
+        "https://www.ecb.europa.eu/rss/press.xml"
+      ]
     },
     {
       "code": "ESMA",
       "name": "European Securities and Markets Authority",
       "region": "Europe",
       "country": "France",
-      "feeds": ["https://www.esma.europa.eu/rss.xml"]
+      "feeds": [
+        "https://www.esma.europa.eu/rss.xml"
+      ]
     },
     {
       "code": "EBA",
       "name": "European Banking Authority",
       "region": "Europe",
       "country": "France",
-      "feeds": ["https://www.eba.europa.eu/rss.xml"]
+      "feeds": [
+        "https://www.eba.europa.eu/rss.xml"
+      ]
+    },
+    {
+      "code": "ESRB",
+      "name": "European Systemic Risk Board",
+      "region": "Europe",
+      "country": "Germany",
+      "feeds": [
+        "https://www.esrb.europa.eu/rss/press.xml"
+      ]
     },
     {
       "code": "FCA",
       "name": "Financial Conduct Authority",
       "region": "Europe",
       "country": "United Kingdom",
-      "feeds": ["https://www.fca.org.uk/news/rss.xml"]
+      "feeds": [
+        "https://www.fca.org.uk/news/rss.xml"
+      ]
     },
     {
       "code": "BOE",
       "name": "Bank of England / PRA",
       "region": "Europe",
       "country": "United Kingdom",
-      "feeds": ["https://www.bankofengland.co.uk/rss/news"]
+      "feeds": [
+        "https://www.bankofengland.co.uk/rss/news"
+      ]
     },
     {
       "code": "FINMA",
       "name": "Swiss Financial Market Supervisory Authority",
       "region": "Europe",
       "country": "Switzerland",
-      "feeds": ["https://www.finma.ch/en/rss/news/"]
+      "feeds": [
+        "https://www.finma.ch/en/rss/news/"
+      ]
+    },
+    {
+      "code": "SFC",
+      "name": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "country": "Hong Kong",
+      "feeds": [
+        "https://www.sfc.hk/en/RSS-Feeds/Press-releases",
+        "https://www.sfc.hk/en/RSS-Feeds/Circulars",
+        "https://www.sfc.hk/en/RSS-Feeds/Consultations-and-Conclusions"
+      ]
+    },
+    {
+      "code": "APRA",
+      "name": "Australian Prudential Regulation Authority",
+      "region": "Asia-Pacific",
+      "country": "Australia",
+      "feeds": [
+        "https://www.apra.gov.au/rss.xml"
+      ]
+    },
+    {
+      "code": "RBA",
+      "name": "Reserve Bank of Australia",
+      "region": "Asia-Pacific",
+      "country": "Australia",
+      "feeds": [
+        "https://www.rba.gov.au/rss/rss-cb-media-releases.xml"
+      ]
+    },
+    {
+      "code": "BOJ",
+      "name": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "country": "Japan",
+      "feeds": [
+        "https://www.boj.or.jp/en/rss/whatsnew.xml"
+      ]
+    },
+    {
+      "code": "SEBI",
+      "name": "Securities and Exchange Board of India",
+      "region": "Asia-Pacific",
+      "country": "India",
+      "feeds": [
+        "https://www.sebi.gov.in/sebirss.xml"
+      ],
+      "relevance": "keyword"
+    },
+    {
+      "code": "RBI",
+      "name": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "country": "India",
+      "feeds": [
+        "https://www.rbi.org.in/pressreleases_rss.xml"
+      ],
+      "relevance": "keyword"
+    },
+    {
+      "code": "JSE",
+      "name": "Johannesburg Stock Exchange",
+      "region": "MEA",
+      "country": "South Africa",
+      "feeds": [
+        "https://www.jse.co.za/rss.xml"
+      ]
     },
     {
       "code": "FSB",
       "name": "Financial Stability Board",
       "region": "International Bodies",
       "country": "Switzerland (Basel)",
-      "feeds": ["https://www.fsb.org/feed/"]
+      "feeds": [
+        "https://www.fsb.org/feed/"
+      ]
     },
     {
-      "code": "BCBS",
-      "name": "Basel Committee on Banking Supervision",
+      "code": "BIS",
+      "name": "Bank for International Settlements (BCBS / CPMI / IOSCO joint output)",
       "region": "International Bodies",
       "country": "Switzerland (Basel)",
-      "feeds": ["https://www.bis.org/doclist/bcbspubls.rss"]
+      "feeds": [
+        "https://www.bis.org/doclist/all_pressrels.rss",
+        "https://www.bis.org/doclist/bis_fsi_publs.rss"
+      ]
+    },
+    {
+      "code": "ISDA",
+      "name": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "country": "United States (New York)",
+      "feeds": [
+        "https://www.isda.org/feed/"
+      ]
     }
   ]
 }
