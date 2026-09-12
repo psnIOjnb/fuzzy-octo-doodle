@@ -38,6 +38,7 @@ enum RegulatorCatalog {
         .init(code: "BAFIN", name: "Bundesanstalt für Finanzdienstleistungsaufsicht", region: .europe, country: "Germany", lat: 50.11, lon: 8.68),
         .init(code: "AMF",   name: "Autorité des Marchés Financiers", region: .europe, country: "France", lat: 48.87, lon: 2.33),
         .init(code: "FINMA", name: "Swiss Financial Market Supervisory Authority", region: .europe, country: "Switzerland", lat: 46.95, lon: 7.45),
+        .init(code: "ESRB",  name: "European Systemic Risk Board", region: .europe, country: "Germany", lat: 50.11, lon: 8.67),
 
         // Asia-Pacific
         .init(code: "MAS",   name: "Monetary Authority of Singapore", region: .asiaPacific, country: "Singapore", lat: 1.28, lon: 103.85),
@@ -46,17 +47,24 @@ enum RegulatorCatalog {
         .init(code: "SFC",   name: "Securities and Futures Commission", region: .asiaPacific, country: "Hong Kong", lat: 22.28, lon: 114.17),
         .init(code: "JFSA",  name: "Japan Financial Services Agency", region: .asiaPacific, country: "Japan", lat: 35.67, lon: 139.75),
         .init(code: "SEBI",  name: "Securities and Exchange Board of India", region: .asiaPacific, country: "India", lat: 19.06, lon: 72.86),
+        .init(code: "RBI",   name: "Reserve Bank of India", region: .asiaPacific, country: "India", lat: 18.93, lon: 72.84),
+        .init(code: "APRA",  name: "Australian Prudential Regulation Authority", region: .asiaPacific, country: "Australia", lat: -33.87, lon: 151.21),
+        .init(code: "RBA",   name: "Reserve Bank of Australia", region: .asiaPacific, country: "Australia", lat: -33.86, lon: 151.21),
+        .init(code: "BOJ",   name: "Bank of Japan", region: .asiaPacific, country: "Japan", lat: 35.69, lon: 139.77),
 
         // Middle East & Africa
         .init(code: "DFSA",  name: "Dubai Financial Services Authority", region: .mea, country: "United Arab Emirates", lat: 25.21, lon: 55.28),
         .init(code: "SAMA",  name: "Saudi Central Bank", region: .mea, country: "Saudi Arabia", lat: 24.69, lon: 46.72),
         .init(code: "FSCA",  name: "Financial Sector Conduct Authority", region: .mea, country: "South Africa", lat: -25.75, lon: 28.23),
+        .init(code: "JSE",   name: "Johannesburg Stock Exchange", region: .mea, country: "South Africa", lat: -26.11, lon: 28.06),
 
         // International bodies
         .init(code: "FSB",   name: "Financial Stability Board", region: .international, country: "Switzerland (Basel)", lat: 47.56, lon: 7.59),
         .init(code: "IOSCO", name: "International Organization of Securities Commissions", region: .international, country: "Spain (Madrid)", lat: 40.42, lon: -3.70),
         .init(code: "BCBS",  name: "Basel Committee on Banking Supervision", region: .international, country: "Switzerland (Basel)", lat: 47.55, lon: 7.58),
         .init(code: "CPMI",  name: "Committee on Payments and Market Infrastructures", region: .international, country: "Switzerland (Basel)", lat: 47.57, lon: 7.60),
+        .init(code: "BIS",   name: "Bank for International Settlements", region: .international, country: "Switzerland (Basel)", lat: 47.55, lon: 7.59),
+        .init(code: "ISDA",  name: "International Swaps and Derivatives Association", region: .international, country: "United States (New York)", lat: 40.71, lon: -74.01),
     ]
 
     static func seed(code: String) -> RegulatorSeed? {

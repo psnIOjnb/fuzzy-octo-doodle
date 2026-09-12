@@ -3,15 +3,25 @@
 OTC Pulse daily feed generator.
 
 Aggregates official regulator RSS/Atom feeds (feedgen/sources.json), keeps
-items relevant to OTC derivatives regulation from the last N hours, scores
-their impact, extracts deadlines, and writes a daily.json matching the app's
-DailyFeedDTO wire format exactly.
+items published inside the snapshot window, scores their impact, extracts
+deadlines, and writes a daily.json matching the app's DailyFeedDTO wire
+format exactly.
 
-The app deduplicates by id/url on ingest, so overlapping windows across runs
-are harmless; ids are UUIDv5 of the item URL and therefore stable.
+Design notes
+------------
+* Window: nominally the last 24 hours. The effective window is widened to
+  cover the gap since the previous run (recorded in the state file), so a
+  late or skipped cron never drops publications silently. The app
+  deduplicates by id/url, so any overlap is invisible on device.
+* Undated feeds: several regulators (ESMA among them) publish RSS with no
+  date on each item. Those are dated by *first sighting* using the state
+  file, so each such publication enters the feed exactly once, on the day
+  it appears.
+* IDs are UUIDv5 of the item URL and therefore stable across runs.
 
 Usage:
-    python feedgen/generate_feed.py --hours 48 --out daily.json
+    python feedgen/generate_feed.py --hours 24 --out daily.json \
+        --state feed-state.json
 """
 
 import argparse
@@ -28,8 +38,15 @@ from dateutil import parser as dateparser
 
 USER_AGENT = "OTCPulseFeedBot/1.0 (+https://github.com/psnIOjnb/fuzzy-octo-doodle)"
 
+# How long a first-seen record is retained in the state file.
+SEEN_RETENTION_DAYS = 180
+# Safety cap so a stuck state file can't trigger a year-long backfill.
+MAX_WINDOW_HOURS = 24 * 45
+
 # ---------------------------------------------------------------------------
-# Relevance: an item is kept if any of these terms appears in title+summary.
+# Relevance: these terms don't gate ingestion, they boost ranking. Items that
+# match are treated as OTC-derivatives intelligence; everything else a
+# regulator publishes is still kept, one step lower in the ranking.
 # ---------------------------------------------------------------------------
 RELEVANCE_TERMS = [
     "swap", "derivative", "otc ", " otc", "margin", "clearing", "cleared",
@@ -39,18 +56,21 @@ RELEVANCE_TERMS = [
     "security-based swap", "benchmark", "libor", "sa-ccr",
     "counterparty credit risk", "initial margin", "variation margin",
     "commodity futures", "futures commission merchant", "isda",
-    # market-infrastructure / CFTC-style vocabulary (often title-only feeds)
     "futures", "commodity", "clearinghouse", "clearing house",
     "derivatives clearing organization", "designated contract market",
     "swap dealer", "large trader", "mifid", "mifir",
     "market infrastructure", "financial market infrastructure",
+    "collateral", "repo", "securities financing", "short selling",
 ]
 
 # Items matching these are dropped regardless of source (digests, reposts,
-# sanctions-list housekeeping).
-EXCLUDE_TERMS = ["e-mail alert", "email alert", "icymi", "sanktionsmeldung"]
+# sanctions-list housekeeping, vacancies).
+EXCLUDE_TERMS = [
+    "e-mail alert", "email alert", "icymi", "sanktionsmeldung",
+    "vacancy", "vacancies", "call for papers", "job opening",
+]
 
-# topic tag -> trigger terms (first matching topics become the item's tags)
+# topic tag -> trigger terms (matching topics become the item's tags)
 TOPIC_RULES = [
     ("Margin", ["margin", "collateral"]),
     ("CCP Risk", ["central counterparty", "ccp", "default fund", "recovery and resolution"]),
@@ -62,19 +82,26 @@ TOPIC_RULES = [
     ("Benchmarks", ["benchmark", "libor", "risk-free rate", "fallback"]),
     ("Crypto Derivatives", ["crypto", "digital asset", "tokenis", "tokeniz", "stablecoin"]),
     ("Position Limits", ["position limit"]),
-    ("Market Conduct", ["enforcement", "penalty", "fine", "charges", "manipulation", "fraud", "settle"]),
+    ("Market Conduct", ["enforcement", "penalty", "fine", "charges", "manipulation", "fraud", "settle", "bans"]),
     ("Netting", ["netting", "close-out"]),
 ]
 
 # document type inference from the title (first match wins)
 DOCTYPE_RULES = [
-    ("Final Rule", ["final rule", "adopts", "adopted", "finalises", "finalizes", "final report on"]),
-    ("Proposed Rule", ["proposed rule", "proposes", "proposal"]),
-    ("Consultation Paper", ["consultation", "consults", "discussion paper", "call for evidence", "comment period"]),
-    ("Guidance", ["guidance", "guidelines", "q&a", "faqs", "supervisory expectations"]),
-    ("Enforcement Action", ["enforcement", "charges", "fines", "penalty", "orders", "settles", "sanction"]),
-    ("Speech", ["speech", "remarks", "keynote"]),
-    ("Report", ["report", "review", "study", "findings", "statistics"]),
+    ("Final Rule", ["final rule", "adopts final", "adopts amendments", "approves final",
+                    "finalises", "finalizes", "final report on"]),
+    ("Consultation Paper", ["consultation", "consults", "discussion paper", "call for evidence",
+                            "comment period", "invites comments", "seeks public comment",
+                            "seeks comment", "requests comment", "request for comment"]),
+    ("Proposed Rule", ["proposed rule", "proposes", "propose ", "proposal", "draft rule"]),
+    ("Enforcement Action", ["enforcement action", "imposes monetary penalty", "imposes penalty",
+                            "monetary penalty", "settlement order", "adjudication order",
+                            "fines", "penalises", "penalizes", "prohibits", "debars"]),
+    ("Guidance", ["guidance", "guidelines", "q&a", "faqs", "supervisory expectations",
+                  "circular", "directions under"]),
+    ("Speech", ["speech by", "remarks by", "keynote address", "keynote speech",
+                "opening remarks", "closing remarks", "welcome address"]),
+    ("Report", ["report", "review", "study", "findings", "statistics", "bulletin"]),
     ("Statement", ["statement", "announces", "announcement", "declares"]),
 ]
 
@@ -103,11 +130,17 @@ IMPACT_BOOST_TERMS = {
     "emir": 0.6,
     "dodd-frank": 0.6,
     "trade repository": 0.5,
+    "clearing": 0.6,
+    "uncleared": 0.9,
+    "bilateral margin": 0.9,
+    "otc": 0.7,
+    "position limit": 0.5,
     "effective date": 0.4,
     "compliance date": 0.5,
 }
 
-INTERNATIONAL_BONUS = 0.5  # FSB/BCBS output tends to move every jurisdiction
+INTERNATIONAL_BONUS = 0.5  # FSB/BCBS/IOSCO output tends to move every jurisdiction
+NON_DERIVATIVES_PENALTY = 1.5  # general financial-regulation items rank lower
 
 MONTH = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
 DATE_PATTERN = rf"({MONTH}\s+\d{{1,2}},?\s+\d{{4}}|\d{{1,2}}\s+{MONTH}\s+\d{{4}})"
@@ -121,6 +154,9 @@ DEADLINE_RULES = [
 
 TAG_STRIP = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
+# "Thursday, September 10, 2026 - 15:04" -> parseable by dateutil once the
+# dash between date and time is removed.
+DASH_BEFORE_TIME = re.compile(r"\s+-\s+(?=\d{1,2}:\d{2})")
 
 
 def clean_html(text: str) -> str:
@@ -157,13 +193,15 @@ def infer_tags(text: str) -> list[str]:
     return tags[:4] or ["General"]
 
 
-def score_impact(text: str, doctype: str, region: str) -> float:
+def score_impact(text: str, doctype: str, region: str, relevant: bool) -> float:
     score = 4.0 + DOCTYPE_SCORE.get(doctype, 0.5)
     lower = text.lower()
     boost = sum(v for term, v in IMPACT_BOOST_TERMS.items() if term in lower)
     score += min(boost, 2.5)
     if region == "International Bodies":
         score += INTERNATIONAL_BONUS
+    if not relevant:
+        score -= NON_DERIVATIVES_PENALTY
     return round(max(0.0, min(10.0, score)), 1)
 
 
@@ -175,7 +213,7 @@ def extract_deadline(text: str, published: datetime):
             continue
         try:
             parsed = dateparser.parse(match.group(1)).replace(tzinfo=timezone.utc)
-        except (ValueError, OverflowError):
+        except (ValueError, OverflowError, TypeError):
             continue
         if parsed > published:  # ignore dates in the past relative to publication
             return {"date": parsed.strftime("%Y-%m-%dT%H:%M:%SZ"), "label": label}
@@ -183,42 +221,141 @@ def extract_deadline(text: str, published: datetime):
 
 
 def entry_datetime(entry) -> datetime | None:
-    for attr in ("published_parsed", "updated_parsed"):
+    """Best-effort publication timestamp for a feed entry.
+
+    feedparser only fills *_parsed for formats it recognises; several
+    regulators (the FCA among them) publish human-readable stamps such as
+    "Thursday, September 10, 2026 - 15:04", so fall back to dateutil on the
+    raw strings before giving up.
+    """
+    for attr in ("published_parsed", "updated_parsed", "created_parsed"):
         value = getattr(entry, attr, None)
         if value:
             return datetime.fromtimestamp(time.mktime(value), tz=timezone.utc)
+
+    for attr in ("published", "updated", "created", "dc_date", "date"):
+        raw = entry.get(attr) if hasattr(entry, "get") else None
+        if not raw:
+            continue
+        try:
+            parsed = dateparser.parse(DASH_BEFORE_TIME.sub(" ", str(raw)))
+        except (ValueError, OverflowError, TypeError):
+            continue
+        if parsed is None:
+            continue
+        return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
+
     return None
 
 
-def collect(sources: list[dict], window_hours: int) -> list[dict]:
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=window_hours)
+# ---------------------------------------------------------------------------
+# State: last run timestamp + first-seen index for undated feeds
+# ---------------------------------------------------------------------------
+
+def load_state(path: Path) -> dict:
+    if not path or not path.exists():
+        return {"lastRun": None, "seen": {}}
+    try:
+        state = json.loads(path.read_text())
+    except (ValueError, OSError):
+        return {"lastRun": None, "seen": {}}
+    state.setdefault("lastRun", None)
+    state.setdefault("seen", {})
+    return state
+
+
+def save_state(path: Path, state: dict) -> None:
+    if not path:
+        return
+    cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_RETENTION_DAYS)
+    pruned = {}
+    for url, stamp in state.get("seen", {}).items():
+        try:
+            when = dateparser.parse(stamp)
+        except (ValueError, TypeError):
+            continue
+        if when and when.replace(tzinfo=when.tzinfo or timezone.utc) >= cutoff:
+            pruned[url] = stamp
+    state["seen"] = pruned
+    path.write_text(json.dumps(state, indent=2, sort_keys=True))
+
+
+def effective_window(requested_hours: int, state: dict) -> int:
+    """Widen the window to cover any gap since the last successful run.
+
+    GitHub's scheduler drifts (observed up to ~75 minutes), so consecutive
+    runs can be more than 24 hours apart. Without this, publications landing
+    in the drift gap would never appear in any snapshot.
+    """
+    last_run = state.get("lastRun")
+    if not last_run:
+        return requested_hours
+    try:
+        previous = dateparser.parse(last_run)
+    except (ValueError, TypeError):
+        return requested_hours
+    if previous is None:
+        return requested_hours
+    if not previous.tzinfo:
+        previous = previous.replace(tzinfo=timezone.utc)
+    gap_hours = (datetime.now(timezone.utc) - previous).total_seconds() / 3600.0
+    # +1h of slack so an item published moments before the last run's cutoff
+    # is not lost to rounding.
+    return int(min(MAX_WINDOW_HOURS, max(requested_hours, gap_hours + 1)))
+
+
+def collect(sources: list[dict], window_hours: int, state: dict) -> list[dict]:
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=window_hours)
+    seen: dict = state.setdefault("seen", {})
     publications, seen_urls = [], set()
+    undated_sources = set()
 
     for source in sources:
         for feed_url in source["feeds"]:
             try:
                 parsed = feedparser.parse(feed_url, agent=USER_AGENT)
-            except Exception as error:  # network hiccup on one source shouldn't kill the run
+            except Exception as error:  # one bad source must not kill the run
                 print(f"WARN {source['code']}: {feed_url} failed: {error}", file=sys.stderr)
                 continue
             if parsed.bozo and not parsed.entries:
                 print(f"WARN {source['code']}: {feed_url} unparseable", file=sys.stderr)
                 continue
+            if not parsed.entries:
+                print(f"WARN {source['code']}: {feed_url} returned no entries", file=sys.stderr)
+                continue
 
             for entry in parsed.entries:
-                published = entry_datetime(entry)
-                if published is None or published < cutoff:
-                    continue
-
                 link = (getattr(entry, "link", "") or "").strip()
                 title = clean_html(getattr(entry, "title", ""))
-                summary = clean_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
                 if not title or not link or link in seen_urls:
                     continue
 
+                published = entry_datetime(entry)
+                if published is None:
+                    # Undated feed: date the item by first sighting so it
+                    # enters exactly one daily snapshot.
+                    undated_sources.add(source["code"])
+                    recorded = seen.get(link)
+                    if recorded:
+                        try:
+                            published = dateparser.parse(recorded)
+                        except (ValueError, TypeError):
+                            published = None
+                    if published is None:
+                        published = now
+                        seen[link] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+                    elif not published.tzinfo:
+                        published = published.replace(tzinfo=timezone.utc)
+
+                if published < cutoff or published > now + timedelta(days=1):
+                    continue
+
+                summary = clean_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
                 haystack = f"{title} {summary}"
                 if is_excluded(haystack):
                     continue
+
                 # Wide-net policy: everything a regulator publishes is kept
                 # (default "all"); OTC-derivatives relevance boosts ranking
                 # instead of gating. Set "relevance": "keyword" on a source
@@ -229,11 +366,6 @@ def collect(sources: list[dict], window_hours: int) -> list[dict]:
                 seen_urls.add(link)
 
                 doctype = infer_doctype(title)
-                impact = score_impact(haystack, doctype, source["region"])
-                if not relevant:
-                    # General financial-regulation item: keep it, rank it
-                    # below comparable derivatives-specific publications.
-                    impact = round(max(0.0, impact - 1.5), 1)
                 publications.append({
                     "id": str(uuid.uuid5(uuid.NAMESPACE_URL, link)).upper(),
                     "title": title[:300],
@@ -243,12 +375,16 @@ def collect(sources: list[dict], window_hours: int) -> list[dict]:
                     "region": source["region"],
                     "publicationDate": published.strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "documentType": doctype,
-                    "impactScore": impact,
+                    "impactScore": score_impact(haystack, doctype, source["region"], relevant),
                     "url": link,
                     "tags": infer_tags(haystack),
                     "fullText": None,
                     "deadline": extract_deadline(haystack, published),
                 })
+
+    if undated_sources:
+        print(f"NOTE undated feeds dated by first sighting: {', '.join(sorted(undated_sources))}",
+              file=sys.stderr)
 
     publications.sort(key=lambda p: p["publicationDate"], reverse=True)
     return publications
@@ -256,14 +392,25 @@ def collect(sources: list[dict], window_hours: int) -> list[dict]:
 
 def main() -> int:
     arg_parser = argparse.ArgumentParser(description=__doc__)
-    arg_parser.add_argument("--hours", type=int, default=48,
-                            help="lookback window; overlap is fine (app dedupes)")
+    arg_parser.add_argument("--hours", type=int, default=24,
+                            help="snapshot window in hours (default 24; widened "
+                                 "automatically to cover any gap since the last run)")
     arg_parser.add_argument("--out", default="daily.json")
+    arg_parser.add_argument("--state", default=None,
+                            help="path to the persistent state file (last run + "
+                                 "first-seen index for undated feeds)")
     arg_parser.add_argument("--sources", default=str(Path(__file__).parent / "sources.json"))
     args = arg_parser.parse_args()
 
+    state_path = Path(args.state) if args.state else None
+    state = load_state(state_path)
+    window = effective_window(args.hours, state)
+    if window != args.hours:
+        print(f"NOTE window widened {args.hours}h -> {window}h to cover the gap "
+              f"since the last run", file=sys.stderr)
+
     sources = json.loads(Path(args.sources).read_text())["sources"]
-    publications = collect(sources, args.hours)
+    publications = collect(sources, window, state)
 
     now = datetime.now(timezone.utc)
     feed = {
@@ -272,9 +419,14 @@ def main() -> int:
         "publications": publications,
     }
     Path(args.out).write_text(json.dumps(feed, indent=2, ensure_ascii=False))
-    print(f"Wrote {args.out}: {len(publications)} publications "
-          f"({sum(1 for p in publications if p['impactScore'] >= 7.5)} high-impact) "
-          f"from {len(sources)} sources, window {args.hours}h")
+
+    state["lastRun"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    save_state(state_path, state)
+
+    high = sum(1 for p in publications if p["impactScore"] >= 7.5)
+    regions = {p["region"] for p in publications}
+    print(f"Wrote {args.out}: {len(publications)} publications ({high} high-impact) "
+          f"from {len(sources)} sources across {len(regions)} regions, window {window}h")
     return 0
 
 
