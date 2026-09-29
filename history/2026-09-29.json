@@ -1,7 +1,282 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T00:29:53Z",
+  "generatedAt": "2026-09-29T23:56:04Z",
   "publications": [
+    {
+      "id": "6BF6E02E-DDE3-5CCB-9EE4-1AE536BCE350",
+      "title": "Monthly Authorised Deposit-taking Institution Statistics",
+      "summary": "Breadcrumb Home Statistical Publication Monthly Authorised Deposit-taking Institution Statistics Banking Published 30 September 2026 Print On this page On this page The Monthly Authorised Deposit-taking Institution Statistics (MADIS) publication provides selected information on the banking business of individual banks within the domestic market. Monthly authorised deposit-taking institution statistics August 2026 XLSX 332.31 KB ‧ 30 September 2026 Monthly authorised deposit-taking institution statistics back-series March 2019 - August 2026 XLSX 2.55 MB ‧ 30 September 2026 Monthly authorised deposit-taking institution statistics glossary PDF 72.36 KB ‧ 29 January 2021 Next release 30 October 2026 (September 2026 edition) Historical data Balance sheet data prior to July 2019 were published in the Monthly Banking Statistics Monthly banking statistics June 2019 back series XLSX 25.17 MB ‧ 8 ",
+      "regulatorCode": "APRA",
+      "regulatorName": "Australian Prudential Regulation Authority",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-30T00:00:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "https://www.apra.gov.au/news-and-publications/monthly-authorised-deposit-taking-institution-statistics",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "47278B90-B7F7-566E-A14C-194D17D51349",
+      "title": "September 17, 2026 – Closed Meeting",
+      "summary": "The FDIC Board of Directors met in closed session on September 17, at 10:21 a.m., ET.",
+      "regulatorCode": "FDIC",
+      "regulatorName": "Federal Deposit Insurance Corporation",
+      "region": "Americas",
+      "publicationDate": "2026-09-29T21:34:54Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fdic.gov/news/board-matters/2026/board-meeting-2026-09-17-2closed",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "71521891-3861-5D07-8246-DD9F3357F369",
+      "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+      "summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-09-29T20:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3DDE0343-3432-5450-A71D-6F88C79A1506",
+      "title": "Bank of Canada and OSFI issue joint statement on use of the Bank's Standing Liquidity Facility",
+      "summary": "Bank of Canada and OSFI issue joint statement on use of the Bank&#039;s Standing Liquidity Facility Lily.Szeto@osfi-bsif.gc.ca Tue, 09/29/2026 - 15:47 Date September 29, 2026 Link /en/news/bank-canada-osfi-issue-joint-statement-use-banks-standing-liquidity-fa…",
+      "regulatorCode": "OSFI",
+      "regulatorName": "Office of the Superintendent of Financial Institutions",
+      "region": "Americas",
+      "publicationDate": "2026-09-29T19:47:28Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.osfi-bsif.gc.ca/en/bank-canada-osfi-issue-joint-statement-use-banks-standing-liquidity-facility",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AB76EFDC-C556-5145-ACED-987CAEEBDCF1",
+      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on September 30, 2026",
+      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, September 30, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 09:30 AM to 10:00 AM October 01, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1212",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T19:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63690",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "EF1321EC-6840-5F08-AF2F-70AB6ADB96FE",
+      "title": "Report of the Advisory Committee on Ways and Means Advances to State Governments",
+      "summary": "The Reserve Bank of India has today placed on its website the Report of the Advisory Committee on Ways and Means Advances (WMA) to State Governments . The Reserve Bank had constituted an Advisory Committee, under the Chairmanship of Shri I S N Prasad, former Additional Chief Secretary, Government of Karnataka. The terms of reference of the Advisory Committee included, inter alia, review of State-wise WMA limits and other financial accommodation facilities available to the States. The Committee has made various recommendations which shall be examined by the Reserve Bank. (Brij Raj) Chief General Manager Press Release: 2026-2027/1211",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T17:05:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63689",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A0F0835C-7A20-559C-BA07-D5CE6B244203",
+      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "summary": "The Securities and Exchange Commission today charged multiple entities that are likely operated by individuals located overseas for defrauding hundreds of retail investors, including many in the U.S., through so-called investment confidence scams where…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-09-29T13:55:53Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "tags": [
+        "Trading Venues",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E2FA6557-D8A3-5803-9A4A-9A0B4B606EB4",
+      "title": "ISDA-Actrix US Treasury Repo Market Clearing Indicators August 2026",
+      "summary": "The ISDA-Actrix US Treasury Repo Market Clearing Indicators illustrate central clearing adoption in the US... Read more ISDA-Actrix US Treasury Repo Market Clearing Indicators August 2026",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-09-29T13:31:56Z",
+      "documentType": "Publication",
+      "impactScore": 5.6,
+      "url": "https://www.isda.org/2026/09/29/isda-actrix-us-treasury-repo-market-clearing-indicators-august-2026/",
+      "tags": [
+        "Clearing Obligation"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "C6D95F5A-83D1-5A95-9982-E08C921CC7F0",
+      "title": "Result of the Second Overnight Variable Rate Reverse Repo (VRRR) auction held on September 29, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 1,00,000 Total amount of offers received (in &#8377; crore) 33,770 Amount accepted (in &#8377; crore) 33,770 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1208",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T12:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63686",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "DF34A54F-A04A-537D-A63C-149EB29E0535",
+      "title": "RBI to conduct Second Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on September 29, 2026",
+      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a second Variable Rate Reverse Repo (VRRR) auction on Tuesday, September 29, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 1,00,000 1 11:30 AM to 12:00 Noon September 30, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1207",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T10:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63685",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A70BD175-0B9C-54D5-9F7D-B47659EAB371",
+      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on September 29, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 2,00,000 Total amount of offers received (in &#8377; crore) 1,19,048 Amount accepted (in &#8377; crore) 1,19,048 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1206",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T10:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63684",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "059672B3-23EB-5252-8697-7BBAE3137BCA",
+      "title": "Money Market Operations as on September 28, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,42,309.96 5.06 4.00-5.40 I. Call Money 17,367.62 5.11 4.00-5.25 II. Triparty Repo 5,37,826.35 5.05 4.40-5.21 III. Market Repo 1,80,312.59 5.09 4.00-5.40 IV. Repo in Corporate Bond 6,803.40 5.25 5.21-5.40 B. Term Segment I. Notice Money ** 501.00 5.12 4.85-5.25 II. Term Money @@ 89.00 - 5.40-6.15 III. Triparty Repo 6,690.00 5.24 5.12-5.35 IV. Market Repo 1,095.30 5.35 4.75-5.50 V. Repo in Corporate Bond 100.00 6.80 6.80-6.80 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63683",
+      "tags": [
+        "Margin",
+        "Clearing Obligation"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "94B2C0AF-5001-53D8-8BBE-36DDD8073938",
+      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "summary": "European Central Bank published: ECB amends monetary policy implementation guidelines as part of regular review",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-09-29T08:00:00Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3B0A4FB2-71FC-50D8-ABDF-09CA341F21B1",
+      "title": "FINMA concludes enforcement proceeding against Julius Bär",
+      "summary": "The Swiss Financial Market Supervisory Authority FINMA has concluded an enforcement proceeding against Julius Bär bank in connection with private debt loans granted to a European group and client relationships involving two Russian PEPs, or politically exposed persons. It has established that the institution committed serious violations of supervisory provisions, in particular the requirements for appropriate risk management and the legal obligations relating to the prevention of money laundering. FINMA has thus concluded its fifth enforcement proceeding against Julius Bär in less than ten years. The bank had already implemented many immediate measures imposed by FINMA whilst the proceeding was ongoing. Further measures, following the conclusion of the enforcement proceeding, are now intended to ensure that the planned improvements to the compliance and risk culture are implemented effec",
+      "regulatorCode": "FINMA",
+      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "publicationDate": "2026-09-29T04:45:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.finma.ch/en/news/2026/09/20260929-mm-enforcementverfahren/",
+      "tags": [
+        "Trade Reporting",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "65277BF1-37EE-56E9-B041-432ECEF50AA8",
+      "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+      "summary": "At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.60 per cent.",
+      "regulatorCode": "RBA",
+      "regulatorName": "Reserve Bank of Australia",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T04:30:00Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "47103B11-D03F-5D4C-8FBF-7FB11088130B",
+      "title": "Intermediated general insurance statistics",
+      "summary": "Breadcrumb Home Statistical Publication Intermediated general insurance statistics General insurance Published 29 September 2026 Print On this page On this page APRA publishes statistics on intermediated general insurance placed with APRA-authorised general insurers, Lloyd’s underwriters and unauthorised foreign insurers, on a bi-annual basis. Intermediated general insurance statistics June 2026 XLSX 214.17 KB ‧ 29 September 2026 The intermediated general insurance statistics contain industry level data relating to business placed by intermediaries. Statistics are also provided on business placed with unauthorised foreign insurers, segmented by region, exemption type, atypical risk class and customised reason. Intermediated general insurance statistics database December 2010 to June 2026 XLSX 521.57 KB ‧ 29 September 2026 The database presents the intermediated general insurance statisti",
+      "regulatorCode": "APRA",
+      "regulatorName": "Australian Prudential Regulation Authority",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-09-29T01:00:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "https://www.apra.gov.au/news-and-publications/intermediated-general-insurance-statistics",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "F92E387B-864A-54FA-8AD1-2FEBE5A2F07B",
       "title": "ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets",
@@ -23,316 +298,18 @@
       "deadline": null
     },
     {
-      "id": "5143295A-8CF1-51F1-9383-5DA344D3E52E",
-      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on September 29, 2026",
-      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, September 29, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 09:30 AM to 10:00 AM September 30, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1204",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T19:05:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63682",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C5B217B9-70C9-55E8-99A7-44045DB6E59A",
-      "title": "Auction of Government of India Dated Securities",
-      "summary": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of &#8377;33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (&#8377; Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated September 28, 2026 October 01, 2026 (Thursday) October 05, 2026 (Monday) 2 6.57% GS 2033 Aug 17, 2033 12,000 3 7.63% GS 2056 Sep 15, 2056 9,000 4 7.50% GOI SGrB 2056 Apr 27, 2056 3,000 Total 33,000 2. GoI will have the option to retain additional subscription up to &#8377;2,000 crore against each security mentioned above. 3. The securities will be sold through Reserve Bank of India Mumbai Office, Fort, Mumbai &ndash; 400001. The sale will be subject to the terms and conditions spelt out in the 'Specific Notification' mentioned above and the General No",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T18:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63681",
-      "tags": [
-        "Trade Reporting",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D0994D9B-E49E-5592-9B14-D4803FAB09E6",
-      "title": "SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
-      "summary": "The Securities and Exchange Commission today announced settled charges against New York-based investment adviser Zoe Financial Inc. for failing to fully and fairly disclose material facts concerning conflicts of interest to its clients and prospective…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-09-28T17:46:30Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-financial-failure-disclose-conflict-interest",
-      "tags": [
-        "Trading Venues",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "01B1B12C-2EEF-5BD5-8467-017A5B875E7F",
-      "title": "FCA secures bankruptcy order against Arthur Temlett",
-      "summary": "We asked the Court to make Arthur Temlett, trading as Abacus Insurance Consultants ('Abacus'), bankrupt. This is known as sequestration in Scotland. The Sheriff granted our application on 27 August 2026. Emma Porter of Aver Chartered Accountants ('Aver') was appointed as trustee. She will now assess Mr Temlett’s financial affairs and seek to distribute any recovered funds to creditors.Arthur Temlett is awaiting trial on embezzlement charges brought following an investigation by Police Scotland.On 21 January 2025, we took action to protect consumers by stopping Arthur Temlett from carrying out any regulated activities, including acting as an insurance broker. This was because of concerns that he may have sold home and motor insurance without passing premium payments on to the insurance provider.",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-09-28T14:29:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/news-stories/fca-secures-bankruptcy-order-against-arthur-temlett",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9124BD10-AC1A-5545-BD64-2AA4A7B6F3DB",
-      "title": "FCA secures money back for victims of crypto fraud",
-      "summary": "Victims of a £1.5m crypto investment fraud will recover lost funds after the FCA obtained confiscation orders against Raymondip Bedi and Patrick Mavanga. At a hearing at Southwark Crown Court on 28 September 2026, Raymondip Bedi was ordered to pay £603,404.28 and Patrick Mavanga £247,997.99.Between February 2017 and June 2019, Bedi and Mavanga operated a fraudulent investment scheme, cold-calling consumers and persuading them to invest in fake cryptoasset opportunities through companies including CCX Capital and Astaria Group LLP. At least 65 investors were defrauded and lost £1,541,799.The FCA has identified and contacted victims of the fraud and will ensure that funds recovered through the confiscation process are returned to victims.In July 2025, following an FCA prosecution, Raymondip Bedi was sentenced to 5 years and 4 months' imprisonment and Patrick Mavanga was sentenced to 6 year",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-09-28T14:08:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.6,
-      "url": "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud",
-      "tags": [
-        "Trade Reporting",
-        "Capital Requirements",
-        "Crypto Derivatives",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5FA30D75-4713-57DA-B36C-3271932B12F3",
-      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "summary": "European Central Bank published: Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-09-28T13:30:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "B64322A8-6442-5ABE-97EA-634A59CE63D1",
-      "title": "InterestMe Financial Planning Limited (IMFP) and the appointed representative InterestMe Advisers Limited (IMA) enter administration",
-      "summary": "On 24 September 2026, IMFP and IMA entered administration. Robert Goodhew and Geoff Bouchier of Kroll Advisory Limited were appointed joint administrators for both firms. The joint administrators are responsible for managing the affairs of the firms during the administration process. They are officers of the court and need to comply with all insolvency law.IMFP is authorised by the FCA. IMA is an appointed representative of IMFP.The firms carry out regulated activities, including financial planning and advice on pensions, mortgages and wider financial planning matters.On 24 July 2026, IMFP agreed to a voluntary requirement which restricted the activities it can carry out.Below we set out for customers:How to contact the joint administrators.Information about the administration.What to do if you are concerned about your investments.What to do if you have a complaint with the firms.How to ",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-09-28T13:21:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "43EE591F-636B-5E7E-8A5B-B7A697A424DB",
-      "title": "Money Market Operations as on September 27, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sun, 27/09/2026 1 Mon, 28/09/2026 10,288.00 5.50 4. SDF Δ# Sun, 27/09/2026 1 Mon, 28/09/2026 2,08,457.00 5.00 5. Ne",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T12:55:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63678",
-      "tags": [
-        "Margin",
-        "Clearing Obligation"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3C33F057-4409-5DAF-BF1B-E6FC022EED53",
-      "title": "Money Market Operations as on September 26, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sat, 26/09/2026 1 Sun, 27/09/2026 32.00 5.50 Sat, 26/09/2026 2 Mon, 28/09/2026 0.00 5.50 4. SDF Δ# Sat, 26/09/2026 ",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T12:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63677",
-      "tags": [
-        "Margin",
-        "Clearing Obligation"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C3113CD4-A56C-5A72-9906-C113BB103C1A",
-      "title": "SFC shares updates with securities industry on scam prevention and cybersecurity",
-      "summary": "Securities and Futures Commission published: SFC shares updates with securities industry on scam prevention and cybersecurity",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T11:27:31Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR157",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "DBC35F58-2561-5343-846B-D02D9DF15E4C",
-      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on September 28, 2026",
-      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 2,00,000 Total amount of offers received (in &#8377; crore) 1,11,711 Amount accepted (in &#8377; crore) 1,11,711 Cut off Rate (%) 5.24 Weighted Average Rate (%) 5.24 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1198",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T10:40:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63676",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "867A7C10-C398-53AD-97A4-B04294D76F67",
-      "title": "Pursuing Efficiencies of Tokenization and Continuous Trading",
-      "summary": "As we mark the 10-year anniversary of the ISDA Standard Initial Margin Model (ISDA SIMM),... Read more Pursuing Efficiencies of Tokenization and Continuous Trading",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-09-28T10:29:36Z",
-      "documentType": "Publication",
-      "impactScore": 5.8,
-      "url": "https://www.isda.org/2026/09/28/pursuing-efficiencies-of-tokenization-and-continuous-trading/",
-      "tags": [
-        "Margin",
-        "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D63A85A3-C025-5289-97C6-A0B0EE37DDB0",
-      "title": "Money Market Operations as on September 25, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,22,052.74 5.10 4.00-5.50 I. Call Money 13,110.64 5.20 4.60-5.30 II. Triparty Repo 5,07,385.95 5.11 5.06-5.45 III. Market Repo 1,94,321.75 5.05 4.00-5.50 IV. Repo in Corporate Bond 7,234.40 5.23 5.20-5.36 B. Term Segment I. Notice Money ** 2,242.30 5.23 4.60-5.35 II. Term Money @@ 20.50 - 5.40-5.72 III. Triparty Repo 2,560.00 5.22 5.10-5.26 IV. Market Repo 480.84 5.38 5.35-5.45 V. Repo in Corporate Bond 50.00 8.00 8.00-8.00 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63675",
-      "tags": [
-        "Margin",
-        "Clearing Obligation"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "1A7D4831-8316-5A74-8BCC-4BC445322798",
-      "title": "New speech by Kelvin Wong: Remarks at SFC and Accounting and Financial Reporting Council’s MoU Signing Ceremony",
-      "summary": "Securities and Futures Commission published: New speech by Kelvin Wong: Remarks at SFC and Accounting and Financial Reporting Council’s MoU Signing Ceremony",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T03:34:25Z",
-      "documentType": "Speech",
-      "impactScore": 3.0,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR155",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "F484FBAA-A9E8-5B21-9B36-3375910EC5CD",
-      "title": "SFC and AFRC extend regulatory cooperation to financial reporting of licensed firms and funds under new MoU",
-      "summary": "Securities and Futures Commission published: SFC and AFRC extend regulatory cooperation to financial reporting of licensed firms and funds under new MoU",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-28T03:20:39Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR156",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "40836DC1-5DA7-5D3A-9D10-E901AB4D2636",
-      "title": "The leverage ratio and the output floor: complementarities and overlaps",
-      "summary": "This paper examines analytically and empirically whether the Basel III leverage ratio (LR) and output floor (OF) requirements act as substitutes for or complements to each other and how they interact with risk‑based regulatory requirements. These requirements determine banks’ overall capital requirements and therefore their capacity to support credit and growth in the economy as well as their resilience to negative shocks.A simple analytical framework maps the three requirements to a common…",
+      "id": "27A17F0A-094E-5DAB-BA78-A02E86C2B8EA",
+      "title": "High public debt, NBFIs and the risk of market dysfunction",
+      "summary": "Near record-high government debt levels and the growing role of non-banks have reshaped government debt markets in recent years. High levels of government sector debt are expected to worsen future government debt market liquidity conditions in general, including by increasing the risk of market dysfunction. A large non-bank financial institution footprint heightens the risk of market dysfunction while also making very favourable liquidity conditions more likely.",
       "regulatorCode": "BIS",
       "regulatorName": "Bank for International Settlements (BCBS / CPMI / IOSCO joint output)",
       "region": "International Bodies",
-      "publicationDate": "2026-09-28T00:00:00Z",
+      "publicationDate": "2026-09-29T00:00:00Z",
       "documentType": "Publication",
-      "impactScore": 4.1,
-      "url": "https://www.bis.org/publications/fsi-paper-29-leverage-ratio-and-output-floor-complementarities-and-overlaps",
+      "impactScore": 3.5,
+      "url": "https://www.bis.org/publications/bulletin-136-high-public-debt-nbfis-and-risk-market-dysfunction",
       "tags": [
-        "Capital Requirements"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "BC663E37-E52C-54AC-981C-5F7D26263CE4",
-      "title": "Minutes of the Monetary Policy Meeting on July 30 and 31, 2026",
-      "summary": "Bank of Japan published: Minutes of the Monetary Policy Meeting on July 30 and 31, 2026",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-27T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260731.pdf",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "6EDE7C1E-67A4-559E-9CC1-BD9B348F1F4F",
-      "title": "Services Producer Price Index (Aug.)",
-      "summary": "Bank of Japan published: Services Producer Price Index (Aug.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-09-27T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2608.pdf",
-      "tags": [
-        "General"
+        "Trade Reporting"
       ],
       "fullText": null,
       "deadline": null
