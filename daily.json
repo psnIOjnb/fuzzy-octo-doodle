@@ -1,18 +1,35 @@
 {
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T00:06:20Z",
+  "generatedAt": "2026-10-02T23:58:14Z",
   "publications": [
     {
-      "id": "ECBE8C7F-A875-5A71-8BF4-55A3598D78B5",
-      "title": "Average Contract Interest Rates on Loans and Discounts (Aug.)",
-      "summary": "Bank of Japan published: Average Contract Interest Rates on Loans and Discounts (Aug.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2608.pdf",
+      "id": "58C16960-0214-5CE8-953D-75682B75AFCF",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-10-02T20:45:00Z",
+      "documentType": "Statement",
+      "impactScore": 3.6,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "tags": [
+        "Capital Requirements"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "5313674E-70E3-53F2-8AB8-045913D7240F",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-10-02T20:00:00Z",
+      "documentType": "Consultation Paper",
+      "impactScore": 4.5,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
       "tags": [
         "General"
       ],
@@ -20,103 +37,87 @@
       "deadline": null
     },
     {
-      "id": "7732FC29-6CAD-5A26-8593-98A3E8B95528",
-      "title": "Monetary Base (Sept.)",
-      "summary": "Bank of Japan published: Monetary Base (Sept.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "F8933D23-4899-54D0-9B13-BAC9F01E91EF",
-      "title": "Tankan (Sept.): Comprehensive Data Set",
-      "summary": "Bank of Japan published: Tankan (Sept.): Comprehensive Data Set",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/tk/tankan09b.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "0D16FE6A-8576-5747-A8EA-999EF951A23E",
-      "title": "Indicative Calendar of Market borrowings by State Governments/ Union Territories for the Quarter October – December 2026",
-      "summary": "With an objective to enhancing transparency and providing greater clarity to the investors, Reserve Bank introduced the Benchmark Issuance Strategy (BIS) on a pilot basis commencing Q1: FY 2026-27 involving nine States, viz., Andhra Pradesh, Bihar, Chhattisgarh, Keralam, Madhya Pradesh, Maharashtra, Rajasthan, Telangana, and Uttar Pradesh. Subsequently, nine other States and one Union Territory (UT), namely Himachal Pradesh, Jharkhand, Manipur, Meghalaya, Odisha, Punjab, Sikkim, Uttarakhand, West Bengal and Delhi were included under BIS framework from Q2: FY 2026-27 . Based on experience gained and concurrence received from six more States and one UT, the BIS framework is being extended to States of Assam, Goa, Haryana, Mizoram, Nagaland, Tripura and UT of Jammu and Kashmir, starting from Q3: FY 2026-27. In consultation with States/UTs which have adopted BIS, the indicative calendar for ",
+      "id": "726F4F19-DA31-5B27-93A9-60879BA43235",
+      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+      "summary": "1. Reserve Bank of India - Liabilities and Assets* (&#8377; Crore) Item 2025 2026 Variation Sep. 26 Sep. 18 Sep. 25 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government 0 0 0 0 0 4.2 State Governments 32622 19427 8590 -10836 -24031 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on September 25, 2026 Variation over Week End-March 2026 Year &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 7164287 747557 -178698 -18343 610425 56450 952405 47322 1.1 Foreign Currency Assets # 5897822 615411 -151661 -15570 660455 63128 736823 33653 1.2 Gold 1041743 108701 -25264 -2591 -52567 -6694 198808 13684 1.3 SDRs 178656 18642 -1001 -97 2067 20 11973 -147 1.4 Reserve Position in the IMF 46066 4804 -772 -86 470 -4 4802 131 * Difference, if any, is due to rounding off. # Excl",
       "regulatorCode": "RBI",
       "regulatorName": "Reserve Bank of India",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T19:15:00Z",
+      "publicationDate": "2026-10-02T17:00:00Z",
+      "documentType": "Report",
+      "impactScore": 6.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63718",
+      "tags": [
+        "Margin",
+        "Trade Reporting",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "F2C77256-065E-55DE-80C6-22B45895ABD8",
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-10-02T15:00:00Z",
+      "documentType": "Enforcement Action",
+      "impactScore": 3.5,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "68F09F8F-B302-5DAB-8D15-0A0C729D2176",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "summary": "European Central Bank published: Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-02T13:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "BB899FCC-3547-5A89-9F27-07571BD5723E",
+      "title": "Firms’ confidence, satisfaction and trust in the FCA rise",
+      "summary": "The latest FCA and Practitioner Panel survey shows rising levels of satisfaction, confidence and trust in the FCA among firms, alongside a strong understanding of Consumer Duty expectations. The FCA and Practitioner Panel annual survey of regulated firms provides valuable insights into how firms think we’re performing.The latest survey shows 79% of firms are highly satisfied with their relationship with the FCA, up from 74% last year. The proportion of firms rating the FCA as a highly effective regulator also increased from 69% to 76%, while 75% reported high levels of trust.Firms were most confident in our work to protect consumers (87%), ensure markets work well (85%) and enhance the integrity of the UK financial system (85%). There was a 27-percentage point increase in firms’ understanding of the Secondary International Competitiveness and Growth Objective and a 25-percentage point in",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-02T11:58:00Z",
       "documentType": "Publication",
       "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63715",
+      "url": "https://www.fca.org.uk/news/news-stories/firms-confidence-satisfaction-and-trust-fca-rise",
       "tags": [
         "Trade Reporting",
-        "Benchmarks"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "1FD7E053-40BE-5674-B78E-44EDF4D859E3",
-      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on October 05, 2026",
-      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Monday, October 05, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 2,00,000 1 09:30 AM to 10:00 AM October 06, 2026 (Tuesday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1236",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T19:10:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63714",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "48B25D00-AC5D-5904-8FBA-FB1663571C7F",
-      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
-      "summary": "The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e. registered investment companies and business…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-01T16:16:07Z",
-      "documentType": "Proposed Rule",
-      "impactScore": 4.7,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
-      "tags": [
-        "Trading Venues",
         "Crypto Derivatives"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "4D993531-264C-51F0-926C-29F928C2AF82",
-      "title": "Isabel Schnabel: Central banks on-chain",
-      "summary": "European Central Bank published: Isabel Schnabel: Central banks on-chain",
+      "id": "1CDC2C3A-4614-5D8F-9D50-61F5540656B0",
+      "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+      "summary": "European Central Bank published: Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
       "regulatorCode": "ECB",
       "regulatorName": "European Central Bank",
       "region": "Europe",
-      "publicationDate": "2026-10-01T15:30:00Z",
+      "publicationDate": "2026-10-02T11:30:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
       "tags": [
         "General"
       ],
@@ -124,16 +125,67 @@
       "deadline": null
     },
     {
-      "id": "74FD8814-2982-53BA-A3BE-423544544113",
-      "title": "Episode 60: Modelling Margin",
-      "summary": "The ISDA Standard Initial Margin Model has proved to be one of the most consequential... Read more Episode 60: Modelling Margin",
+      "id": "6F474DD8-1465-56B8-807D-BAAA3824A671",
+      "title": "Updated OTC Derivatives Compliance Calendar",
+      "summary": "ISDA has updated its global calendar of compliance deadlines and regulatory dates for the over-the-counter... Read more Updated OTC Derivatives Compliance Calendar",
       "regulatorCode": "ISDA",
       "regulatorName": "International Swaps and Derivatives Association",
       "region": "International Bodies",
-      "publicationDate": "2026-10-01T15:14:24Z",
+      "publicationDate": "2026-10-02T10:04:17Z",
       "documentType": "Publication",
-      "impactScore": 5.8,
-      "url": "https://www.isda.org/2026/10/01/episode-60-modelling-margin/",
+      "impactScore": 6.2,
+      "url": "https://www.isda.org/2026/10/02/updated-otc-derivatives-compliance-calendar-92/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "7900E9AC-3B72-59B7-AC66-2DE1F77CD044",
+      "title": "Appointment of members of the Enforcement Decision Making Committee (EDMC)",
+      "summary": "Following an external recruitment process, the Bank of England has appointed Carlos Conceicao and Alexander Justham as members of its Enforcement Decision Making Committee, with effect from September 2026.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-10-02T08:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/news/2026/october/appointment-of-members-of-the-edmc",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "CDFEAFF7-A36B-55AB-A5A2-65A0AE709836",
+      "title": "Japanese Government Bonds Held by the Bank of Japan",
+      "summary": "Bank of Japan published: Japanese Government Bonds Held by the Bank of Japan",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-02T08:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260930.xlsx",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E6B929E0-EBB1-5187-AA29-0ABC141EEC09",
+      "title": "Collateral Accepted by the Bank of Japan (End of Sept.)",
+      "summary": "Bank of Japan published: Collateral Accepted by the Bank of Japan (End of Sept.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-02T08:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/col/col2609.xlsx",
       "tags": [
         "Margin"
       ],
@@ -141,210 +193,18 @@
       "deadline": null
     },
     {
-      "id": "50162C39-3B0E-5934-BD58-ABFB2C7DECC8",
-      "title": "SEC’s Division of Examinations Announces New Exam Handbook",
-      "summary": "The Securities and Exchange Commission’s Division of Examinations today published its new handbook, “The SEC Exam Handbook: A Practical Guide on Process and Engagement,” which replaces and expands upon the previous examination brochure by providing…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-01T15:03:35Z",
-      "documentType": "Statement",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-examinations-announces-new-exam-handbook",
-      "tags": [
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "409A0708-9607-5CCB-B3E5-56C4F4BD2FF3",
-      "title": "OSFI welcomes Laurence Frappier as Chief Actuary",
-      "summary": "OSFI welcomes Laurence Frappier as Chief Actuary Lily.Szeto@osfi-bsif.gc.ca Thu, 10/01/2026 - 10:05 Date October 1, 2026 Link /en/news/osfi-welcomes-laurence-frappier-chief-actuary",
-      "regulatorCode": "OSFI",
-      "regulatorName": "Office of the Superintendent of Financial Institutions",
-      "region": "Americas",
-      "publicationDate": "2026-10-01T14:05:15Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.osfi-bsif.gc.ca/en/osfi-welcomes-laurence-frappier-chief-actuary",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "78EFB7D5-ABE9-5E03-886F-50AB81717BD4",
-      "title": "Christine Lagarde: Where AI risks meet",
-      "summary": "European Central Bank published: Christine Lagarde: Where AI risks meet",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-01T13:30:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9983F5C5-4EEF-5C32-AB96-9081F728BD72",
-      "title": "Where AI risks meet",
-      "summary": "European Systemic Risk Board published: Where AI risks meet",
+      "id": "33C1BBC0-1213-53E9-993E-252A9F711B67",
+      "title": "Reinforcing Europe’s financial resilience – and growth potential",
+      "summary": "European Systemic Risk Board published: Reinforcing Europe’s financial resilience – and growth potential",
       "regulatorCode": "ESRB",
       "regulatorName": "European Systemic Risk Board",
       "region": "Europe",
-      "publicationDate": "2026-10-01T13:30:00Z",
+      "publicationDate": "2026-10-02T07:30:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.esrb.europa.eu//news/speeches/date/2026/html/esrb.sp261001~0eb8b60ef2.en.html",
+      "url": "https://www.esrb.europa.eu//news/speeches/date/2026/html/esrb.sp261002~1b019692ee.en.html",
       "tags": [
         "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "8B078473-A935-5614-9EC8-8D35E9C5B84F",
-      "title": "CFTC Staff Extends Brexit-Related No-Action Positions",
-      "summary": "Commodity Futures Trading Commission published: CFTC Staff Extends Brexit-Related No-Action Positions",
-      "regulatorCode": "CFTC",
-      "regulatorName": "Commodity Futures Trading Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-01T13:06:31Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9306-26",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "AEAC1B19-17B8-5E96-8504-AACEAB135C60",
-      "title": "Minutes of the Meeting of the Court of Directors held on 16 July 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-10-01T13:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-16-july-2026",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "4F51E702-259A-5122-BB32-6844A6FED7AA",
-      "title": "ISDA Wins GlobalCapital’s Digital Solution of the Year Award",
-      "summary": "ISDA has won Digital Solution of the Year at the GlobalCapital Global Derivatives Awards 2026... Read more ISDA Wins GlobalCapital’s Digital Solution of the Year Award",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-01T11:58:11Z",
-      "documentType": "Publication",
-      "impactScore": 6.1,
-      "url": "https://www.isda.org/2026/10/01/isda-wins-globalcapitals-digital-solution-of-the-year-award/",
-      "tags": [
-        "Trade Reporting",
-        "Capital Requirements"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D052C4A7-E0C5-5CE1-9EBD-70B503BFC7CB",
-      "title": "FINMA Executive Board: Alexandra Karg to leave FINMA; new division to be created",
-      "summary": "Alexandra Karg, Head of the Operations division and a member of the Executive Board, has decided to leave the Swiss Financial Market Supervisory Authority FINMA on 30 November 2026, after 10 successful years. FINMA’s CEO and Executive Board thank Alexandra Karg for her valuable contribution during her time at FINMA. As a result of this departure, the organisational structure will also be adjusted. Specifically, the Operations division will be streamlined and renamed Digital and Infrastructure. A new division – Business Management and Strategy – will be established, comprising the Finance, Human Resources, Communications, CEO Office and Implementation of Transformation sections and groups, and will ensure integrated business management in line with the defined strategy.",
-      "regulatorCode": "FINMA",
-      "regulatorName": "Swiss Financial Market Supervisory Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-01T11:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.finma.ch/en/news/2026/10/20261001-mm-personalstruktur/",
-      "tags": [
-        "Trade Reporting",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "A563AF0B-AE1E-5F1F-9AE7-136E846DBF2D",
-      "title": "ISDA Launches Digital Emissions Transactions Definitions",
-      "summary": "ISDA has launched a natively digital version of its documentation for emissions allowance transactions, enabling... Read more ISDA Launches Digital Emissions Transactions Definitions",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-01T09:10:58Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/10/01/isda-launches-digital-emissions-transactions-definitions/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "AE3C7BE7-55A9-537E-948E-7E3F77E2879B",
-      "title": "Sources of Changes in Current Account Balances and Market Operations (Sept.)",
-      "summary": "Bank of Japan published: Sources of Changes in Current Account Balances and Market Operations (Sept.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T04:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf09.xlsx",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "B4541C99-9197-5D27-A2D8-6BC0DC56F43C",
-      "title": "Release of Financial Stability Review – October 2026",
-      "summary": "Media release number 2026-28: The RBA today published its October 2026 Financial Stability Review.",
-      "regulatorCode": "RBA",
-      "regulatorName": "Reserve Bank of Australia",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-01T01:30:00Z",
-      "documentType": "Report",
-      "impactScore": 3.5,
-      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-28.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "DE42F3F3-EF05-5FFF-8FA0-C27DB0A8B9D7",
-      "title": "ESMA calls for changes to make MiCA clearer, safer and ready for emerging services",
-      "summary": "ESMA calls for changes to make MiCA clearer, safer and ready for emerging services 30 September 2026 Digital Finance and Innovation Investor protection Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has responded to the European Commission’s public consultation on the review of Markets in Crypto-Assets Regulation (MiCA). ESMA’s recommendations aim to simplify the framework while improving investor protection and addressing innovative business models, such as decentralised finance (DeFi), staking, lending and borrowing. Enhancing investor protection ESMA proposes new safeguards in areas where investors face risks that are not fully covered under the current framework, including: stricter rules for the marketing of crypto-assets, particularly when they are promoted by influencers and third parti",
-      "regulatorCode": "ESMA",
-      "regulatorName": "European Securities and Markets Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-01T00:07:41Z",
-      "documentType": "Publication",
-      "impactScore": 5.1,
-      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-calls-changes-make-mica-clearer-safer-and-ready-emerging-services",
-      "tags": [
-        "Margin",
-        "Capital Requirements",
-        "Cross-border",
-        "Crypto Derivatives"
       ],
       "fullText": null,
       "deadline": null
