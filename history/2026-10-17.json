@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T22:34:49Z",
+  "publications": [
+    {
+      "id": "ADC0ACC6-34C2-52E5-A755-6E6B679E74F8",
+      "title": "Christine Lagarde: IMFC Statement",
+      "summary": "European Central Bank published: Christine Lagarde: IMFC Statement",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-17T05:00:00Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "D2E968E2-1CE7-5DF7-84DB-A5F8321B6387",
+      "title": "New Q&As available",
+      "summary": "New Q&As available 16 October 2026 CCP Digital Finance and Innovation The European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer: Crypto-Asset Service Provider (CASP) Use by CASPs of payment accounts provided by non-bank payment service providers for holding clients’ funds (2949) European crowdfunding service providers for business Crowdfunding service providers that charge registration, membership, or other access fees (\"investment club\" crowdfunding platforms) (2950) OTC derivatives, central counterparties and trade repositories (EMIR) - CCPs AAR 85% exemption (2936) AAR thresholds calculation (2937) AAR representativeness obligation (2938) Questions and Answers section",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-16T22:57:55Z",
+      "documentType": "Guidance",
+      "impactScore": 7.9,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-27",
+      "tags": [
+        "CCP Risk",
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9A1FD311-1A97-5CD4-A84C-79A103AC7B7A",
+      "title": "ESMA finalises the review of guidelines on the delay in disclosure of inside information",
+      "summary": "ESMA finalises the review of guidelines on the delay in disclosure of inside information 16 October 2026 Guidelines and Technical standards Market Abuse Market Integrity Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has updated and streamlined its Market Abuse Regulation (MAR) guidelines on the delay in the disclosure of inside information , completing the revised regulatory framework. Under MAR, issuers are required to disclose as soon as possible the inside information concerning them, to ensure that investors are informed and to prevent insider dealing. In specific circumstances, issuers may delay public disclosure to avoid prejudicing their legitimate interests. These guidelines help issuers in their decision to delay disclosure by providing a non-exhaustive list of legitimate interests t",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-16T22:57:55Z",
+      "documentType": "Final Rule",
+      "impactScore": 7.0,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-finalises-review-guidelines-delay-disclosure-inside-information",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AB355404-44B4-5A89-B030-2E89FE17185C",
+      "title": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen",
+      "summary": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen 16 October 2026 Guidelines and Technical standards Post Trading Press Releases The European Union (EU) will switch to T+1 settlement on 11 October 2027. Ahead of the transition, the European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, calls on market participants to finalise technical preparations, assess readiness across their entire ecosystems and begin testing as soon as possible throughout the trading and settlement chain. With the publication of the RTS and ESMA Guidelines on standardised procedures and messaging protocols , the regulatory framework is now ready. The first deadline is for investment firms and their clients to comply with the new requirements on allocations and confirmations from 7 December 2026. Verena Ross, ESMA’s chair",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-16T22:57:55Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
+}
