@@ -1,121 +1,126 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T23:19:43Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T23:33:38Z",
   "publications": [
     {
-      "id": "CC847CE5-0081-5571-A964-08EA78114F58",
-      "title": "ESMA specifies requirements to facilitate safe use of post-trade risk reduction services",
-      "summary": "ESMA specifies requirements to facilitate safe use of post-trade risk reduction services 20 October 2026 Guidelines and Technical standards Post Trading The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has outlined the conditions that providers and users of post-trade risk reduction (PTRR) services need to meet for certain OTC derivative transactions to be exempt from the clearing obligation under EMIR 3. The new rules, published in its latest final report, also establish safeguards for the provision of these services and the monitoring of the use of the exemption. With these new rules in place, the goal is to facilitate the use of PTRR services and ensure that the exemption is used under the conditions laid down in EMIR 3 and does not lead to the misuse of the clearing obligation. The final report specifies the elements and requi",
-      "regulatorCode": "ESMA",
-      "regulatorName": "European Securities and Markets Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-20T23:19:25Z",
+      "id": "74B4828C-8E62-5DA7-9926-81B497703A75",
+      "title": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on October 22, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Thursday, October 22, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM October 23, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1363",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T19:10:00Z",
       "documentType": "Publication",
-      "impactScore": 7.0,
-      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-specifies-requirements-facilitate-safe-use-post-trade-risk-reduction",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63841",
       "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AD582F48-3278-5083-9172-C1FA7BB83D63",
+      "title": "Minutes of the Monetary Policy Committee Meeting, October 5 to 7, 2026",
+      "summary": "[Under Section 45ZL of the Reserve Bank of India Act, 1934] The sixty third meeting of the Monetary Policy Committee (MPC), constituted under Section 45ZB of the Reserve Bank of India Act, 1934, was held during October 5, 2026. 2. The meeting was chaired by Shri Sanjay Malhotra, Governor and was attended by all the members &ndash; Dr. Nagesh Kumar, Director and Chief Executive, Institute for Studies in Industrial Development, New Delhi; Shri Saugata Bhattacharya, Economist, Mumbai; Professor Ram Singh, Director, Delhi School of Economics, Delhi; Dr. Poonam Gupta, Deputy Governor in charge of monetary policy and Shri Indranil Bhattacharyya, Executive Director (the officer of the Reserve Bank nominated by the Central Board under Section 45ZB(2)(c) of the Reserve Bank of India Act, 1934). 3. According to Section 45ZL of the Reserve Bank of India Act, 1934, the Reserve Bank shall publish, on",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T17:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63839",
+      "tags": [
+        "Margin",
+        "Trade Reporting",
+        "Trading Venues",
+        "Capital Requirements"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "01D351F6-6AD7-56EC-BD5B-4A0127DEFDA5",
+      "title": "Reshaping regulation, deliberately",
+      "summary": "Speech by Sarah Pritchard, deputy chief executive, at Investment Association Annual Dinner 2026. Reform: more than writing rulesIn this sector, we’re just past peak rule making. The scale of change has been significant – and deliberate.But we’re not done yet.We want to see growth that benefits consumers, supports competitiveness and spurs innovation.Building a stronger retail investment culture takes more than piecemeal rule writing.It takes a strategic approach. One that starts with giving consumers the support they need to make informed financial decisions.And understand both the risks of acting – and the costs of not acting.In that vein, we have reformed our advice and guidance rules.We’ve introduced targeted support.And we’ve moved away from prescriptive disclosures, and placed greater emphasis on outcomes through the Consumer Duty.We want to further support innovation and give firms",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-21T13:07:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "801F76EE-725B-5DD5-9037-F7AC9C2A2B4B",
+      "title": "CVM multa em mais de R$ 2,9 milhões acusados de prática de operação fraudulenta e quebra do dever de diligência",
+      "summary": "Colegiado também iniciou julgamento de caso envolvendo KPMG Auditores Independentes Ltda.",
+      "regulatorCode": "CVM",
+      "regulatorName": "Comissão de Valores Mobiliários",
+      "region": "Americas",
+      "publicationDate": "2026-10-21T12:39:52Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.gov.br/cvm/pt-br/assuntos/noticias/cvm-multa-em-mais-de-r-2-9-milhoes-acusados-de-pratica-de-operacao-fraudulenta-e-quebra-do-dever-de-diligencia",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "946E69F7-1DEF-5C63-ABE9-56614C1844FC",
+      "title": "Money Market Operations as on October 20, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Tue, 20/10/2026 1 Wed, 21/10/2026 29,561.00 5.75 4. SDF Δ# Tue, 20/10/2026 1 Wed, 21/10/2026 1,46,888.00 5.25 5. Ne",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T10:45:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63836",
+      "tags": [
+        "Margin",
         "Clearing Obligation",
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "EE970B2F-4924-5903-A03E-1827F42B8544",
-      "title": "CFTC’s Innovation Task Force Announces Agenda & Panelists for Inaugural Frontier Forum on Super Intelligence",
-      "summary": "Commodity Futures Trading Commission published: CFTC’s Innovation Task Force Announces Agenda & Panelists for Inaugural Frontier Forum on Super Intelligence",
-      "regulatorCode": "CFTC",
-      "regulatorName": "Commodity Futures Trading Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-20T18:00:00Z",
-      "documentType": "Statement",
-      "impactScore": 3.0,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9312-26",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5000BEB2-7E05-5D9E-AFBB-B25BC8E707CF",
-      "title": "ISDA, AFME and ISLA Respond to Dutch Ministry of Finance on Dividend Stripping",
-      "summary": "On October 14, ISDA, the Association for Financial Markets in Europe (AFME) and the International... Read more ISDA, AFME and ISLA Respond to Dutch Ministry of Finance on Dividend Stripping",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-20T14:39:13Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/10/20/isda-afme-and-isla-respond-to-dutch-ministry-of-finance-on-dividend-stripping/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "0EE8D10F-D6EC-5E51-B59B-4B25BB1BD27F",
-      "title": "SEC and AMF Announce Supervisory MOU To Enhance Cooperation for Investment Advisers and Investment Service Providers",
-      "summary": "The U.S. Securities and Exchange Commission (SEC) and the French Autorité des Marchés Financiers (AMF) announced that they have entered into a Memorandum of Understanding (MOU) designed to facilitate consultation and information-sharing in the…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-20T13:25:16Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service",
-      "tags": [
         "Trading Venues"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "D62988E4-F9DC-5C5A-B868-CD0ADF38543F",
-      "title": "ISDA Launches AI-driven Traceability Tool for its Digital Regulatory Reporting Solution",
-      "summary": "ISDA has launched an artificial intelligence (AI) agent for its Digital Regulatory Reporting (DRR) solution... Read more ISDA Launches AI-driven Traceability Tool for its Digital Regulatory Reporting Solution",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-20T12:58:51Z",
-      "documentType": "Report",
-      "impactScore": 5.5,
-      "url": "https://www.isda.org/2026/10/20/isda-launches-ai-driven-traceability-tool-for-its-digital-regulatory-reporting-solution/",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "1D87F5C7-9432-5CB2-A7E5-213D5E10B7D2",
-      "title": "SEC, FSA Hold Autumn Financial Regulatory Dialogue",
-      "summary": "The U.S. Securities and Exchange Commission (SEC) and the Financial Services Agency of Japan (FSA) convened the Autumn SEC-FSA Financial Regulatory Dialogue in Tokyo on Oct. 19, 2026.The SEC–FSA Dialogue builds upon longstanding efforts between the two…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-20T12:51:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue",
-      "tags": [
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "03208C66-E7D7-54CE-A071-852510D25328",
-      "title": "FINMA approves Switzerland’s first Bitcoin ETF",
-      "summary": "The Swiss Financial Market Supervisory Authority FINMA has approved the first retail fund to invest directly in Bitcoin, prioritising investor protection and transparency.",
-      "regulatorCode": "FINMA",
-      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "id": "BDB971C2-6A61-5966-AE1B-BCE938CBEF29",
+      "title": "Former chief executive banned after misconduct led to £4m losses in high-risk investments",
+      "summary": "The FCA has banned Jeffrey Dawkins, the former chief executive of Vector Wealth Ltd, after he dishonestly acted as a front for a disqualified director using the company to sell high-risk bonds. Mr Dawkins has also been fined nearly £270,000.In 2019, Mr Dawkins sold Vector Wealth to a disqualified director who described himself as CEO and wanted to use Vector Wealth’s FCA-authorised status to sell mini-bonds.Mr Dawkins told the FCA he was still in charge, but the new “CEO” was really running the firm. This deception allowed the disqualified director to promote mini-bonds using the legitimacy of the firm to make them appear safer than they were.The disqualified director and Kadir Kanizi, a former senior manager at Vector Wealth, promoted the bonds but investors were not properly warned about the risks.Investors put in £105,000 on average, with one investing £1.1 million. Before seeing the ",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
       "region": "Europe",
-      "publicationDate": "2026-10-20T08:00:00Z",
+      "publicationDate": "2026-10-21T10:34:00Z",
       "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.finma.ch/en/news/2026/10/20261020-mm-finma-bitcoin-etf/",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/press-releases/former-chief-executive-banned-after-misconduct-led-4m-losses-high-risk-investments",
+      "tags": [
+        "Trade Reporting",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "20ABFB01-CEBA-5E1D-9D7C-C3C2D751CA51",
+      "title": "Result of the Overnight Variable Rate Repo (VRR) auction held on October 21, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 93,241 Amount allotted (in &#8377; crore) 50,007 Cut off Rate (%) 5.52 Weighted Average Rate (%) 5.52 Partial Allotment Percentage of bids received at cut off rate (%) 87.99 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1357",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T10:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63835",
       "tags": [
         "General"
       ],
@@ -123,16 +128,35 @@
       "deadline": null
     },
     {
-      "id": "85E9DF3C-6028-5FC5-96C7-F1C2250F7F68",
-      "title": "Frank Elderson: Interview with Die Presse",
-      "summary": "European Central Bank published: Frank Elderson: Interview with Die Presse",
+      "id": "02EC149C-2F41-52A0-BF7A-DAAE9114B9ED",
+      "title": "Money Market Operations as on October 19, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,00,613.28 5.56 4.85-6.00 I. Call Money 13,586.97 5.66 4.85-5.75 II. Triparty Repo 5,03,521.05 5.54 5.05-5.70 III. Market Repo 1,77,529.66 5.62 5.00-5.76 IV. Repo in Corporate Bond 5,975.60 5.75 5.00-6.00 B. Term Segment I. Notice Money ** 2,767.44 5.61 4.85-5.70 II. Term Money @@ 966.00 - 5.70-6.20 III. Triparty Repo 1,782.75 5.60 5.41-5.75 IV. Market Repo 440.66 5.97 5.85-5.98 V. Repo in Corporate Bond 40.00 6.35 6.30-6.40 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation M",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63834",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "D1013E3B-75A2-5386-A3CC-F25ABCD1802B",
+      "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+      "summary": "European Central Bank published: Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
       "regulatorCode": "ECB",
       "regulatorName": "European Central Bank",
       "region": "Europe",
-      "publicationDate": "2026-10-20T07:00:00Z",
+      "publicationDate": "2026-10-21T08:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
       "tags": [
         "General"
       ],
@@ -140,16 +164,33 @@
       "deadline": null
     },
     {
-      "id": "A8848B57-B4F3-55F8-93C6-2A858BFA148F",
-      "title": "Bank liquidity regulation and the growth of private credit",
-      "summary": "We study the role of bank liquidity regulation in the growth of private credit. Following the introduction of the liquidity coverage ratio (LCR), private credit increases significantly more in U.S. counties with a larger footprint of banks subject to the LCR or of LCR banks with greater initial liquidity shortfalls.",
-      "regulatorCode": "BIS",
-      "regulatorName": "Bank for International Settlements (BCBS / CPMI / IOSCO joint output)",
+      "id": "4E680CDA-447E-5D77-A3F0-82435E9BEA98",
+      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+      "summary": "European Central Bank published: Philip R. Lane: Euro liquidity lines and the international monetary system",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-21T04:15:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "4F8B3ED9-F997-5C4A-93E3-9742B32F5412",
+      "title": "Innovation and resilience: managing the risks of a changing financial system",
+      "summary": "In this speech at RiskLive Asia 2026, John Schindler, FSB Secretary General, addresses the importance of international organisations in a shifting geopolitical landscape.",
+      "regulatorCode": "FSB",
+      "regulatorName": "Financial Stability Board",
       "region": "International Bodies",
-      "publicationDate": "2026-10-20T00:00:00Z",
+      "publicationDate": "2026-10-21T01:25:00Z",
       "documentType": "Publication",
       "impactScore": 3.5,
-      "url": "https://www.bis.org/publications/bank-liquidity-regulation-and-growth-private-credit",
+      "url": "https://www.fsb.org/2026/10/innovation-and-resilience-managing-the-risks-of-a-changing-financial-system/",
       "tags": [
         "General"
       ],
