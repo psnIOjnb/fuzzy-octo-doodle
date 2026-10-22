@@ -1,89 +1,123 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T23:33:38Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T23:32:05Z",
   "publications": [
     {
-      "id": "74B4828C-8E62-5DA7-9926-81B497703A75",
-      "title": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on October 22, 2026",
-      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Thursday, October 22, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM October 23, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1363",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
+      "id": "0F14683D-A82B-5FC9-9BD2-B6E855BE0A63",
+      "title": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
+      "summary": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
+      "regulatorCode": "SEBI",
+      "regulatorName": "Securities and Exchange Board of India",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-21T19:10:00Z",
+      "publicationDate": "2026-10-22T23:31:12Z",
       "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63841",
+      "impactScore": 5.3,
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
       "tags": [
-        "General"
+        "Margin"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "AD582F48-3278-5083-9172-C1FA7BB83D63",
-      "title": "Minutes of the Monetary Policy Committee Meeting, October 5 to 7, 2026",
-      "summary": "[Under Section 45ZL of the Reserve Bank of India Act, 1934] The sixty third meeting of the Monetary Policy Committee (MPC), constituted under Section 45ZB of the Reserve Bank of India Act, 1934, was held during October 5, 2026. 2. The meeting was chaired by Shri Sanjay Malhotra, Governor and was attended by all the members &ndash; Dr. Nagesh Kumar, Director and Chief Executive, Institute for Studies in Industrial Development, New Delhi; Shri Saugata Bhattacharya, Economist, Mumbai; Professor Ram Singh, Director, Delhi School of Economics, Delhi; Dr. Poonam Gupta, Deputy Governor in charge of monetary policy and Shri Indranil Bhattacharyya, Executive Director (the officer of the Reserve Bank nominated by the Central Board under Section 45ZB(2)(c) of the Reserve Bank of India Act, 1934). 3. According to Section 45ZL of the Reserve Bank of India Act, 1934, the Reserve Bank shall publish, on",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-21T17:00:00Z",
+      "id": "936E9BD4-4E36-5384-B25E-2758EDA806AD",
+      "title": "Market integrity in a digital age",
+      "summary": "Speech by Nikhil Rathi, FCA chief executive at the Corporation of the City of London’s annual City Dinner, Mansion House. The success of the UK’s financial servicesIn August, flight cancellations left my sons and I with an extra day in Boston. A Red Sox game, perhaps?No, the Rathi boys – naturally – headed straight to…the Museum of American Finance.Funded by industry, the museum celebrates the role of finance in American life.Illuminating the powerful benefits of informed risk taking.Three sceptical boys engrossed for nearly 2 hours. I quite enjoyed it too.It struck me though how right George Bernard Shaw was: Britain and America are 2 countries separated by a common language.On this side of the pond, we’re perhaps more reserved, embarrassed even, talking about why finance matters.Yet there’s plenty to cheer.We are the world’s biggest cross-border banking, foreign exchange (FX) and deriv",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-22T22:01:00Z",
       "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63839",
+      "impactScore": 5.0,
+      "url": "https://www.fca.org.uk/news/speeches/market-integrity-digital-age",
       "tags": [
-        "Margin",
         "Trade Reporting",
         "Trading Venues",
-        "Capital Requirements"
+        "Cross-border",
+        "Crypto Derivatives"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "01D351F6-6AD7-56EC-BD5B-4A0127DEFDA5",
-      "title": "Reshaping regulation, deliberately",
-      "summary": "Speech by Sarah Pritchard, deputy chief executive, at Investment Association Annual Dinner 2026. Reform: more than writing rulesIn this sector, we’re just past peak rule making. The scale of change has been significant – and deliberate.But we’re not done yet.We want to see growth that benefits consumers, supports competitiveness and spurs innovation.Building a stronger retail investment culture takes more than piecemeal rule writing.It takes a strategic approach. One that starts with giving consumers the support they need to make informed financial decisions.And understand both the risks of acting – and the costs of not acting.In that vein, we have reformed our advice and guidance rules.We’ve introduced targeted support.And we’ve moved away from prescriptive disclosures, and placed greater emphasis on outcomes through the Consumer Duty.We want to further support innovation and give firms",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
+      "id": "B3F7C05C-C971-59E0-9EFF-708BCFC61CE7",
+      "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+      "summary": "The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
       "region": "Europe",
-      "publicationDate": "2026-10-21T13:07:00Z",
+      "publicationDate": "2026-10-22T20:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/speeches/reshaping-regulation-deliberately",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
       "tags": [
-        "Trade Reporting"
+        "General"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "801F76EE-725B-5DD5-9037-F7AC9C2A2B4B",
-      "title": "CVM multa em mais de R$ 2,9 milhões acusados de prática de operação fraudulenta e quebra do dever de diligência",
-      "summary": "Colegiado também iniciou julgamento de caso envolvendo KPMG Auditores Independentes Ltda.",
-      "regulatorCode": "CVM",
-      "regulatorName": "Comissão de Valores Mobiliários",
-      "region": "Americas",
-      "publicationDate": "2026-10-21T12:39:52Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.gov.br/cvm/pt-br/assuntos/noticias/cvm-multa-em-mais-de-r-2-9-milhoes-acusados-de-pratica-de-operacao-fraudulenta-e-quebra-do-dever-de-diligencia",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "946E69F7-1DEF-5C63-ABE9-56614C1844FC",
-      "title": "Money Market Operations as on October 20, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Tue, 20/10/2026 1 Wed, 21/10/2026 29,561.00 5.75 4. SDF Δ# Tue, 20/10/2026 1 Wed, 21/10/2026 1,46,888.00 5.25 5. Ne",
+      "id": "FC8363CC-BB6C-5D40-B922-E2AF0556CDC8",
+      "title": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on October 23, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Friday, October 23, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 3 9:30 AM to 10:00 AM October 26, 2026 (Monday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1370",
       "regulatorCode": "RBI",
       "regulatorName": "Reserve Bank of India",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-21T10:45:00Z",
+      "publicationDate": "2026-10-22T19:10:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63848",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9C3EFBC4-1182-5F43-94D8-A5FCEC890488",
+      "title": "Leeds office move",
+      "summary": "We have signed an agreement for a new office at 2 Wellington Place, which will become our long-term home in Leeds from 2028. The new office will provide 36,097 sq ft of space for our growing Leeds presence.Our Leeds office, currently at 6 Queen Street, has continued to grow since opening in 2022.Securing a new permanent base reflects our commitment to the city and supports our 5-year strategy ambition to have 1,000 roles based outside London by 2030.There is still some time before the move, and we'll share more about our new office and plans closer to 2028.",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-22T11:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/news-stories/leeds-office-move",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "6191D982-F4B6-5261-8E9C-C3EF29795097",
+      "title": "Result of the Overnight Variable Rate Repo (VRR) auction held on October 22, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 1,62,354 Amount allotted (in &#8377; crore) 50,006 Cut off Rate (%) 5.54 Weighted Average Rate (%) 5.55 Partial Allotment Percentage of bids received at cut off rate (%) 3.2 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1365",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-22T10:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63843",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9F5D7DA3-C32A-5D96-A3CC-0430E81E2F22",
+      "title": "Money Market Operations as on October 21, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 6,95,661.81 5.64 4.85-6.00 I. Call Money 11,933.13 5.65 4.85-5.90 II. Triparty Repo 4,87,398.75 5.64 5.51-5.87 III. Market Repo 1,90,233.33 5.64 5.25-5.95 IV. Repo in Corporate Bond 6,096.60 5.72 5.70-6.00 B. Term Segment I. Notice Money ** 201.00 5.37 5.20-5.56 II. Term Money @@ 290.00 - 5.70-6.15 III. Triparty Repo 2,402.50 5.70 5.60-5.80 IV. Market Repo 1,000.00 5.96 5.92-6.00 V. Repo in Corporate Bond 154.05 6.90 6.90-6.90 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation ",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-22T09:00:00Z",
       "documentType": "Publication",
       "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63836",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63842",
       "tags": [
         "Margin",
         "Clearing Obligation",
@@ -93,16 +127,16 @@
       "deadline": null
     },
     {
-      "id": "BDB971C2-6A61-5966-AE1B-BCE938CBEF29",
-      "title": "Former chief executive banned after misconduct led to £4m losses in high-risk investments",
-      "summary": "The FCA has banned Jeffrey Dawkins, the former chief executive of Vector Wealth Ltd, after he dishonestly acted as a front for a disqualified director using the company to sell high-risk bonds. Mr Dawkins has also been fined nearly £270,000.In 2019, Mr Dawkins sold Vector Wealth to a disqualified director who described himself as CEO and wanted to use Vector Wealth’s FCA-authorised status to sell mini-bonds.Mr Dawkins told the FCA he was still in charge, but the new “CEO” was really running the firm. This deception allowed the disqualified director to promote mini-bonds using the legitimacy of the firm to make them appear safer than they were.The disqualified director and Kadir Kanizi, a former senior manager at Vector Wealth, promoted the bonds but investors were not properly warned about the risks.Investors put in £105,000 on average, with one investing £1.1 million. Before seeing the ",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-21T10:34:00Z",
+      "id": "33EC1118-7A47-56DD-8A12-D73593A4D853",
+      "title": "SFC commences MMT proceedings against GEM-listed Taste•Gourmet’s top executives and associates over alleged manipulation scheme for Main Board transfer",
+      "summary": "Securities and Futures Commission published: SFC commences MMT proceedings against GEM-listed Taste•Gourmet’s top executives and associates over alleged manipulation scheme for Main Board transfer",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-22T08:20:23Z",
       "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/press-releases/former-chief-executive-banned-after-misconduct-led-4m-losses-high-risk-investments",
+      "impactScore": 3.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR173",
       "tags": [
         "Trade Reporting",
         "Market Conduct"
@@ -111,52 +145,16 @@
       "deadline": null
     },
     {
-      "id": "20ABFB01-CEBA-5E1D-9D7C-C3C2D751CA51",
-      "title": "Result of the Overnight Variable Rate Repo (VRR) auction held on October 21, 2026",
-      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 93,241 Amount allotted (in &#8377; crore) 50,007 Cut off Rate (%) 5.52 Weighted Average Rate (%) 5.52 Partial Allotment Percentage of bids received at cut off rate (%) 87.99 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1357",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
+      "id": "16B19DB5-1B76-531B-AFB9-6095A524BDE4",
+      "title": "Japanese Government Bonds Held by the Bank of Japan",
+      "summary": "Bank of Japan published: Japanese Government Bonds Held by the Bank of Japan",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-21T10:25:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63835",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "02EC149C-2F41-52A0-BF7A-DAAE9114B9ED",
-      "title": "Money Market Operations as on October 19, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,00,613.28 5.56 4.85-6.00 I. Call Money 13,586.97 5.66 4.85-5.75 II. Triparty Repo 5,03,521.05 5.54 5.05-5.70 III. Market Repo 1,77,529.66 5.62 5.00-5.76 IV. Repo in Corporate Bond 5,975.60 5.75 5.00-6.00 B. Term Segment I. Notice Money ** 2,767.44 5.61 4.85-5.70 II. Term Money @@ 966.00 - 5.70-6.20 III. Triparty Repo 1,782.75 5.60 5.41-5.75 IV. Market Repo 440.66 5.97 5.85-5.98 V. Repo in Corporate Bond 40.00 6.35 6.30-6.40 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation M",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-21T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63834",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D1013E3B-75A2-5386-A3CC-F25ABCD1802B",
-      "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
-      "summary": "European Central Bank published: Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-21T08:00:00Z",
+      "publicationDate": "2026-10-22T08:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261020.xlsx",
       "tags": [
         "General"
       ],
@@ -164,16 +162,16 @@
       "deadline": null
     },
     {
-      "id": "4E680CDA-447E-5D77-A3F0-82435E9BEA98",
-      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "summary": "European Central Bank published: Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-21T04:15:00Z",
+      "id": "FAF2A93C-C616-533B-AB5C-5F20B4962C7C",
+      "title": "Developments in Real Exports and Real Imports",
+      "summary": "Bank of Japan published: Developments in Real Exports and Real Imports",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-22T07:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+      "url": "http://www.boj.or.jp/en/research/research_data/reri/index.htm",
       "tags": [
         "General"
       ],
@@ -181,16 +179,50 @@
       "deadline": null
     },
     {
-      "id": "4F8B3ED9-F997-5C4A-93E3-9742B32F5412",
-      "title": "Innovation and resilience: managing the risks of a changing financial system",
-      "summary": "In this speech at RiskLive Asia 2026, John Schindler, FSB Secretary General, addresses the importance of international organisations in a shifting geopolitical landscape.",
-      "regulatorCode": "FSB",
-      "regulatorName": "Financial Stability Board",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-21T01:25:00Z",
+      "id": "7840E573-52FF-514C-89CF-CF023344B161",
+      "title": "Bank of Japan Accounts (October 20)",
+      "summary": "Bank of Japan published: Bank of Japan Accounts (October 20)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-22T01:00:00Z",
       "documentType": "Publication",
-      "impactScore": 3.5,
-      "url": "https://www.fsb.org/2026/10/innovation-and-resilience-managing-the-risks-of-a-changing-financial-system/",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261020.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "7AEECF75-460B-5443-A8F9-39E6A3636F94",
+      "title": "Senior Loan Officer Opinion Survey (Oct.)",
+      "summary": "Bank of Japan published: Senior Loan Officer Opinion Survey (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/dl/loan/loos/release/loos2610.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AE44CF25-3E83-5F49-B401-36F605259B9B",
+      "title": "Statistics on Securities Financing Transactions in Japan",
+      "summary": "Bank of Japan published: Statistics on Securities Financing Transactions in Japan",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-21T23:50:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "http://www.boj.or.jp/en/statistics/bis/repo/index.htm",
       "tags": [
         "General"
       ],
