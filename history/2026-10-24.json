@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T22:41:23Z",
+  "publications": [
+    {
+      "id": "2339C4CA-206F-58A1-BD47-C8D36DC9BDFF",
+      "title": "FSB Regional Consultative Group for Sub-Saharan Africa meets in Maseru",
+      "summary": "Central Bank of Lesotho hosts the FSB Sub-Saharan Africa group in Maseru.",
+      "regulatorCode": "FSB",
+      "regulatorName": "Financial Stability Board",
+      "region": "International Bodies",
+      "publicationDate": "2026-10-24T11:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.5,
+      "url": "https://www.fsb.org/2026/10/fsb-regional-consultative-group-for-sub-saharan-africa-meets-in-maseru/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "ABF70B6D-6C49-580B-B992-8A4C439188A9",
+      "title": "Piero Cipollone: Interview with Milano Finanza",
+      "summary": "European Central Bank published: Piero Cipollone: Interview with Milano Finanza",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-24T06:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
+}

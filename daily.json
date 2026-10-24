@@ -1,263 +1,37 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T23:23:43Z",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T22:41:23Z",
   "publications": [
     {
-      "id": "936F5298-5DED-5E80-A37B-131E21D52F75",
-      "title": "ESMA streamlines several Q&As as part of simplification efforts",
-      "summary": "ESMA streamlines several Q&As as part of simplification efforts 22 October 2026 Market Abuse MiFID - Secondary Markets Short Selling Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has updated its Questions and Answers (Q&As) on market structure under MiFID II , the Market Abuse Regulation (MAR) and the Short Selling Regulation (SSR) , removing outdated, duplicative and no longer relevant guidance as part of its Simplification and Burden Reduction (SBR) initiative . The exercise focused on identifying Q&As that are no longer relevant due to legislative amendments that are reflected in established market practices, or that are covered by other ESMA guidance. As a result, several Q&As have been withdrawn or amended, including instances where the same issues are addressed in other ESMA publications such as supervisor",
-      "regulatorCode": "ESMA",
-      "regulatorName": "European Securities and Markets Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-23T23:23:25Z",
-      "documentType": "Guidance",
-      "impactScore": 5.5,
-      "url": "https://www.esma.europa.eu/press-news/esma-news/esma-streamlines-several-qas-part-simplification-efforts",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "4B31B1B0-EB66-584A-9F96-B254ECCA4C97",
-      "title": "RBI to conduct 4-day Variable Rate Repo (VRR) auction under LAF on October 26, 2026",
-      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Monday, October 26, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 1,50,000 4 9:30 AM to 10:00 AM October 30, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1383",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-23T19:25:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63861",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "155CE298-223D-5D43-B527-5F6670132A4A",
-      "title": "RBI Bulletin – October 2026",
-      "summary": "Today, the Reserve Bank released the October 2026 issue of its monthly Bulletin. The Bulletin includes two speeches, four articles and current statistics. The four articles are: I. State of the Economy; II. Transmission to Lending Rates of SCBs: Price versus Composition Effects in WALR; III. Performance of the NBFC Sector: Review for 2025; and IV. Nowcasting State-Level Economic Activity in India with Night-Time Light and Google Trends. I. State of the Economy Renewed geopolitical frictions in West Asia and supply chain disruptions have amplified inflationary pressures, prompting major central banks to raise policy rates. Elevated sovereign bond yields in advanced economies (AEs) have also brought into focus concerns about fiscal sustainability and its implications for financial stability. The Indian economy continued to demonstrate strength as evidenced by high-frequency indicators acro",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-23T17:50:00Z",
-      "documentType": "Report",
-      "impactScore": 5.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63859",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "4F8FB16D-3B80-5F03-944D-76E7F214DE8B",
-      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-      "summary": "1. Reserve Bank of India - Liabilities and Assets* (&#8377; Crore) Item 2025 2026 Variation Oct. 17 Oct. 9 Oct. 16 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government - 0 0 0 0 4.2 State Governments 30095 58569 29700 -28869 -395 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on October 16, 2026 Variation over Week End-March 2026 Year &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 6846160 721016 -176258 -5011 292298 29909 668188 18736 1.1 Foreign Currency Assets # 5619655 591847 -160658 -5758 382288 39565 601720 21437 1.2 Gold 1004583 105800 -11937 706 -89726 -9595 49697 -2746 1.3 SDRs 176396 18578 -3008 30 -193 -44 11700 -144 1.4 Reserve Position in the IMF 45525 4791 -655 11 -70 -17 5072 189 * Difference, if any, is due to rounding off. # Excludes (a) ",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-23T17:00:00Z",
-      "documentType": "Report",
-      "impactScore": 6.3,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63855",
-      "tags": [
-        "Margin",
-        "Trade Reporting",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "2F938503-9B21-5060-8C10-5EF29FF6FAE0",
-      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
-      "summary": "The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-23T14:10:00Z",
-      "documentType": "Statement",
-      "impactScore": 4.5,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
-      "tags": [
-        "Trading Venues",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C8D502B7-E3D7-57EE-9B88-59141677F17B",
-      "title": "OSFI Superintendent Peter Routledge to speak and hold media scrum at the 2026 Tech Festival in Toronto",
-      "summary": "OSFI Superintendent Peter Routledge to speak and hold media scrum at the 2026 Tech Festival in Toronto Pauline.Semaan@osfi-bsif.gc.ca Fri, 10/23/2026 - 10:05 Date October 23, 2026 Link /en/news/osfi-superintendent-peter-routledge-speak-hold-media-scrum-2026-tech-f…",
-      "regulatorCode": "OSFI",
-      "regulatorName": "Office of the Superintendent of Financial Institutions",
-      "region": "Americas",
-      "publicationDate": "2026-10-23T14:05:45Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.osfi-bsif.gc.ca/en/osfi-superintendent-peter-routledge-speak-hold-media-scrum-2026-tech-festival-toronto",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "A22539E3-5844-5FD0-85EF-9F0477F77261",
-      "title": "FCA calls on private market firms to manage conflicts of interest in line with rapid growth",
-      "summary": "Private market firms vary in how well they identify and manage conflicts of interest, according to an FCA review. Private markets refer to investments in assets, companies, or debt not listed or traded on public exchanges. They’ve grown significantly in recent years, and the UK is a leading international centre. Private markets play an increasingly important role in providing capital to businesses and opportunities for returns to investors. Private markets can give rise to conflicts that differ from those in public markets, and effective disclosure is important to enable investors to assess whether their interests are being protected.The FCA found examples of good practice by firms across private equity, private credit and real estate asset classes. These included strong governance arrangements, effective oversight and independent challenge. It also identified some areas where firms coul",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-23T11:31:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.1,
-      "url": "https://www.fca.org.uk/news/press-releases/fca-calls-private-market-firms-manage-conflicts-interest-line-rapid-growth",
-      "tags": [
-        "Trading Venues",
-        "Capital Requirements"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "758EF7FE-FB70-5B6D-BF2D-53ED2192C2F5",
-      "title": "Beyond borders: Regulating the risks we share",
-      "summary": "Speech by Ashley Alder, FCA Chair, at the Michael D. Gill Lecture on International Financial Regulatory Understanding and Cooperation. I wasn’t fortunate enough to work as closely with Mike as many of you in this room.But I knew him well enough during my time with the IOSCO board to appreciate someone who was kind and unassuming, whilst being absolutely determined to make lives better through his work.He personified the very best attributes of dedicated public service.In his 2024 lecture Andrew Bailey described Mike as a passionate internationalist, and reflected on what this meant for the UK after the Brexit referendum.Two years on, the values that Mike championed are even more on point.Mike understood implicitly that relationships between regulators are about so much more than institutional goodwill – they depend on trust, candour and constructive practical action.That’s an aspect of h",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-23T11:18:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/speeches/beyond-borders-regulating-risks-we-share",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "45F37DEA-2405-550B-A28C-51F63E788C1A",
-      "title": "FCA restricts 6 firms following concerns over anti-money laundering controls",
-      "summary": "Restrictions have been placed on 6 unregulated lenders, known as Annex 1 firms, after the FCA raised concerns about their anti-money laundering policies, controls and procedures while assessing their applications. The restrictions were imposed by the FCA on each firm’s request and limit their ability to take on new customers or do new business with existing customers, including extending existing credit.This action forms part of the FCA’s enhanced oversight of Annex 1 firms. These firms operate in sectors that can present a heightened risk of money laundering and other financial crime and are required to register with the FCA for supervision under the Money Laundering Regulations. They are not authorised or subject to wider FCA regulation.The FCA has previously warned Annex 1 firms that they will be subject to increased scrutiny. They must be able to demonstrate they understand the finan",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-23T09:47:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.6,
-      "url": "https://www.fca.org.uk/news/press-releases/fca-restricts-6-firms-following-concerns-over-anti-money-laundering-controls",
-      "tags": [
-        "Trade Reporting",
-        "Capital Requirements"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C37F59A1-0219-5C33-84B4-E6472531AB13",
-      "title": "ISDA Derivatives Trading Forum Tokyo: Scott O’Malia Opening Remarks",
-      "summary": "ISDA Derivatives Trading Forum Tokyo, October 23, 2026 Opening Remarks Scott O’Malia ISDA Chief Executive... Read more ISDA Derivatives Trading Forum Tokyo: Scott O'Malia Opening Remarks",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
+      "id": "2339C4CA-206F-58A1-BD47-C8D36DC9BDFF",
+      "title": "FSB Regional Consultative Group for Sub-Saharan Africa meets in Maseru",
+      "summary": "Central Bank of Lesotho hosts the FSB Sub-Saharan Africa group in Maseru.",
+      "regulatorCode": "FSB",
+      "regulatorName": "Financial Stability Board",
       "region": "International Bodies",
-      "publicationDate": "2026-10-23T09:27:18Z",
-      "documentType": "Speech",
-      "impactScore": 4.0,
-      "url": "https://www.isda.org/2026/10/23/isda-derivatives-trading-forum-tokyo-scott-omalia-opening-remarks-3/",
+      "publicationDate": "2026-10-24T11:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.5,
+      "url": "https://www.fsb.org/2026/10/fsb-regional-consultative-group-for-sub-saharan-africa-meets-in-maseru/",
       "tags": [
-        "Trade Reporting"
+        "General"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "E187F140-12BC-5F44-81E7-B6B88953E5E7",
-      "title": "ECB Consumer Expectations Survey results – September 2026",
-      "summary": "European Central Bank published: ECB Consumer Expectations Survey results – September 2026",
+      "id": "ABF70B6D-6C49-580B-B992-8A4C439188A9",
+      "title": "Piero Cipollone: Interview with Milano Finanza",
+      "summary": "European Central Bank published: Piero Cipollone: Interview with Milano Finanza",
       "regulatorCode": "ECB",
       "regulatorName": "European Central Bank",
       "region": "Europe",
-      "publicationDate": "2026-10-23T08:00:00Z",
+      "publicationDate": "2026-10-24T06:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
       "tags": [
         "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "77AEDD81-8614-5032-B7A3-7FF05262E852",
-      "title": "Transforming Asset Management: Scott O’Malia Welcoming Remarks",
-      "summary": "Transforming Asset Management October 23, 2026 Welcoming Remarks Scott O’Malia, ISDA CEO Good morning,... Read more Transforming Asset Management: Scott O'Malia Welcoming Remarks",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-23T07:08:13Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/10/23/transforming-asset-management-scott-omalia-welcoming-remarks/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "86B2445A-DFE1-5671-AEC1-EE69BF2BDE2E",
-      "title": "Financial System Report (October 2026)",
-      "summary": "Bank of Japan published: Financial System Report (October 2026)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-23T06:00:00Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "http://www.boj.or.jp/en/research/brp/fsr/fsr261023.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "CB453363-C16A-5EC5-BD98-748A382F16E8",
-      "title": "News shocks and inflation: theory and evidence from large oil discoveries",
-      "summary": "We study hownews shocks affect inflation in open economies, using large oil and gas discoveries with realized production lags of at least five years as observable news about future output. Panel local projections show that discoveries raise core consumer prices over the subsequent decade, with about half the increase occurring prior to extraction.",
-      "regulatorCode": "BIS",
-      "regulatorName": "Bank for International Settlements (BCBS / CPMI / IOSCO joint output)",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-23T00:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.5,
-      "url": "https://www.bis.org/publications/working-paper-1389-news-shocks-and-inflation-theory-and-evidence-from-large-oil-discoveries",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "0F14683D-A82B-5FC9-9BD2-B6E855BE0A63",
-      "title": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
-      "summary": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
-      "regulatorCode": "SEBI",
-      "regulatorName": "Securities and Exchange Board of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-22T23:31:12Z",
-      "documentType": "Publication",
-      "impactScore": 5.3,
-      "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
-      "tags": [
-        "Margin"
       ],
       "fullText": null,
       "deadline": null
