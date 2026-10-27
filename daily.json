@@ -1,5 +1,268 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T22:45:42Z",
-  "publications": []
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T00:01:50Z",
+  "publications": [
+    {
+      "id": "8C48009A-8DA1-5734-80A9-18DB66F97068",
+      "title": "Services Producer Price Index (Sept.)",
+      "summary": "Bank of Japan published: Services Producer Price Index (Sept.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2609.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9448B456-D147-5389-8FCA-5A0857DD7937",
+      "title": "Auction of Government of India Dated Securities",
+      "summary": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of &#8377;33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (&#8377; Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated October 26, 2026 October 30, 2026 (Friday) November 02, 2026 (Monday) 2 6.57% GS 2033 Aug 17, 2033 12,000 3 7.63% GS 2056 Sep 15, 2056 9,000 4 7.50% GOI SGrB 2056 Apr 27, 2056 3,000 Total 33,000 2. GoI will have the option to retain additional subscription up to &#8377;2,000 crore against each security mentioned above. 3. The securities will be sold through Reserve Bank of India Mumbai Office, Fort, Mumbai &ndash; 400001. The sale will be subject to the terms and conditions spelt out in the &lsquo;Specific Notification' mentioned above and the General",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T18:20:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63868",
+      "tags": [
+        "Trade Reporting",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "C754D262-3948-5F78-9D84-8E40509AA461",
+      "title": "Plan Assessment Rate Schedule - Pooled Registered Pension Plans Act",
+      "summary": "Plan Assessment Rate Schedule - Pooled Registered Pension Plans Act Melody.Mazerolle@osfi-bsif.gc.ca Mon, 10/26/2026 - 10:07 Date October 26, 2026 Link /en/supervision/pensions/administering-pension-plans/guidance-topic/plan-assess…",
+      "regulatorCode": "OSFI",
+      "regulatorName": "Office of the Superintendent of Financial Institutions",
+      "region": "Americas",
+      "publicationDate": "2026-10-26T14:07:35Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.osfi-bsif.gc.ca/en/plan-assessment-rate-schedule-pooled-registered-pension-plans-act",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E9B14A66-17FE-5217-A8DA-82E58B18E72D",
+      "title": "Pension Plan Assessment Rate Schedule - Pension Benefits Standards Act, 1985",
+      "summary": "Pension Plan Assessment Rate Schedule - Pension Benefits Standards Act, 1985 Melody.Mazerolle@osfi-bsif.gc.ca Mon, 10/26/2026 - 10:04 Date October 26, 2026 Link /en/supervision/pensions/administering-pension-plans/guidance-topic/pension-pla…",
+      "regulatorCode": "OSFI",
+      "regulatorName": "Office of the Superintendent of Financial Institutions",
+      "region": "Americas",
+      "publicationDate": "2026-10-26T14:04:11Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.osfi-bsif.gc.ca/en/pension-plan-assessment-rate-schedule-pension-benefits-standards-act-1985",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "5955514C-090C-54A2-AA74-607DC04A0CB6",
+      "title": "CFTC and National Basketball Association Sign MOU to Protect Integrity in Professional Basketball",
+      "summary": "Commodity Futures Trading Commission published: CFTC and National Basketball Association Sign MOU to Protect Integrity in Professional Basketball",
+      "regulatorCode": "CFTC",
+      "regulatorName": "Commodity Futures Trading Commission",
+      "region": "Americas",
+      "publicationDate": "2026-10-26T14:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9314-26",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3C2F28ED-5B73-5624-8BE2-EDDC6C865D53",
+      "title": "Defence SMEs need banking services that work",
+      "summary": "The UK's most innovative businesses often start small.Before they can develop new technologies, win contracts or expand into new markets, they need access to banking services to help them operate, invest and grow.Access to financial services can be easy to take for granted. When those services work well they're almost invisible. However, when access becomes difficult or delayed, the effects can extend far beyond a single business.Small-to-medium sized enterprises (SMEs) operating in or providing services to the defence sector play an important role in innovation and growth.But these businesses do more than contribute to economic growth. Many are helping to develop the technologies, expertise and capabilities that support the UK's national resilience and security.Banking services are part of that story. They help businesses secure contracts, invest in new opportunities and grow. They are ",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-26T11:01:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/blogs/defence-smes-need-banking-services-work",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "8C7EFED1-B0F6-51A4-9353-EEC3D834FDFA",
+      "title": "Money Market Operations as on October 25, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sun, 25/10/2026 1 Mon, 26/10/2026 29,479.00 5.75 4. SDF Δ# Sun, 25/10/2026 1 Mon, 26/10/2026 2,01,337.00 5.25 5. Ne",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T10:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63866",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "BB39F97D-5566-57A7-B541-1D69AF86FBCD",
+      "title": "Money Market Operations as on October 24, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sat, 24/10/2026 1 Sun, 25/10/2026 28,311.00 5.75 Sat, 24/10/2026 2 Mon, 26/10/2026 0.00 5.75 4. SDF Δ# Sat, 24/10/2",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T10:45:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63865",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "18F83786-B99D-53F4-9410-F42C5486A37A",
+      "title": "Result of the 4-day Variable Rate Repo (VRR) auction held on October 26, 2026",
+      "summary": "Tenor 4-day Notified Amount (in &#8377; crore) 1,50,000 Total amount of bids received (in &#8377; crore) 1,86,666 Amount allotted (in &#8377; crore) 1,50,007 Cut off Rate (%) 5.55 Weighted Average Rate (%) 5.59 Partial Allotment Percentage of bids received at cut off rate (%) 85.07 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1386",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T10:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63864",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "59543BF7-CDDB-5A49-8804-5417BCF3625D",
+      "title": "Chandler King (City) Limited enters creditors’ voluntary liquidation",
+      "summary": "On 17 September 2026, Chandler King (City) Limited (Chandler King) went into creditors’ voluntary liquidation. Grace Jones and Karyn Jones of Parker Andrews were appointed as joint liquidators. Chandler King, an FCA-authorised firm, was an independent financial adviser which advised on investments and pensions. On 28 April 2026, Chandler King agreed to a voluntary requirement with the FCA, which restricted its activities. Before entering liquidation, Chandler King applied to cancel its FCA permissions, which is subject to review by the FCA.",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-26T10:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/news-stories/chandler-king-enters-creditors-voluntary-liquidation",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "5E389E43-7E17-5105-AFB6-6C0162B12C25",
+      "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+      "summary": "European Central Bank published: Survey on the Access to Finance of Enterprises: lending conditions tightened",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-26T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "166EB1EC-7593-5C99-B4BC-482F5F3DC485",
+      "title": "Money Market Operations as on October 23, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,08,940.38 5.74 4.30-6.25 I. Call Money 11,386.30 5.78 4.30-5.95 II. Triparty Repo 4,78,984.90 5.75 5.69-5.94 III. Market Repo 2,09,514.78 5.71 4.75-5.95 IV. Repo in Corporate Bond 9,054.40 5.89 5.80-6.25 B. Term Segment I. Notice Money ** 4,137.93 5.73 4.00-5.95 II. Term Money @@ 406.50 - 5.70-7.80 III. Triparty Repo 3,585.00 5.81 5.60-5.90 IV. Market Repo 1,263.13 5.96 5.85-5.97 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation Fri, 23/10/",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63863",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A5B64668-C045-525C-A60B-0E7F480AD8C2",
+      "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
+      "summary": "European Central Bank published: Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-26T05:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "51ADC3DF-A358-54CB-B3A3-9C34A21B5439",
+      "title": "SFC approves first-ever secondary trading of tokenised public funds",
+      "summary": "Securities and Futures Commission published: SFC approves first-ever secondary trading of tokenised public funds",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-26T03:50:08Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR174",
+      "tags": [
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "BDCEAE5A-CBDC-5885-ABF6-4A7A151A4735",
+      "title": "Chokepoints in global supply chains: lessons from rare earths and hard disk drives",
+      "summary": "Concentration and limited substitutability can turn the efficiency gains from global supply chains into vulnerabilities. However, the consequences of chokepoints depend on their underlying nature.",
+      "regulatorCode": "BIS",
+      "regulatorName": "Bank for International Settlements (BCBS / CPMI / IOSCO joint output)",
+      "region": "International Bodies",
+      "publicationDate": "2026-10-26T00:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.5,
+      "url": "https://www.bis.org/publications/bulletin-139-chokepoints-global-supply-chains-lessons-rare-earths-and-hard-disk-drives",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
 }
