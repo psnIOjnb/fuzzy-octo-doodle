@@ -1,36 +1,36 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T23:56:30Z",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T00:17:53Z",
   "publications": [
     {
-      "id": "2A88A626-BD3F-564B-A2C2-2261566BD3CE",
-      "title": "Reserve Bank holds 36 th Conference of State Finance Secretaries",
-      "summary": "The 36 th Conference of State Finance Secretaries was held on October 27, 2026 at RBI, Mumbai. The theme of the Conference was &lsquo;Role of Quality of Expenditure, Effective Cash and Prudent Debt Management in Enhancing States' Fiscal Sustainability'. The Conference was attended by the Finance Secretaries of 27 States and three Union Territories as well as senior officials from the Ministry of Finance, Government of India, Controller General of Accounts and the Comptroller and Auditor General of India. Governor, Reserve Bank of India inaugurated the Conference. Addressing the participants, the Governor emphasised the importance of maintaining the quality of expenditure to ensure the long-term fiscal health of the States. He also emphasised on the need for the States to adopt prudent borrowing strategies and efficient cash management practices. The Governor urged the States to onboard o",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
+      "id": "8C327C5F-4009-577C-B4F2-18F6E19D0CED",
+      "title": "SEBI signs MoU with BoE on cooperation and exchange of information related to SEBI-recognised Clearing Corporations",
+      "summary": "SEBI signs MoU with BoE on cooperation and exchange of information related to SEBI-recognised Clearing Corporations",
+      "regulatorCode": "SEBI",
+      "regulatorName": "Securities and Exchange Board of India",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-27T18:15:00Z",
+      "publicationDate": "2026-10-29T00:17:37Z",
       "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63873",
+      "impactScore": 5.1,
+      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/sebi-signs-mou-with-boe-on-cooperation-and-exchange-of-information-related-to-sebi-recognised-clearing-corporations_105473.html",
       "tags": [
-        "Trade Reporting",
-        "Benchmarks"
+        "Clearing Obligation",
+        "Trading Venues"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "B384513F-FBF3-56E5-8023-1ED779FDB1D8",
-      "title": "CFTC Announces Semiweekly Publication of the COT Report",
-      "summary": "Commodity Futures Trading Commission published: CFTC Announces Semiweekly Publication of the COT Report",
-      "regulatorCode": "CFTC",
-      "regulatorName": "Commodity Futures Trading Commission",
+      "id": "F53BEE39-78D8-5291-BFB0-29053EA1AFB5",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
       "region": "Americas",
-      "publicationDate": "2026-10-27T17:47:15Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9316-26",
+      "publicationDate": "2026-10-28T18:00:00Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "tags": [
         "General"
       ],
@@ -38,85 +38,135 @@
       "deadline": null
     },
     {
-      "id": "34A0BB9F-1BA6-5DD3-B39A-EA094C53A6CC",
-      "title": "Accounting for Tokenized Assets as Collateral",
-      "summary": "The use of tokenized assets as collateral for derivatives and securities financing transactions (SFTs) is... Read more Accounting for Tokenized Assets as Collateral",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-27T14:18:12Z",
-      "documentType": "Publication",
-      "impactScore": 5.5,
-      "url": "https://www.isda.org/2026/10/27/accounting-for-tokenized-assets-as-collateral/",
-      "tags": [
-        "Margin",
-        "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "68E608F7-FF14-54E2-A293-2F9FC69EB5B2",
-      "title": "ISDA-Actrix US Treasury Repo Market Clearing Indicators September 2026",
-      "summary": "The ISDA-Actrix US Treasury Repo Market Clearing Indicators illustrate central clearing adoption in the US... Read more ISDA-Actrix US Treasury Repo Market Clearing Indicators September 2026",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-27T13:20:34Z",
-      "documentType": "Publication",
-      "impactScore": 5.6,
-      "url": "https://www.isda.org/2026/10/27/isda-actrix-us-treasury-repo-market-clearing-indicators-september-2026/",
-      "tags": [
-        "Clearing Obligation"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "98A30A37-69E3-5E58-BF79-2B9B38671D78",
-      "title": "CFTC Sues to Block State Enforcement in Utah Amid Ongoing Efforts to Preserve Jurisdiction",
-      "summary": "Commodity Futures Trading Commission published: CFTC Sues to Block State Enforcement in Utah Amid Ongoing Efforts to Preserve Jurisdiction",
+      "id": "66C6C1D9-B7DA-57E4-B801-CD56166702D3",
+      "title": "CFTC to Host Roundtable on 24/7 Trading",
+      "summary": "Commodity Futures Trading Commission published: CFTC to Host Roundtable on 24/7 Trading",
       "regulatorCode": "CFTC",
       "regulatorName": "Commodity Futures Trading Commission",
       "region": "Americas",
-      "publicationDate": "2026-10-27T12:58:38Z",
+      "publicationDate": "2026-10-28T17:00:53Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.cftc.gov/PressRoom/PressReleases/9315-26",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9318-26",
       "tags": [
-        "Market Conduct"
+        "General"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "E693129D-4F61-59D3-BBB0-EF98D91970F7",
-      "title": "Bullseye Financial Ltd enters administration",
-      "summary": "On 23 October 2026, Bullseye Financial Ltd (Bullseye Financial) entered administration. Robert Young of Azets Holdings Limited and Matthew Haw of RSM UK Restructuring Advisory LLP were appointed as joint administrators. The joint administrators are responsible for managing the affairs of the firm during the administration process.Bullseye Financial is authorised by the FCA. It served only professional investors, either managing investment portfolios for them within agreed limits or carrying out their instructions to buy or sell investments without giving investment advice.On 11 March 2026, Bullseye Financial agreed to a voluntary requirement to stop carrying out any regulated activity.Below we set out:How to contact the joint administrators.Support for customers.What to do if you are concerned about your investments.What to do if you have a complaint with the firm.How to protect yourself",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
+      "id": "8BD1DBE2-EA2D-50EA-ACF5-A5C59CC43A86",
+      "title": "ISDA/AFMA Sydney Derivatives Trading Forum: Scott O’Malia Opening Remarks",
+      "summary": "ISDA/AFMA Sydney Derivatives Trading Forum October 26, 2026 Opening Remarks Scott O’Malia ISDA Chief Executive... Read more ISDA/AFMA Sydney Derivatives Trading Forum: Scott O'Malia Opening Remarks",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-10-28T14:38:00Z",
+      "documentType": "Speech",
+      "impactScore": 4.0,
+      "url": "https://www.isda.org/2026/10/28/isda-afma-sydney-derivatives-trading-forum-scott-omalia-opening-remarks/",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A4EAE2BA-210F-5A0D-9A7C-2052AE86CB47",
+      "title": "Remit for the Monetary Policy Committee - October 2026",
+      "summary": "Letter from the Chancellor to the Governor",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
       "region": "Europe",
-      "publicationDate": "2026-10-27T12:15:00Z",
+      "publicationDate": "2026-10-28T14:16:49Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/news-stories/bullseye-financial-ltd-enters-administration",
+      "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
       "tags": [
-        "Market Conduct"
+        "General"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "54F30150-8F20-5297-8986-88F5EF6A91ED",
-      "title": "Money Market Operations as on October 26, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 6,99,171.74 5.74 4.30-6.05 I. Call Money 14,747.62 5.81 4.30-5.90 II. Triparty Repo 4,88,510.00 5.74 5.70-5.86 III. Market Repo 1,88,232.47 5.72 4.90-5.95 IV. Repo in Corporate Bond 7,681.65 5.87 5.80-6.05 B. Term Segment I. Notice Money ** 98.00 5.30 5.25-5.65 II. Term Money @@ 358.00 - 5.85-6.10 III. Triparty Repo 796.65 5.75 5.70-5.90 IV. Market Repo 655.71 5.94 5.93-5.95 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation Mon, 26/10/2026 4 ",
+      "id": "3DB1E959-72B4-5E6D-9177-F055CD7B9633",
+      "title": "ISDA Publishes FpML Version 5.14",
+      "summary": "ISDA has published a new version of its Financial products Markup Language (FpML), a widely... Read more ISDA Publishes FpML Version 5.14",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-10-28T14:15:59Z",
+      "documentType": "Publication",
+      "impactScore": 5.0,
+      "url": "https://www.isda.org/2026/10/28/isda-publishes-fpml-version-5-14/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "54D81EA4-9FCB-5135-A9AC-7F3AC420EC68",
+      "title": "SFC issues guidance to support enhancements to Hong Kong’s retail fund regime",
+      "summary": "Securities and Futures Commission published: SFC issues guidance to support enhancements to Hong Kong’s retail fund regime",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-28T11:18:53Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR176",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "719ABC7E-EA03-5681-B12D-5FB430E2D194",
+      "title": "Supplemental circular to management companies of SFC-authorised funds on liquidity risk management",
+      "summary": "Securities and Futures Commission published: Supplemental circular to management companies of SFC-authorised funds on liquidity risk management",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-28T10:21:40Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/doc?refNo=26EC67",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3EC1901B-68CC-55F1-9A8A-8384F30E81B1",
+      "title": "Circular to applicants seeking SFC authorisation of unit trusts and mutual funds - Launch of a new Fund Authorisation Simple Track (FASTrack)",
+      "summary": "Securities and Futures Commission published: Circular to applicants seeking SFC authorisation of unit trusts and mutual funds - Launch of a new Fund Authorisation Simple Track (FASTrack)",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-28T10:19:29Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/doc?refNo=26EC68",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E45BEE30-FF4B-5E24-B9AD-88FB07D94989",
+      "title": "Money Market Operations as on October 27, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,17,097.85 5.64 4.30-6.00 I. Call Money 14,574.09 5.75 4.30-5.90 II. Triparty Repo 5,16,395.80 5.62 5.20-5.76 III. Market Repo 1,79,788.01 5.69 5.00-5.90 IV. Repo in Corporate Bond 6,339.95 5.84 5.80-6.00 B. Term Segment I. Notice Money ** 217.20 5.37 5.10-5.76 II. Term Money @@ 269.00 - 5.50-6.25 III. Triparty Repo 7,518.50 5.64 5.40-5.75 IV. Market Repo 150.00 5.94 5.92-5.95 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Rep",
       "regulatorCode": "RBI",
       "regulatorName": "Reserve Bank of India",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-27T09:00:00Z",
+      "publicationDate": "2026-10-28T09:00:00Z",
       "documentType": "Publication",
       "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63869",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63874",
       "tags": [
         "Margin",
         "Clearing Obligation",
@@ -126,52 +176,18 @@
       "deadline": null
     },
     {
-      "id": "23A731E3-92A8-5B5B-93A3-C6FB346BE500",
-      "title": "Indicators for Core CPI",
-      "summary": "Bank of Japan published: Indicators for Core CPI",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
+      "id": "44374211-08BC-5D18-8129-38FB00E2B5A1",
+      "title": "SFC welcomes launch of Platform and Nominee Services on Integrated Fund Platform",
+      "summary": "Securities and Futures Commission published: SFC welcomes launch of Platform and Nominee Services on Integrated Fund Platform",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-10-27T05:00:00Z",
+      "publicationDate": "2026-10-28T04:05:30Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR175",
       "tags": [
         "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "A628C3EC-C294-5D3B-A5CD-51DCC9DA4C62",
-      "title": "October 2026 euro area bank lending survey",
-      "summary": "European Central Bank published: October 2026 euro area bank lending survey",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-27T00:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "568C9F5C-494E-51D0-9DBF-85B99200FC2F",
-      "title": "Building AI on credit: structures and spillovers",
-      "summary": "Capital expenditure to build artificial intelligence (AI) infrastructure is growing fast, and a rising share is financed with long-term debt and through complex off-balance sheet arrangements.",
-      "regulatorCode": "BIS",
-      "regulatorName": "Bank for International Settlements (BCBS / CPMI / IOSCO joint output)",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-27T00:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.1,
-      "url": "https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers",
-      "tags": [
-        "Capital Requirements"
       ],
       "fullText": null,
       "deadline": null
