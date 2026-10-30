@@ -1,7 +1,352 @@
 {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T00:11:02Z",
+  "generatedAt": "2026-10-30T23:59:50Z",
   "publications": [
+    {
+      "id": "37A8E8B8-D23E-5DBD-A62B-0C67196CC25C",
+      "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "summary": "The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-10-30T19:30:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.1,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+      "tags": [
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "579F7CF2-91CB-544B-8D93-0DCD33632F4D",
+      "title": "Lending and Deposit Rates of Scheduled Commercial Banks – October 2026",
+      "summary": "Data on lending and deposit rates of scheduled commercial banks (SCBs) (excluding regional rural banks and small finance banks) received during October 2026 are set out in Tables 1 to 9. Highlights: Lending Rates: The weighted average lending rate (WALR) on outstanding rupee loans of SCBs remained unchanged at 8.96 per cent in September 2026 compared to August 2026. The WALR on fresh rupee loans of SCBs declined to 8.51 per cent in September 2026 from 8.61 per cent in August 2026. 1-Year median Marginal Cost of Funds based Lending Rate (MCLR) of SCBs declined to 8.55 per cent in October 2026 from 8.61 per cent in September 2026. The WALR on fresh as well as outstanding rupee loans exhibited a mixed movement across sectors in September 2026. Deposit Rates: The weighted average domestic term deposit rate (WADTDR) on outstanding rupee term deposits of SCBs marginally declined to 6.55 per ce",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T17:35:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63894",
+      "tags": [
+        "Margin"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "69E64DFE-50E2-5A27-BF5C-5F2E4DB9C903",
+      "title": "Sectoral Deployment of Bank Credit – September 2026",
+      "summary": "Data on sectoral deployment of bank credit for the month of September 2026, collected from 41 select scheduled commercial banks (SCBs), which together account for about 95 per cent of the total non-food credit by all SCBs 1 , are set out in Statements I and II . On a year-on-year (y-o-y) basis, non-food bank credit 2 grew by 19.1 per cent as on the fortnight ended September 30, 2026, compared to 11.2 per cent during the corresponding fortnight of the previous year (i.e., October 03, 2025). Highlights of the sectoral deployment of bank credit as on the fortnight ended September 30, 2026, are given below: Credit to agriculture and allied activities registered a y-o-y growth of 19.5 per cent vis-a-vis 8.9 per cent in the corresponding fortnight of the previous year. Credit to industry recorded a y-o-y growth of 19.5 per cent (7.7 per cent in the corresponding fortnight of last year). While ",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T17:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63891",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3F07B566-E598-5116-96B3-44D0FEF6BB1F",
+      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+      "summary": "1. Reserve Bank of India - Liabilities and Assets* (&#8377; Crore) Item 2025 2026 Variation Oct. 24 Oct. 16 Oct. 23 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government - 0 0 0 0 4.2 State Governments 23777 29700 21074 -8626 -2703 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on October 23, 2026 Variation over Week End-March 2026 Year &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 6833505 719748 -12655 -1269 279644 28640 725206 24392 1.1 Foreign Currency Assets # 5632074 593205 12419 1358 394707 40923 655221 26657 1.2 Gold 979339 103150 -25244 -2650 -114970 -12245 52259 -2386 1.3 SDRs 176639 18605 243 27 50 -17 12686 -59 1.4 Reserve Position in the IMF 45453 4787 -73 -4 -143 -21 5040 180 * Difference, if any, is due to rounding off. # Excludes (a) SDR h",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T17:00:00Z",
+      "documentType": "Report",
+      "impactScore": 6.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63890",
+      "tags": [
+        "Margin",
+        "Trade Reporting",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "432EEB97-FB84-5BEF-8D5B-7BFA139C4694",
+      "title": "Philip R. Lane: AI adoption in Europe",
+      "summary": "European Central Bank published: Philip R. Lane: AI adoption in Europe",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-30T16:10:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "07037C52-97C9-5E3E-8F42-03276EEF67E2",
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "summary": "European Central Bank published: Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-30T14:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "035F93B2-5B0E-5C2B-8DC6-BE3F09343119",
+      "title": "Circular to intermediaries HKEX annual rehearsal for trading system recovery",
+      "summary": "Securities and Futures Commission published: Circular to intermediaries HKEX annual rehearsal for trading system recovery",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T10:01:25Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/doc?refNo=26EC70",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "DF485FBE-A388-51F2-AAAC-50D9633E36B0",
+      "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "summary": "European Central Bank published: Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-10-30T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "F9ED807D-100A-5EEF-9394-3610DA1D425E",
+      "title": "Brits nearly twice as likely to spot pressure tactics in horror films as investment red flags",
+      "summary": "Investors are almost twice as likely to recognise pressure tactics in a horror film as they are when those tactics are used to promote an investment opportunity, new FCA data suggests. A survey of UK 18 to 40-year-olds who own or are considering investments found 65% spotted ‘this is your only chance’ as a classic horror warning sign. But when faced with a ‘last chance to buy’ investment opportunity, only 36% said it would make them more cautious, while 37% said they would feel pressure to buy quickly or risk missing out. The pattern also holds for other pressure tactics. While 59% recognised countdowns like the ticking clock in 'Saw' as a tactic designed to make characters act rashly, just 5% said they would be suspicious of the pressure created by a rising investment price graph.Blind spots show up with novelty, too. Nearly half (47%) recognised that horror sequels often bring back fam",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-10-30T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/press-releases/brits-nearly-twice-likely-spot-pressure-tactics-horror-films-investment-red-flags",
+      "tags": [
+        "Trade Reporting",
+        "Crypto Derivatives",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "8625437C-489F-5F6D-9099-463FB019511F",
+      "title": "Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceedings following payment of $146.9 million into Court",
+      "summary": "Securities and Futures Commission published: Freezing orders against Lo Kai Bong and Major Success lifted in SFC’s proceedings following payment of $146.9 million into Court",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T08:27:55Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR179",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "D84FF062-F4D1-5BA9-8111-BB6D21908CDF",
+      "title": "SFC welcomes appointments to Process Review Panel",
+      "summary": "Securities and Futures Commission published: SFC welcomes appointments to Process Review Panel",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T08:15:00Z",
+      "documentType": "Report",
+      "impactScore": 3.5,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR178",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "84269B48-088E-59BA-BEA7-F7F0CAEEFE40",
+      "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (October-December 2026) (Schedule Updates)",
+      "summary": "Bank of Japan published: Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (October-December 2026) (Schedule Updates)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T08:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261030c.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "5BD95EFE-1A8C-59CE-8DCA-514CAF401EA1",
+      "title": "Timetable and Schedule of U.S. Dollar Funds-Supplying Operations (November 2026-March 2027)",
+      "summary": "Bank of Japan published: Timetable and Schedule of U.S. Dollar Funds-Supplying Operations (November 2026-March 2027)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T08:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261030b.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "FC20904C-416F-513C-9246-7CA25451EC59",
+      "title": "Amendment to \"Basic Principles for Disposal of ETFs and J-REITs\"",
+      "summary": "Bank of Japan published: Amendment to \"Basic Principles for Disposal of ETFs and J-REITs\"",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T05:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261030a.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AB5C78C4-9371-5A68-A207-E6552891885C",
+      "title": "New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial Innovation Forum",
+      "summary": "Securities and Futures Commission published: New speech by Kelvin Wong: Keynote speech at HKSA’s 47th Anniversary Financial Innovation Forum",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T04:12:38Z",
+      "documentType": "Speech",
+      "impactScore": 1.5,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR177",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "D86BFAF0-0A17-5A76-BD00-5EB0AFACAE4F",
+      "title": "Outlook for Economic Activity and Prices (October 2026, The Bank's View)",
+      "summary": "Bank of Japan published: Outlook for Economic Activity and Prices (October 2026, The Bank's View)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T04:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "8E60FC96-4FD0-5276-8A3C-14B219A5251F",
+      "title": "Statement on Monetary Policy",
+      "summary": "Bank of Japan published: Statement on Monetary Policy",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T04:00:00Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "62CCC84A-638C-51DD-9E12-CFFD0B34F79E",
+      "title": "(Reference) Decisions regarding a Change in the Pace of Sales of ETFs (October 2026)",
+      "summary": "Bank of Japan published: (Reference) Decisions regarding a Change in the Pace of Sales of ETFs (October 2026)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T03:02:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030c.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "744D66C8-4036-5B2B-B0D4-257B1232EF20",
+      "title": "(Reference) Outlook Report and Indicators Related to Underlying Inflation",
+      "summary": "Bank of Japan published: (Reference) Outlook Report and Indicators Related to Underlying Inflation",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T03:02:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030b.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "57743187-046B-54CC-B633-13E93497F6A0",
+      "title": "Payment and Settlement Statistics (Sept.)",
+      "summary": "Bank of Japan published: Payment and Settlement Statistics (Sept.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-10-30T02:00:00Z",
+      "documentType": "Report",
+      "impactScore": 3.5,
+      "url": "http://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2609.pdf",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "BD5620E0-B161-5A0A-A5F1-F658F72F4D06",
       "title": "ESMA publishes latest edition of its newsletter",
@@ -37,310 +382,6 @@
         "Trade Reporting",
         "Capital Requirements",
         "Cross-border"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "6BF6E02E-DDE3-5CCB-9EE4-1AE536BCE350",
-      "title": "Monthly Authorised Deposit-taking Institution Statistics",
-      "summary": "Breadcrumb Home Statistical Publication Monthly Authorised Deposit-taking Institution Statistics Banking Published 30 October 2026 Print On this page On this page The Monthly Authorised Deposit-taking Institution Statistics (MADIS) publication provides selected information on the banking business of individual banks within the domestic market. Monthly authorised deposit-taking institution statistics September 2026 XLSX 332.54 KB ‧ 30 October 2026 Monthly authorised deposit-taking institution statistics back-series March 2019 - September 2026 XLSX 2.58 MB ‧ 30 October 2026 Monthly authorised deposit-taking institution statistics glossary PDF 72.36 KB ‧ 29 January 2021 Next release 30 November 2026 (October 2026 edition) Historical data Balance sheet data prior to July 2019 were published in the Monthly Banking Statistics Monthly banking statistics June 2019 back series XLSX 25.17 MB ‧ 8 S",
-      "regulatorCode": "APRA",
-      "regulatorName": "Australian Prudential Regulation Authority",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-29T23:00:00Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://www.apra.gov.au/news-and-publications/monthly-authorised-deposit-taking-institution-statistics",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "76D09741-8177-5C90-9105-6CB65CF00AAA",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-10-29T20:30:00Z",
-      "documentType": "Statement",
-      "impactScore": 3.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3F6813CC-2DAF-5C43-BF35-034EF6FC1D3C",
-      "title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
-      "summary": "The Securities and Exchange Commission today charged two foreign-operated, Colorado-incorporated entities, BG Wealth Sharing Ltd and DSJ Exchange Pty Ltd, for orchestrating a fraud scheme that used false SEC filings to boost confidence in their…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-10-29T16:42:37Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
-      "tags": [
-        "Trading Venues",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "FFFDB49F-76A7-57CE-B838-C861852A0DE2",
-      "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
-      "summary": "European Central Bank published: Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial infrastructure",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T15:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
-      "tags": [
-        "Crypto Derivatives",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "26A0FEE1-B227-5B0C-8A8F-05A8A08D68B5",
-      "title": "Strengthening the crisis-preparedness community in an interconnected world",
-      "summary": "In this speech, Dominique Laboureix, Chair of the FSB Resolution Steering Group, discusses the importance of cross-border, cross-sectoral crisis preparedness.",
-      "regulatorCode": "FSB",
-      "regulatorName": "Financial Stability Board",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-29T15:08:42Z",
-      "documentType": "Publication",
-      "impactScore": 3.5,
-      "url": "https://www.fsb.org/2026/10/strengthening-the-crisis-preparedness-community-in-an-interconnected-world/",
-      "tags": [
-        "Trade Reporting",
-        "Cross-border"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "0D41CF37-AE89-5490-A8D9-D2531943CD43",
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "summary": "European Central Bank published: Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T14:00:00Z",
-      "documentType": "Guidance",
-      "impactScore": 4.0,
-      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "60E07F0E-3EAE-5BD3-A7CF-7D0A2E13F4DA",
-      "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
-      "summary": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T14:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "363BF4D8-8DD4-5B0A-99FC-16761FEC7CD7",
-      "title": "Monetary policy decisions",
-      "summary": "European Central Bank published: Monetary policy decisions",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T13:15:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "8407ECE0-8701-5DF8-9873-C553E88F87CE",
-      "title": "FCA encourages former Verus Financial Services Limited customers to check if they can claim with FSCS",
-      "summary": "Compensation may be available to former Verus customers through the Financial Services Compensation Scheme (FSCS), subject to assessment. If you were a customer of Verus Financial Services Limited, you can now check to see if you can claim for compensation on the FSCS website. The FCA is supporting the FSCS as it assesses claims against Verus Financial Services Limited and decides whether individual claims are eligible for compensation.Verus was an independent financial adviser firm providing investment, pension, mortgage, equity release and insurance advice.Since 2025, the firm does not have the permission to carry out any regulated financial services activity in the UK, including providing any financial advice. They also cannot sell, transfer or reduce their asset without the FCA’s approval.Read about the FCA’s action taken against Verus Financial Services Limited.",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T11:58:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/news-stories/fca-encourages-former-verus-financial-services-limited-customers-check-if-they-can-claim-fscs",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "F578C520-1B00-5C3F-8D40-A6C1CC12C5AE",
-      "title": "JSE Investor Avenue Episode 18 | The Freedom to Choose: Future-Proofing Your Finance",
-      "summary": "JSE Investor Avenue Episode 18 | The Freedom to Choose: Future-Proofing Your Finance ​How can you future-proof your finances for life's unexpected \"what if\" moments?​ Life's transitions often come with financial implications. Whether it's a career change, a health challenge, retirement or an unexpected setback, being prepared can make all the difference. In the latest episode of #JSEInvestorAvenue , Human Potential Expert Nikki Bush sits down with our host, Gugulethu Mfuphi, to unpack practical strategies for building wealth with intention. Together, they explore the role of compounding, balancing risk protection with wealth creation, creating additional income streams, and the importance of having essential structures in place, from wills and beneficiaries to trusted financial advice.​ NdivhuwoM Thu, 10/29/2026 - 13:15 1 JSE Investor Avenue Episode 18 | The Freedom to Choose: Future-Pro",
-      "regulatorCode": "JSE",
-      "regulatorName": "Johannesburg Stock Exchange",
-      "region": "MEA",
-      "publicationDate": "2026-10-29T11:15:09Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.jse.co.za/podcasts/jse-investor-avenue/jse-investor-avenue-episode-18-freedom-choose-futureproofing-your",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "81BF1807-2419-5FA2-938D-00628E9888A6",
-      "title": "What does 'fair value' look like in practice? Three years into the Consumer Duty, here’s what we’ve learned.",
-      "summary": "Fair value is a simple yet important principle at the heart of the Consumer Duty: the price customers pay should be reasonable, relative to the benefits they get. But applying that principle in practice requires judgement.Three years into the Consumer Duty, we’re seeing clear differences between firms that have embedded fair value into their approach and those that still need to strengthen their assessments, evidence and monitoring.We recently reviewed how firms across the consumer finance market assess, evidence and monitor fair value. We also carried out focused work on fees and charges across a range of credit products, and supervisory work on consumer hire and third-party ownership agreements for home energy infrastructure.Many firms are getting it right, building fair value into how they design, price and monitor their products. Others are missing things that, in hindsight, could ha",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T10:03:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/blogs/fair-value-look-practice-three-years-consumer-duty",
-      "tags": [
-        "Trade Reporting",
-        "Trading Venues",
-        "Benchmarks",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "255865EC-DFE7-5E60-9049-FCC5E64104D0",
-      "title": "ECB President Lagarde to step down on 7 February 2027",
-      "summary": "European Central Bank published: ECB President Lagarde to step down on 7 February 2027",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T10:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "F2CEE2FF-BCBC-5B7A-91E2-855B4DCFB744",
-      "title": "FCA stops HTX's crypto promotions",
-      "summary": "The FCA has secured High Court undertakings to ensure that HTX (formerly Huobi), a global crypto exchange, will not knowingly promote cryptoasset services unlawfully to UK consumers. The FCA took legal action against HTX in October 2025 for breaking UK financial promotion rules. HTX had failed repeatedly to engage with the FCA. Following the commencement of proceedings, HTX took steps to exit the UK. The FCA and Huobi Global S.A. have now reached a settlement in the case. HTX is no longer active in the UK. Consumers can no longer make deposits, and new UK users cannot sign up to the platform. HTX will not target, solicit or actively seek to engage UK consumers.UK users of HTX should read the information published on HTX's website about the availability of its services in the UK and the arrangements for withdrawing any residual assets.Steve Smart, executive director of enforcement and mar",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T10:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/press-releases/fca-stops-htxs-crypto-promotions",
-      "tags": [
-        "Trade Reporting",
-        "Trading Venues",
-        "Crypto Derivatives",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9ADB7D8D-ADB5-54FA-9339-84D1C8AB3297",
-      "title": "Bank of England sets out approach to tokenised collateral in central clearing",
-      "summary": "The Bank of England has today launched a consultation supporting central counterparties (CCPs) acceptance of tokenised forms of eligible collateral.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-10-29T10:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.7,
-      "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
-      "tags": [
-        "Margin",
-        "CCP Risk",
-        "Clearing Obligation",
-        "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3120D48E-129E-5F0E-8B01-14349166D3DB",
-      "title": "Moving Regulatory Reporting up a Gear with AI",
-      "summary": "The aim of derivatives regulatory reporting is to improve transparency so regulators can monitor market... Read more Moving Regulatory Reporting up a Gear with AI",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-29T09:05:28Z",
-      "documentType": "Report",
-      "impactScore": 6.0,
-      "url": "https://www.isda.org/2026/10/29/moving-regulatory-reporting-up-a-gear-with-ai/",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "074D0EB9-886A-5BFF-80A9-7793E40F7B6A",
-      "title": "Money Market Operations as on October 28, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,27,784.70 5.59 4.00-5.95 I. Call Money 18,241.55 5.68 4.30-5.85 II. Triparty Repo 5,11,103.10 5.57 5.20-5.70 III. Market Repo 1,92,162.95 5.61 4.00-5.75 IV. Repo in Corporate Bond 6,277.10 5.76 5.55-5.95 B. Term Segment I. Notice Money ** 135.00 5.33 4.90-5.60 II. Term Money @@ 661.90 - 5.45-6.90 III. Triparty Repo 3,837.40 5.60 5.50-5.70 IV. Market Repo 310.00 6.00 5.95-6.10 V. Repo in Corporate Bond 154.05 7.50 7.50-7.50 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-29T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63879",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "8C327C5F-4009-577C-B4F2-18F6E19D0CED",
-      "title": "SEBI signs MoU with BoE on cooperation and exchange of information related to SEBI-recognised Clearing Corporations",
-      "summary": "SEBI signs MoU with BoE on cooperation and exchange of information related to SEBI-recognised Clearing Corporations",
-      "regulatorCode": "SEBI",
-      "regulatorName": "Securities and Exchange Board of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-10-29T00:17:37Z",
-      "documentType": "Publication",
-      "impactScore": 5.1,
-      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/sebi-signs-mou-with-boe-on-cooperation-and-exchange-of-information-related-to-sebi-recognised-clearing-corporations_105473.html",
-      "tags": [
-        "Clearing Obligation",
-        "Trading Venues"
       ],
       "fullText": null,
       "deadline": null
