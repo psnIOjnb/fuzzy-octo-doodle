@@ -1,23 +1,5 @@
 {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-31T23:37:16Z",
-  "publications": [
-    {
-      "id": "D1EA70FC-1432-59F9-A0B5-9FE3122C706F",
-      "title": "ISDA Publishes ISDA SIMM® Methodology, Version 2.9+2606",
-      "summary": "Following the 2026 primary calibration exercise, ISDA is pleased to publish ISDA SIMM® version 2.9+2606.... Read more ISDA Publishes ISDA SIMM® Methodology, Version 2.9+2606",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-10-31T01:16:27Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/10/30/isda-publishes-isda-simm-methodology-version-2-92606/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    }
-  ]
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T23:49:16Z",
+  "publications": []
 }
