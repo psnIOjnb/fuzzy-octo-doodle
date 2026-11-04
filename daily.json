@@ -1,248 +1,249 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T02:34:41Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T00:48:37Z",
   "publications": [
     {
-      "id": "43BDE2F4-DB7B-5CC1-94D2-7D3D43E81A66",
-      "title": "Auction of Government of India Dated Securities",
-      "summary": "Government of India (GoI) has announced the sale (re-issue) of two dated securities for a notified amount of &#8377;36,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (&#8377; Crore) GoI specific Notification Auction Date Settlement Date 1 7.06% GS 2041 Jul 27, 2041 23,000 F.No.4(1)-B(W&M)/2026 dated November 02, 2026 November 06, 2026 (Friday) November 09, 2026 (Monday) 2 7.43% GS 2076 Jan 19, 2076 13,000 Total 36,000 2. GoI will have the option to retain additional subscription up to &#8377;2,000 crore against each security mentioned above. 3. The securities will be sold through Reserve Bank of India Mumbai Office, Fort, Mumbai &ndash; 400001. The sale will be subject to the terms and conditions spelt out in the &lsquo;Specific Notification' mentioned above and the General Notification F.No.4(2)&ndash;B(W&M)/2018, dated March 26, 2025 . 4. The a",
+      "id": "FEA5122A-88D0-515A-8586-AAB4428A273C",
+      "title": "Monetary Base (Oct.)",
+      "summary": "Bank of Japan published: Monetary Base (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-03T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "6DD03ABE-ABCA-5CC0-89ED-EB3AD3E16F5E",
+      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 04, 2026",
+      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Wednesday, November 04, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM November 05, 2026 (Thursday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1433",
       "regulatorCode": "RBI",
       "regulatorName": "Reserve Bank of India",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T18:25:00Z",
+      "publicationDate": "2026-11-03T19:10:00Z",
       "documentType": "Publication",
       "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63902",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63911",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "C86162B9-384F-5AD3-89B8-1FC0B793EB66",
+      "title": "Peter Routledge participates in a fireside chat at The Logic Summit",
+      "summary": "Peter Routledge participates in a fireside chat at The Logic Summit Lily.Szeto@osfi-bsif.gc.ca Tue, 11/03/2026 - 12:58 Date November 3, 2026 Link /en/news/peter-routledge-participates-fireside-chat-logic-summit",
+      "regulatorCode": "OSFI",
+      "regulatorName": "Office of the Superintendent of Financial Institutions",
+      "region": "Americas",
+      "publicationDate": "2026-11-03T17:58:18Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.osfi-bsif.gc.ca/en/peter-routledge-participates-fireside-chat-logic-summit",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "0F5BF599-94A3-5E63-B4BF-C031CE32BA17",
+      "title": "FSB Regional Consultative Group for Europe meets in Bern",
+      "summary": "Swiss National Bank hosts the FSB Europe group in Bern.",
+      "regulatorCode": "FSB",
+      "regulatorName": "Financial Stability Board",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-03T15:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.5,
+      "url": "https://www.fsb.org/2026/11/fsb-regional-consultative-group-for-europe-meets-in-bern/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "18EC0E63-70D4-5539-9563-1A78133A86CB",
+      "title": "CFTC Chairman Selig Releases Statement on Equity Perpetual Futures",
+      "summary": "Commodity Futures Trading Commission published: CFTC Chairman Selig Releases Statement on Equity Perpetual Futures",
+      "regulatorCode": "CFTC",
+      "regulatorName": "Commodity Futures Trading Commission",
+      "region": "Americas",
+      "publicationDate": "2026-11-03T13:50:00Z",
+      "documentType": "Statement",
+      "impactScore": 4.5,
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "C30FAC57-D764-5EE4-9909-1A0167BB735B",
+      "title": "AI & Digital Transformation – New Opportunities for Private and Public Organisations",
+      "summary": "Swiss Financial Market Supervisory Authority published: AI & Digital Transformation – New Opportunities for Private and Public Organisations",
+      "regulatorCode": "FINMA",
+      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-03T11:57:28Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.finma.ch/en/documentation/finma-publications/addresses-and-specialist-articles/referate-folder/20261103-rede-marlene-amstadt-sba/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "6CED6001-54CE-531D-AD17-5B71797373BA",
+      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on November 03, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of offers received (in &#8377; crore) 23,905 Amount accepted (in &#8377; crore) 23,905 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1427",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-03T11:35:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63905",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3A817A6E-B37C-5ABB-8FD7-641C50BC9629",
+      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 03, 2026",
+      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Tuesday, November 03, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 10:45 AM to 11:15 AM November 04, 2026 (Wednesday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1426",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-03T10:40:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63904",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "78D6C215-D747-587C-87CA-28D62560FDD2",
+      "title": "New FCA rules bring ESG rating providers into UK regulation for the first time",
+      "summary": "New UK rules for environmental, social and governance (ESG) rating providers will raise standards in the market, helping investors to make better informed decisions. The new framework brings ESG rating providers into FCA regulation for the first time, covering a market that plays an important role in investment decisions. The rules are designed to improve the transparency, reliability and comparability of ESG ratings, helping build confidence in the information investors rely on. The regime applies to firms or organisations providing ESG ratings and assessments to ensure reliability across the market. The FCA has published guidance to help firms understand whether they may be in scope. Laura Dawes, director of authorisations and sustainable finance at the FCA, said: 'Trusted information is essential for well-functioning markets. These rules will help improve transparency and raise standa",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-03T10:03:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.1,
+      "url": "https://www.fca.org.uk/news/press-releases/new-fca-rules-bring-esg-rating-providers-uk-regulation-first-time",
       "tags": [
         "Trade Reporting",
+        "Capital Requirements",
+        "Cross-border",
+        "Benchmarks"
+      ],
+      "fullText": null,
+      "deadline": {
+        "date": "2028-06-29T00:00:00Z",
+        "label": "Effective date"
+      }
+    },
+    {
+      "id": "D6DA12FD-8B30-5E02-BAD3-D19A22AD83FB",
+      "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+      "summary": "Credit unions could benefit from several ideas put forward today by the Prudential Regulation Authority and Financial Conduct Authority aimed at helping the sector grow, innovate and meet the changing needs of their members.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-03T10:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9FFC721B-A9F3-5AE0-A070-762925D4D281",
+      "title": "FCA sets expectations for firms making car finance settlement offers",
+      "summary": "Research shows consumers want the choice, rather than wait for the legal challenges to conclude. Almost 9 out of 10 (89%) car finance customers who have complained or are considering doing so want the choice of an offer of compensation now, rather than waiting for the legal challenges to the FCA's compensation scheme to conclude. 86% would be comfortable making the decision, and 61% say they’d accept an offer in line with the scheme. Timing matters for many: 77% say receiving compensation sooner would make a great deal or fair amount of difference to their financial situation.The survey findings are being released today alongside the FCA's expectations for lenders who want to make settlement offers to those owed compensation under its scheme, while legal challenges continue. This comes as Barclays Partner Finance confirms it will make settlement offers to some of its customers owed compe",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-03T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/press-releases/fca-sets-expectations-firms-making-car-finance-settlement-offers",
+      "tags": [
         "Market Conduct"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "3CAAF33F-F71B-5B8F-B54B-AEE9E145C61F",
-      "title": "Updated OTC Derivatives Compliance Calendar",
-      "summary": "ISDA has updated its global calendar of compliance deadlines and regulatory dates for the over-the-counter... Read more Updated OTC Derivatives Compliance Calendar",
+      "id": "558201FE-B740-5ACA-833F-9ADCCABE6C25",
+      "title": "Money Market Operations as on November 02, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,81,658.23 5.62 4.80-5.95 I. Call Money 13,431.31 5.50 4.80-5.75 II. Triparty Repo 5,70,314.05 5.61 5.15-5.74 III. Market Repo 1,91,394.22 5.67 5.00-5.82 IV. Repo in Corporate Bond 6,518.65 5.81 5.75-5.95 B. Term Segment I. Notice Money ** 377.00 5.39 4.95-5.54 II. Term Money @@ 1,247.48 - 5.60-7.75 III. Triparty Repo 4,923.60 5.57 5.45-6.00 IV. Market Repo 0.00 - - V. Repo in Corporate Bond 1,080.46 6.85 6.85-6.85 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-03T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63903",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AD55712E-9D7A-5B80-9F58-BA2232C762DC",
+      "title": "ISDA and AFME Respond to EC’s Call for Feedback on ETS Review",
+      "summary": "On November 2, ISDA and the Association for Financial Markets in Europe submitted a joint... Read more ISDA and AFME Respond to EC’s Call for Feedback on ETS Review",
       "regulatorCode": "ISDA",
       "regulatorName": "International Swaps and Derivatives Association",
       "region": "International Bodies",
-      "publicationDate": "2026-11-02T17:02:09Z",
-      "documentType": "Publication",
-      "impactScore": 6.2,
-      "url": "https://www.isda.org/2026/11/02/updated-otc-derivatives-compliance-calendar-93/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9795C972-67AC-57FD-973F-63D9E284C3D0",
-      "title": "Demands for disguised remuneration scheme loan repayments",
-      "summary": "We have seen demands being made for people to repay loans, or purported loans, provided as part of disguised remuneration schemes. Disguised remuneration schemes saw people – often contractors, consultants and agency workers – paid for their work through loans instead of regular salaries as a way to avoid tax. HMRC has sought to tackle this tax avoidance through what has been termed the loan charge and published guidance for those affected.Questions have been raised about the regulatory status of these loans and whether they were ever intended to be repaid.Some of those affected dispute liability for the amounts being claimed and challenge whether the debts can be legally enforced. If they’re unenforceable, borrowers cannot be forced to pay the money back or have any of their assets seized against the debt without a specific order.Some consumers are, however being sent legal letters thre",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-02T12:12:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/statements/demands-disguised-remuneration-scheme-loan-repayments",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "03165CC3-D3F4-5FA2-822F-ACE7EE805504",
-      "title": "Money Market Operations as on November 01, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sun, 01/11/2026 1 Mon, 02/11/2026 23,427.00 5.75 4. SDF Δ# Sun, 01/11/2026 1 Mon, 02/11/2026 2,05,869.00 5.25 5. Ne",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T12:10:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63900",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5723F865-025D-5128-812D-6620FEDA2A42",
-      "title": "Money Market Operations as on October 31, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 43,611.60 5.58 4.50-6.00 I. Call Money 4,045.25 5.63 4.70-5.75 II. Triparty Repo 35,023.15 5.57 5.00-5.80 III. Market Repo 4,543.20 5.61 4.50-6.00 IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 40.00 5.19 5.15-5.20 II. Term Money @@ 0.00 - - III. Triparty Repo 10.00 6.00 6.00-6.00 IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sat, 31/10/2026 1 Sun, 01/11/",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T12:05:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63899",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5B0A317E-1805-5284-890D-3025CD548F8D",
-      "title": "FCA publishes terms of reference for independent review concerning Mr Andriesz",
-      "summary": "We have published the terms of reference for the review into our handling of interactions with Mr Simon Andriesz, a whistleblower who made protected disclosures to the FCA. We shared our condolences following Mr Andriesz's tragic death and our thoughts remain with his family and loved ones.The review was commissioned by our non-executive directors. It is being conducted by Lea Paterson CBE, an independent non-executive director of the FCA.When we announced the review, we said it would examine how we interacted with Mr Andriesz. The review will now also look at whether we met our responsibilities under whistleblowing law and followed our own policies and procedures when handling his whistleblowing reports, including his concerns that he had experienced detriment. It will cover the period from at least 2017 to 2026.The review will identify any lessons learned and make recommendations for i",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-02T10:30:00Z",
+      "publicationDate": "2026-11-03T08:40:57Z",
       "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://www.fca.org.uk/news/statements/fca-publishes-terms-reference-independent-review-concerning-mr-andriesz",
+      "impactScore": 5.5,
+      "url": "https://www.isda.org/2026/11/03/isda-and-afme-respond-to-ecs-call-for-feedback-on-ets-review/",
       "tags": [
-        "Trade Reporting"
+        "General"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "844FAA3F-3F89-54E1-B4C9-7DEEB4C97B5C",
-      "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
-      "summary": "European Central Bank published: Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-11-02T09:30:00Z",
-      "documentType": "Publication",
+      "id": "78C26440-5CCB-53C2-AEA2-A14B053605EB",
+      "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+      "summary": "Media release number 2026-30: At its meeting today, the Board decided to increase the cash rate target by 25 basis points to 4.85 per cent.",
+      "regulatorCode": "RBA",
+      "regulatorName": "Reserve Bank of Australia",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-03T03:30:00Z",
+      "documentType": "Statement",
       "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
       "tags": [
         "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "99A690DD-CA0E-57AB-BC0C-C206EFA1D605",
-      "title": "Money Market Operations as on October 30, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 21,799.27 5.70 4.85-6.25 I. Call Money 2,257.10 5.40 4.85-5.75 II. Triparty Repo 13,048.70 5.77 5.00-6.25 III. Market Repo 1,171.82 5.39 5.30-5.50 IV. Repo in Corporate Bond 5,321.65 5.72 5.70-5.95 B. Term Segment I. Notice Money ** 13,751.56 5.68 4.85-6.05 II. Term Money @@ 728.25 - 5.60-8.10 III. Triparty Repo 5,06,012.55 5.74 5.57-6.10 IV. Market Repo 2,02,441.15 5.70 4.25-6.30 V. Repo in Corporate Bond 1,822.50 6.92 6.85-7.50 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operati",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63898",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D8EBF1EA-935B-59C6-AC7C-3D8B56E2BF02",
-      "title": "New speech by Elisa Ng: Keynote at Hong Kong FinTech Week x StartmeupHK 2026",
-      "summary": "Securities and Futures Commission published: New speech by Elisa Ng: Keynote at Hong Kong FinTech Week x StartmeupHK 2026",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T07:51:37Z",
-      "documentType": "Speech",
-      "impactScore": 1.5,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR183",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "FB6E0E7D-66DF-508B-9965-4131FFDDFC7D",
-      "title": "Outlook for Economic Activity and Prices (October 2026, full text)",
-      "summary": "Bank of Japan published: Outlook for Economic Activity and Prices (October 2026, full text)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T05:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/mopo/outlook/gor2610b.pdf",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "DB8598BB-5EEF-50EE-8F6F-E0E1B7253EC5",
-      "title": "SFC survey highlights wider AI adoption and challenges to responsible scaling",
-      "summary": "Securities and Futures Commission published: SFC survey highlights wider AI adoption and challenges to responsible scaling",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T04:07:53Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR182",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9C92F022-F3B8-5A7C-95C5-C7D16D7EFB71",
-      "title": "Sources of Changes in Current Account Balances and Market Operations (Oct.)",
-      "summary": "Bank of Japan published: Sources of Changes in Current Account Balances and Market Operations (Oct.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T04:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf10.xlsx",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E75402A7-4C26-59E8-9557-E15029035D04",
-      "title": "New synopsis by Julia Leung: Panel remarks at Hong Kong FinTech Week 2026",
-      "summary": "Securities and Futures Commission published: New synopsis by Julia Leung: Panel remarks at Hong Kong FinTech Week 2026",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T03:58:32Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR181",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "845FE8EB-AC26-52A0-BD21-10761F20B709",
-      "title": "SFC welcomes expanded use of China Government Bonds as margin collateral by HKEX",
-      "summary": "Securities and Futures Commission published: SFC welcomes expanded use of China Government Bonds as margin collateral by HKEX",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-02T00:40:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.3,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR180",
-      "tags": [
-        "Margin"
       ],
       "fullText": null,
       "deadline": null
