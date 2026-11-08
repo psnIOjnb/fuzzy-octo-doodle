@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T23:56:50Z",
+  "publications": [
+    {
+      "id": "82573937-3AC2-5394-AA2F-D2367091EFE2",
+      "title": "Market Operations by the Bank of Japan (Oct.)",
+      "summary": "Bank of Japan published: Market Operations by the Bank of Japan (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-08T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2610.xlsx",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "80AE299A-8447-5A07-A4D6-8CDD4B0B93CF",
+      "title": "Monetary Base and the Bank of Japan's Transactions (Oct.)",
+      "summary": "Bank of Japan published: Monetary Base and the Bank of Japan's Transactions (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-08T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2610.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "5A9DCD4B-38D4-543B-8712-205E5B388204",
+      "title": "Bank of Japan's Transactions with the Government (Oct.)",
+      "summary": "Bank of Japan published: Bank of Japan's Transactions with the Government (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-08T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2610.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
+}
