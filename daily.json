@@ -1,7 +1,180 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T02:52:38Z",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T00:50:15Z",
   "publications": [
+    {
+      "id": "FC10EFE6-45D9-53C1-8658-07F307E832C6",
+      "title": "Notice of attachment dated November 10, 2026 issued against Chennai Commodities under RC No.7470 of 2023 in the matter of First Futures and Stocks Private Limited",
+      "summary": "Notice of attachment dated November 10, 2026 issued against Chennai Commodities under RC No.7470 of 2023 in the matter of First Futures and Stocks Private Limited",
+      "regulatorCode": "SEBI",
+      "regulatorName": "Securities and Exchange Board of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-11T00:49:58Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/notice-of-attachment-dated-november-10-2026-issued-against-chennai-commodities-under-rc-no-7470-of-2023-in-the-matter-of-first-futures-and-stocks-private-limited_105696.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "B6BAC376-E69C-5E4A-95FC-B6D35671C9EE",
+      "title": "Notice of attachment dated November 10, 2026 issued against First Futures and Stocks Private Limited under RC No.7469 of 2023 in the matter of First Futures and Stocks Private Limited",
+      "summary": "Notice of attachment dated November 10, 2026 issued against First Futures and Stocks Private Limited under RC No.7469 of 2023 in the matter of First Futures and Stocks Private Limited",
+      "regulatorCode": "SEBI",
+      "regulatorName": "Securities and Exchange Board of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-11T00:49:58Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/notice-of-attachment-dated-november-10-2026-issued-against-first-futures-and-stocks-private-limited-under-rc-no-7469-of-2023-in-the-matter-of-first-futures-and-stocks-private-limited_105694.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "BA7182FF-D639-5B3C-9301-F1E2190270CA",
+      "title": "Money Stock (Oct.)",
+      "summary": "Bank of Japan published: Money Stock (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-10T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/money/ms/ms2610.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "0784EC0D-421D-50D8-9565-DBFEBD522D8D",
+      "title": "ISDA Briefing on EMIR Compromise Amendments under MISP",
+      "summary": "On November 2, ISDA published its recommendations on the European Parliament (EP) compromise amendments to... Read more ISDA Briefing on EMIR Compromise Amendments under MISP",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-10T20:31:18Z",
+      "documentType": "Publication",
+      "impactScore": 5.6,
+      "url": "https://www.isda.org/2026/11/10/isda-briefing-on-emir-compromise-amendments-under-misp/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "F651A84A-2A1C-5AD7-902A-17E8595787C0",
+      "title": "Man sentenced over £154m fake takeover bid targeting UK-listed company",
+      "summary": "Christopher Woolcott has today been given a 2-year prison sentence, suspended for 2 years, after staging a £154m fake takeover bid for Touchstone Exploration Inc. He was also ordered to complete 200 hours of unpaid work and to pay costs of £4,627.73.Mr Woolcott built a sizeable stake in Touchstone, an oil and gas listed company. He then launched a bogus bid to drive up its share price. To give the bid credibility, Mr Woolcott invented several identities, forged takeover documents using Chat GPT and met Touchstone’s chief executive at a central London hotel under a false name. Touchstone ultimately determined that the bid was not legitimate.Had his plan succeeded, he stood to gain as much as £70,000 through the sale of his shares.The Financial Conduct Authority (FCA) used a combination of its transaction reporting data, phone records, receipts, CCTV footage and evidence seized to identify",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-10T17:12:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/press-releases/man-sentenced-over-154m-fake-takeover-bid-targeting-uk-listed-company",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "44266A83-0F66-5BE1-83F5-7727A129FDB4",
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "summary": "European Central Bank published: Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-10T16:45:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "BC495919-019E-5292-B1BF-85AB79A5EF88",
+      "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+      "summary": "The Securities and Exchange Commission today provided its enforcement results for the past fiscal year which ended September 30. Throughout the fiscal year, the SEC’s Division of Enforcement remained focused on its fundamental responsibility: protecting…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-11-10T16:15:35Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+      "tags": [
+        "Trading Venues",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "550AE09C-7420-5BC3-A533-EECA0E9EA195",
+      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "summary": "European Central Bank published: Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-10T14:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9649FA48-14D4-55D6-875E-7279838BCF57",
+      "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+      "summary": "Exchange of letters between the Governor and the Chancellor",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-10T12:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+      "tags": [
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "60E43ADF-456F-5A2E-976E-2FA55891D673",
+      "title": "FINMA publishes partially revised FINMA Anti-Money Laundering Ordinance",
+      "summary": "The Swiss Financial Market Supervisory Authority FINMA has partially revised the FINMA Anti-Money Laundering Ordinance. It also recognised the revised agreement on the Swiss banks’ code of conduct with regard to the exercise of due diligence and the revised regulations of the SRO-SVV as minimum standards. Finally, FINMA has published guidance explaining FINMA Circular 2011/1 “Acting as a financial intermediary under the AMLA”.",
+      "regulatorCode": "FINMA",
+      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-10T08:59:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.finma.ch/en/news/2026/11/20261110-mm-gwv-finma/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "B88734EE-C614-52ED-91D6-CE529DE5907B",
       "title": "EU seeks nominations for stakeholder group on tokenisation standards in finance",
@@ -16,285 +189,6 @@
       "tags": [
         "Trade Reporting",
         "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5F9E81A8-BA5E-5F89-8A82-9CDC485D323D",
-      "title": "Principal Figures of Financial Institutions (Oct.)",
-      "summary": "Bank of Japan published: Principal Figures of Financial Institutions (Oct.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2610.pdf",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "517CC8AB-8BE2-5CE1-82F8-02E861AC4A3A",
-      "title": "Summary of Opinions at the Monetary Policy Meeting on October 29 and 30, 2026",
-      "summary": "Bank of Japan published: Summary of Opinions at the Monetary Policy Meeting on October 29 and 30, 2026",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T23:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi261030.pdf",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "192D85AC-6179-56AE-B954-9C74369D3E48",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-11-09T21:00:00Z",
-      "documentType": "Statement",
-      "impactScore": 3.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "7E3FE77A-0D89-566E-9D37-65746E6ADE72",
-      "title": "Auction of Government of India Dated Security",
-      "summary": "Government of India (GoI) has announced the sale (re-issue) of one dated security for a notified amount of &#8377;34,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (&#8377; Crore) GoI specific Notification Auction Date Settlement Date 1 6.94% GS 2036 May 11, 2036 34,000 F.No.4(1)-B(W&M)/2026 dated November 09, 2026 November 13, 2026 (Friday) November 16, 2026 (Monday) Total 34,000 2. GoI will have the option to retain additional subscription up to &#8377;2,000 crore against the security mentioned above. 3. The security will be sold through Reserve Bank of India Mumbai Office, Fort, Mumbai &ndash; 400001. The sale will be subject to the terms and conditions spelt out in the &lsquo;Specific Notification' mentioned above and the General Notification F.No.4(2)&ndash;B(W&M)/2018, dated March 26, 2025 . 4. The auction will be conducted using multiple p",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T18:55:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63952",
-      "tags": [
-        "Trade Reporting",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9C661897-86DB-510B-8260-493BE56EE023",
-      "title": "Chief Actuary of the Government of Canada releases 19th Actuarial Report on the Old Age Security Program",
-      "summary": "Chief Actuary of the Government of Canada releases 19th Actuarial Report on the Old Age Security Program Lily.Szeto@osfi-bsif.gc.ca Mon, 11/09/2026 - 13:26 Date November 9, 2026 Link /en/news/chief-actuary-government-canada-releases-19th-actuarial-report-old-age…",
-      "regulatorCode": "OSFI",
-      "regulatorName": "Office of the Superintendent of Financial Institutions",
-      "region": "Americas",
-      "publicationDate": "2026-11-09T18:26:45Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://www.osfi-bsif.gc.ca/en/chief-actuary-government-canada-releases-19th-actuarial-report-old-age-security-program",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "FC74B91A-AF65-5888-A8B0-570B08D3F95B",
-      "title": "ISDA Responds to FCA on UK MIFIR Transaction Reporting",
-      "summary": "On November 6, ISDA responded to the Financial Conduct Authority’s (FCA) consultation CP26/34 ‘Preparing for... Read more ISDA Responds to FCA on UK MIFIR Transaction Reporting",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-09T13:42:42Z",
-      "documentType": "Report",
-      "impactScore": 5.5,
-      "url": "https://www.isda.org/2026/11/09/isda-responds-to-fca-on-uk-mifir-transaction-reporting/",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "51669CB1-FC72-5F9B-846D-4E5419BF580C",
-      "title": "ISDA Comments on European Parliament Amendments to MISP",
-      "summary": "On October 30, ISDA submitted comments on the European Parliament’s (EP) proposed transaction reporting and... Read more ISDA Comments on European Parliament Amendments to MISP",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-09T13:38:22Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/11/09/isda-comments-on-european-parliament-amendments-to-misp/",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "29BD0D90-B634-5B0F-84E9-38894F4363E1",
-      "title": "ISDA, AFME, ISLA Submit Joint Paper on EC Tax Omnibus",
-      "summary": "On November 5, ISDA, the Association for Financial Markets in Europe (AFME) and the International... Read more ISDA, AFME, ISLA Submit Joint Paper on EC Tax Omnibus",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-09T13:33:51Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/11/09/isda-afme-isla-submit-joint-paper-on-ec-tax-omnibus/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E1AE83CC-29A4-5159-946A-427B1C856F2E",
-      "title": "ISDA Responds to FCA Call for Input on Tokenized Gold",
-      "summary": "On November 2, ISDA responded to the Financial Conduct Authority’s (FCA) call for input on... Read more ISDA Responds to FCA Call for Input on Tokenized Gold",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-09T13:30:41Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/11/09/isda-responds-to-fca-call-for-input-on-tokenized-gold/",
-      "tags": [
-        "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "EB9054B5-55D1-5D93-B7CD-59849DE0776E",
-      "title": "Money Market Operations as on November 08, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sun, 08/11/2026 1 Mon, 09/11/2026 3,237.00 5.75 4. SDF Δ# Sun, 08/11/2026 1 Mon, 09/11/2026 1,50,425.00 5.25 5. Net",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T11:40:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63947",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "AFFC23B6-C303-59F3-B16D-B19064C95E46",
-      "title": "Money Market Operations as on November 07, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 21,872.47 5.57 4.50-5.81 I. Call Money 846.10 5.20 5.00-5.70 II. Triparty Repo 20,814.50 5.59 4.50-5.81 III. Market Repo 211.87 5.07 5.00-5.15 IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 520.00 5.24 5.00-5.30 II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Sat, 07/11/2026 1 Sun, 08/11/2026 2,450.00 5",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T11:35:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63946",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "93BBAF11-CA79-518C-A4BD-D9C2B92F0750",
-      "title": "Result of the 4-day Variable Rate Repo (VRR) auction held on November 09, 2026",
-      "summary": "Tenor 4-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 62,872 Amount allotted (in &#8377; crore) 50,003 Cut off Rate (%) 5.51 Weighted Average Rate (%) 5.54 Partial Allotment Percentage of bids received at cut off rate (%) 15.18 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1467",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T10:45:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63945",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "5863F447-2528-5776-8564-CF25884DDDD8",
-      "title": "Money Market Operations as on November 06, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 20,970.90 5.55 5.00-7.50 I. Call Money 1,337.15 5.25 5.00-5.62 II. Triparty Repo 12,590.85 5.50 5.02-5.75 III. Market Repo 321.60 5.00 5.00-5.00 IV. Repo in Corporate Bond 6,721.30 5.74 5.60-7.50 B. Term Segment I. Notice Money ** 11,521.50 5.61 4.30-5.75 II. Term Money @@ 149.50 - 5.65-5.95 III. Triparty Repo 5,40,462.10 5.61 5.20-5.84 IV. Market Repo 1,95,715.86 5.62 4.50-6.10 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Re",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63944",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E9544C13-93E3-57EF-AB02-D2AC7D8C761D",
-      "title": "Amounts Outstanding in the Call Money Market (Oct.)",
-      "summary": "Bank of Japan published: Amounts Outstanding in the Call Money Market (Oct.)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T06:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9D1A8261-E59F-5EA5-A8EC-0100DA1F0F63",
-      "title": "Consumption Activity Index",
-      "summary": "Bank of Japan published: Consumption Activity Index",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T05:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/research/research_data/cai/index.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "012CE5E8-6EDF-53C4-84CF-D5CA97713BA4",
-      "title": "New speech by Kelvin Wong: Panel Chair’s Remarks at AFRC Regional Regulatory Forum 2026",
-      "summary": "Securities and Futures Commission published: New speech by Kelvin Wong: Panel Chair’s Remarks at AFRC Regional Regulatory Forum 2026",
-      "regulatorCode": "SFC",
-      "regulatorName": "Securities and Futures Commission",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-09T04:21:47Z",
-      "documentType": "Speech",
-      "impactScore": 1.5,
-      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR188",
-      "tags": [
-        "General"
       ],
       "fullText": null,
       "deadline": null
