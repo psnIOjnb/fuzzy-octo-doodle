@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T01:58:09Z",
+  "publications": [
+    {
+      "id": "58D7201A-A22C-5D17-BA05-A98D8BE2818D",
+      "title": "DRSP supervisory responsibilities remain unchanged following ESMA assessment",
+      "summary": "DRSP supervisory responsibilities remain unchanged following ESMA assessment 18 November 2026 Market data Supervision The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has finalised its annual assessment of the derogation criteria for Data Reporting Services Providers (DRSPs) . ESMA’s supervisory responsibilities for DRSPs will remain unchanged, as the ten DRSPs currently supervised by ESMA continue to exceed the relevant derogation thresholds, while the derogated DRSPs remain under the supervision of their respective national competent authorities (NCAs). The assessment is based on data from the 2025 calendar year. Next steps Following the notification of the outcome of the assessment, ESMA will continue to monitor developments and engage with NCAs and supervised entities to ensure a smooth and transparent supervisory process. Bac",
+      "regulatorCode": "ESMA",
+      "regulatorName": "European Securities and Markets Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T01:57:56Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.esma.europa.eu/press-news/esma-news/drsp-supervisory-responsibilities-remain-unchanged-following-esma-assessment",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "74A7A54B-CE88-55AB-B219-1880ED49BC8D",
+      "title": "Statement by Governor UEDA concerning the Bank's Semiannual Report on Currency and Monetary Control (Committee on Financial Affairs, Senate)",
+      "summary": "Bank of Japan published: Statement by Governor UEDA concerning the Bank's Semiannual Report on Currency and Monetary Control (Committee on Financial Affairs, Senate)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-19T01:13:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "http://www.boj.or.jp/en/mopo/diet/d_state/dst261119a.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "45F6C7BD-10FB-5F02-A501-4F90BDDCFA3C",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-11-18T19:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "D24C942B-59CA-5C9D-9698-D7EB7498AFA0",
+      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 19, 2026",
+      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, November 19, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 10:30 AM to 11:00 AM November 20, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1519",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-18T19:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63997",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "7B2A1EE9-1AB7-58BA-971A-49E7B21D344C",
+      "title": "ISDA, AIMA, FIA, MFA, SIFMA, SIFMA AMG Express Support for FICC Guaranty Fund",
+      "summary": "On November 13, ISDA, the Alternative Investment Management Association (AIMA), FIA, the Managed Funds Association... Read more ISDA, AIMA, FIA, MFA, SIFMA, SIFMA AMG Express Support for FICC Guaranty Fund",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-18T10:35:37Z",
+      "documentType": "Publication",
+      "impactScore": 5.0,
+      "url": "https://www.isda.org/2026/11/18/isda-aima-fia-mfa-sifma-sifma-amg-express-support-for-ficc-guaranty-fund/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "6C6B0FB6-7B8C-533C-ABCF-2BC89110AB7E",
+      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on November 18, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of offers received (in &#8377; crore) 9,388 Amount accepted (in &#8377; crore) 9,388 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1515",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-18T10:35:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63993",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "2AECC53A-A769-5E15-8A8E-F349F44D26F5",
+      "title": "Helping more people break the cycle of persistent credit card debt",
+      "summary": "Credit cards are a useful financial tool for many – offering flexibility and helping people manage spending and cash flow.But if customers only make low repayments over a long period, they can end up in debt for years while racking up interest and charges.The persistent debt rules we introduced in 2018 aimed to tackle this.They said that lenders had to identify customers who, over an 18-month period, paid more in interest, fees and charges than towards their balance.Lenders had to contact these customers and encourage them to increase repayments if they could afford it, and if they were still struggling, lenders had to take additional steps to help them repay their balances sustainably.What changed for consumersOur evaluation shows that consumer outcomes improved between 2018 and early 2023. Percentage of accounts in persistent debt",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-18T10:01:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/blogs/helping-more-people-break-cycle-persistent-credit-card-debt",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "858E9ECC-8C3B-5D33-B553-6D87F09D4E45",
+      "title": "Boris Vujčić: Financial Stability Review - November 2026",
+      "summary": "European Central Bank published: Boris Vujčić: Financial Stability Review - November 2026",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-18T09:00:00Z",
+      "documentType": "Report",
+      "impactScore": 3.5,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9E92A56C-0441-5A80-A050-0C7D9862134D",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "summary": "European Central Bank published: Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-18T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3565AB78-EAAF-54E4-86AD-B882DAD7F4CD",
+      "title": "Money Market Operations as on November 17, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 8,30,954.13 5.54 4.00-5.90 I. Call Money 12,574.30 5.57 4.00-5.75 II. Triparty Repo 6,12,171.10 5.52 5.15-5.65 III. Market Repo 1,98,960.38 5.58 4.50-5.75 IV. Repo in Corporate Bond 7,248.35 5.73 5.70-5.90 B. Term Segment I. Notice Money ** 119.40 5.33 5.15-5.60 II. Term Money @@ 1,827.48 - 5.70-6.05 III. Triparty Repo 1,555.00 5.49 5.45-5.56 IV. Market Repo 1,323.00 5.86 5.75-6.00 V. Repo in Corporate Bond 229.00 7.40 7.40-7.40 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operatio",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-18T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63992",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "0C53CF3C-9D09-56A7-B1F3-05BDE331362C",
+      "title": "FINMA adopts measures aimed at relieving the burden on supervised institutions",
+      "summary": "The Swiss Financial Market Supervisory Authority FINMA is continuing to develop its supervisory and licensing processes. It aims to reduce the administrative burden on supervised institutions, simplify processes and focus its resources even more effectively on key risks. At the forefront are more efficient licensing procedures, including a fast track for particularly well-prepared applications with low-risk business models in the FinTech sector. In addition, FINMA is optimising its supervisory processes and data collection and will, in future, consult the relevant sector before publishing key guidance. It is contributing further proposals for simplifying financial market regulation to the work of the Federal Department of Finance (FDF).",
+      "regulatorCode": "FINMA",
+      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-18T08:55:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.finma.ch/en/news/2026/11/20261118-mm-supervisory-simplification/",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
+}
