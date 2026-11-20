@@ -1,7 +1,310 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T01:58:09Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T01:51:30Z",
   "publications": [
+    {
+      "id": "42253AE1-B2BB-53D3-BE54-96FE3D566A12",
+      "title": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 20, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Friday, November 20, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 3 09:30 AM to 10:00 AM November 23, 2026 (Monday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1525",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-19T19:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64003",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "7529BFB8-14F1-5C34-885A-4BD2C0786F47",
+      "title": "Finances of Panchayati Raj Institutions",
+      "summary": "Today, the Reserve Bank released the second edition of its biennial Report titled \" Finances of Panchayati Raj Institutions \". The theme of this edition is &lsquo;Local Finances and Capacity Building in Rural India'. Drawing upon a balanced panel of 2.25 lakh Gram Panchayats for the period 2022-23 to 2024-25, the Report presents an assessment of their finances and their role in achieving sustainable and inclusive rural socio-economic development. Highlights: Gram Panchayat finances strengthened during 2022-23 and 2023-24; they, however, remain dependent on intergovernmental transfers, accounting for about 90 per cent of total receipts, while own source revenues (OSR) accounted for a modest share of about 10 per cent, predominantly driven by non-tax receipts such as interest receipts, Panchayati Raj programme funds and user charges. Expenditure patterns primarily reflected both the mandat",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-19T17:35:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64002",
+      "tags": [
+        "Trade Reporting",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "DA635040-E5D9-5F07-9296-F8CBFF5C82FA",
+      "title": "Geordie Shore star and illegal finfluencer sentenced for promoting high-risk investments on social media",
+      "summary": "Aaron Chalmers, a reality TV star and social media content creator, and finfluencer Jason Agbodza have been sentenced for illegally promoting an unauthorised foreign exchange trading scheme on social media. Chalmers, 39 and from Newcastle, was sentenced at City of London Magistrates Court. He previously pleaded guilty and today (19 November) was fined £3,072 and ordered to pay costs of £2,836.Having risen to fame on Geordie Shore, Chalmers has more than 2 million followers on Instagram. Agbodza, 35, of London, was also fined £1,173 and ordered to pay costs of £2,114 after pleading guilty.Both men encouraged followers to invest in foreign exchange (forex or FX) trading through contracts for difference (CFDs), without being authorised to promote them. CFDs are high-risk derivatives, and the Financial Conduct Authority (FCA) has previously found that approximately 80% of customers lose mone",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T17:19:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.0,
+      "url": "https://www.fca.org.uk/news/press-releases/geordie-shore-star-illegal-finfluencer-sentenced-promoting-high-risk-investments-social-media",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A57C9814-BD4E-5FDD-973D-58DDBC24CF2B",
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-11-19T16:00:00Z",
+      "documentType": "Enforcement Action",
+      "impactScore": 3.5,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9E4718F0-EC7B-5199-A2B9-45EDFD6C00FC",
+      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
+      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-11-19T14:39:02Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+      "tags": [
+        "Trading Venues",
+        "Crypto Derivatives",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3D5128B6-CF01-5E46-A289-A3B5CE815569",
+      "title": "Interest Rate Derivatives Trading Activity Reported in EU, UK and US Markets: First Half of 2026 and the Second Quarter of 2026",
+      "summary": "This report analyzes interest rate derivatives (IRD) trading activity reported in Europe. The analysis is... Read more Interest Rate Derivatives Trading Activity Reported in EU, UK and US Markets: First Half of 2026 and the Second Quarter of 2026",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-19T14:26:00Z",
+      "documentType": "Report",
+      "impactScore": 6.0,
+      "url": "https://www.isda.org/2026/11/19/interest-rate-derivatives-trading-activity-reported-in-eu-uk-and-us-markets-first-half-of-2026-and-the-second-quarter-of-2026/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "49F5781D-2AD3-514E-916A-64030B304261",
+      "title": "OSFI launches its Competitive Prudential Initiative, putting resilience to work to support greater competition across Canada's banking sector",
+      "summary": "OSFI launches its Competitive Prudential Initiative, putting resilience to work to support greater competition across Canada&#039;s banking sector Melody.Mazerolle@osfi-bsif.gc.ca Thu, 11/19/2026 - 09:00 Date November 19, 2026 Link /en/news/osfi-launches-its-competitive-prudential-initiative-putting-resilience…",
+      "regulatorCode": "OSFI",
+      "regulatorName": "Office of the Superintendent of Financial Institutions",
+      "region": "Americas",
+      "publicationDate": "2026-11-19T14:00:34Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.osfi-bsif.gc.ca/en/osfi-launches-its-competitive-prudential-initiative-putting-resilience-work-support-greater",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "710D5D83-41C0-5312-B520-562A17DF853E",
+      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on November 19, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of offers received (in &#8377; crore) 11,682 Amount accepted (in &#8377; crore) 11,682 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1522",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-19T11:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64000",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E467245D-0182-561A-9116-25ABF9FBEEE3",
+      "title": "The courage to change",
+      "summary": "Speech by Sarah Pritchard, deputy chief executive, at TheCityUK National Conference 2026. Our willingness to do things differently in this country has helped make our financial services sector one of the most innovative in the world.We didn’t get here by accident.It took ambitious firms, given the right amount of room to experiment.The FCA recognised the importance of pushing the boundaries with Project Innovate in 2014.And the world’s first Regulatory Sandbox in 2016, allowing firms to test innovative ideas with dedicated FCA support.By 2024, fintech was the most significant job source in UK financial services.Fintech firms contribute positively to growth, productivity and infrastructure.No wonder the UK is Europe’s top spot for fintech investment.But we can’t take that position for granted.Investment is down. Global competition is up. Funding is getting harder to come by.And operationa",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T10:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/speeches/courage-change",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues",
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "354D8A5B-436F-5B4C-A433-632FA1B4890A",
+      "title": "Insurance firms called on to improve claims handling",
+      "summary": "The FCA and Financial Ombudsman Service have published a report setting out what insurers need to focus on to ensure claims are dealt with promptly, clearly and fairly. We are helping firms learn from Financial Ombudsman complaints and strengthen their claims handling in line with our existing rules to improve service quality for insurance customers.The report highlights where claims handling can improve and explains the key rules firms need to meet.Building on findings in our 2025 review of home and travel insurance, it calls on insurers to:Keep claims moving.Give customers clear and timely updates.Take responsibility when problems arise with third parties working on their behalf.While 79% of people who make a claim are satisfied with claims handling (PDF), improvements are needed in consumer understanding and service quality.Chris Knight, director for insurance at the FCA, said: 'Most ",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T09:32:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/news-stories/insurance-firms-called-improve-claims-handling",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E6B47027-9217-53CA-A46C-5C43B853B687",
+      "title": "FCA launches world-first platform giving firms new insight into AI innovation",
+      "summary": "New resource brings together real-world examples of AI adoption across financial services, helping firms identify emerging trends and opportunities. The FCA has launched a world-first AI Spotlight Observatory that provides firms, academics and innovators with a comprehensive view of how AI is being adopted across financial services.Based on practical use cases from more than 200 organisations and spanning 150 areas of activity, the online platform highlights how firms are using AI across the industry and where trends are developing.Developed in partnership with the Centre for Finance, Technology and Entrepreneurship (CFTE) and technology partner NayaOne, the Observatory helps meet the growing demand for greater visibility of AI adoption across the sector.The resource highlights a range of AI use cases shaping financial services, from solutions designed to combat financial crime and enhan",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T09:01:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "49B6D246-921E-5081-B6A1-EA56D0769CB1",
+      "title": "Money Market Operations as on November 18, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 8,02,340.74 5.50 4.30-5.90 I. Call Money 15,496.85 5.55 4.30-5.70 II. Triparty Repo 5,74,038.00 5.48 5.20-5.68 III. Market Repo 2,04,275.04 5.54 4.75-5.70 IV. Repo in Corporate Bond 8,530.85 5.69 5.64-5.90 B. Term Segment I. Notice Money ** 165.40 5.39 5.20-5.60 II. Term Money @@ 789.00 - 5.70-8.10 III. Triparty Repo 2,387.25 5.47 5.30-5.55 IV. Market Repo 600.00 6.00 6.00-6.00 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Rep",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-19T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63998",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "F1A2130B-9EDF-558F-B66D-F31EDC824F2C",
+      "title": "FINMA publishes guidance to optimise the supervision of portfolio managers and trustees",
+      "summary": "In new guidance, the Swiss Financial Market Supervisory Authority FINMA sets out measures designed to optimise the implementation of the two-tier supervisory system for portfolio managers and trustees, as far as the law allows. It is simplifying procedures for changes to licences, structuring fees in a way that is more in line with the principle of causation, and advocating for an even more risk-based supervisory approach.",
+      "regulatorCode": "FINMA",
+      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T08:45:00Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://www.finma.ch/en/news/2026/11/20261119-mm-am-07-26/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "1FB2B2A9-B2FC-5444-8753-01C101B81EB7",
+      "title": "UK financial watchdogs clarify cyber expectations as attacks rise",
+      "summary": "UK’s financial regulators are proposing new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow. The Bank of England’s most recent Systemic Risk Survey cited cyber as one of the risks that would have the greatest impact on the UK financial system. October 2026 saw the second-highest monthly number of cyber incidents reported to the FCA in 5 years, and the highest in the past 18 months, 52% above the previous high recorded in May 2025.In response, the Bank, FCA and Prudential Regulation Authority (PRA) are bringing together existing requirements and lessons from supervisory experience to give firms greater clarity about what is expected of them.The proposed guidance aligns with recognised cyber frameworks, including the National Cyber Security Centre’s (NCSC) Cyber Assessment Framework. It sets out how firms should manage their cyber risk",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T08:02:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/press-releases/uk-financial-watchdogs-clarify-cyber-expectations-attacks-rise",
+      "tags": [
+        "Trade Reporting",
+        "Crypto Derivatives",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": {
+        "date": "2027-02-26T00:00:00Z",
+        "label": "Consultation closes"
+      }
+    },
+    {
+      "id": "AFA4D364-02B6-51DC-9D14-D2C961BAFD93",
+      "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
+      "summary": "UK’s financial regulators are proposing a new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T08:00:00Z",
+      "documentType": "Consultation Paper",
+      "impactScore": 4.5,
+      "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "37EDBC06-90D9-51C6-9F67-7C56B81DC9F2",
+      "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
+      "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-19T07:30:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "FAF2A93C-C616-533B-AB5C-5F20B4962C7C",
+      "title": "Developments in Real Exports and Real Imports",
+      "summary": "Bank of Japan published: Developments in Real Exports and Real Imports",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-19T07:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/research/research_data/reri/index.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
     {
       "id": "58D7201A-A22C-5D17-BA05-A98D8BE2818D",
       "title": "DRSP supervisory responsibilities remain unchanged following ESMA assessment",
@@ -13,178 +316,6 @@
       "documentType": "Publication",
       "impactScore": 4.5,
       "url": "https://www.esma.europa.eu/press-news/esma-news/drsp-supervisory-responsibilities-remain-unchanged-following-esma-assessment",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "74A7A54B-CE88-55AB-B219-1880ED49BC8D",
-      "title": "Statement by Governor UEDA concerning the Bank's Semiannual Report on Currency and Monetary Control (Committee on Financial Affairs, Senate)",
-      "summary": "Bank of Japan published: Statement by Governor UEDA concerning the Bank's Semiannual Report on Currency and Monetary Control (Committee on Financial Affairs, Senate)",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-19T01:13:00Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "http://www.boj.or.jp/en/mopo/diet/d_state/dst261119a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "45F6C7BD-10FB-5F02-A501-4F90BDDCFA3C",
-      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-11-18T19:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D24C942B-59CA-5C9D-9698-D7EB7498AFA0",
-      "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 19, 2026",
-      "summary": "On a review of current and evolving liquidity conditions, it has been decided to conduct a Variable Rate Reverse Repo (VRRR) auction on Thursday, November 19, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 10:30 AM to 11:00 AM November 20, 2026 (Friday) 2. The operational guidelines for the auction as given in the Reserve Bank's Press Release 2019-2020/1947 dated February 13, 2020 will remain the same. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1519",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-18T19:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63997",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "7B2A1EE9-1AB7-58BA-971A-49E7B21D344C",
-      "title": "ISDA, AIMA, FIA, MFA, SIFMA, SIFMA AMG Express Support for FICC Guaranty Fund",
-      "summary": "On November 13, ISDA, the Alternative Investment Management Association (AIMA), FIA, the Managed Funds Association... Read more ISDA, AIMA, FIA, MFA, SIFMA, SIFMA AMG Express Support for FICC Guaranty Fund",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-18T10:35:37Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.isda.org/2026/11/18/isda-aima-fia-mfa-sifma-sifma-amg-express-support-for-ficc-guaranty-fund/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "6C6B0FB6-7B8C-533C-ABCF-2BC89110AB7E",
-      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on November 18, 2026",
-      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of offers received (in &#8377; crore) 9,388 Amount accepted (in &#8377; crore) 9,388 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1515",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-18T10:35:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63993",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "2AECC53A-A769-5E15-8A8E-F349F44D26F5",
-      "title": "Helping more people break the cycle of persistent credit card debt",
-      "summary": "Credit cards are a useful financial tool for many – offering flexibility and helping people manage spending and cash flow.But if customers only make low repayments over a long period, they can end up in debt for years while racking up interest and charges.The persistent debt rules we introduced in 2018 aimed to tackle this.They said that lenders had to identify customers who, over an 18-month period, paid more in interest, fees and charges than towards their balance.Lenders had to contact these customers and encourage them to increase repayments if they could afford it, and if they were still struggling, lenders had to take additional steps to help them repay their balances sustainably.What changed for consumersOur evaluation shows that consumer outcomes improved between 2018 and early 2023. Percentage of accounts in persistent debt",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-18T10:01:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/blogs/helping-more-people-break-cycle-persistent-credit-card-debt",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "858E9ECC-8C3B-5D33-B553-6D87F09D4E45",
-      "title": "Boris Vujčić: Financial Stability Review - November 2026",
-      "summary": "European Central Bank published: Boris Vujčić: Financial Stability Review - November 2026",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-11-18T09:00:00Z",
-      "documentType": "Report",
-      "impactScore": 3.5,
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9E92A56C-0441-5A80-A050-0C7D9862134D",
-      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-      "summary": "European Central Bank published: Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-11-18T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3565AB78-EAAF-54E4-86AD-B882DAD7F4CD",
-      "title": "Money Market Operations as on November 17, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 8,30,954.13 5.54 4.00-5.90 I. Call Money 12,574.30 5.57 4.00-5.75 II. Triparty Repo 6,12,171.10 5.52 5.15-5.65 III. Market Repo 1,98,960.38 5.58 4.50-5.75 IV. Repo in Corporate Bond 7,248.35 5.73 5.70-5.90 B. Term Segment I. Notice Money ** 119.40 5.33 5.15-5.60 II. Term Money @@ 1,827.48 - 5.70-6.05 III. Triparty Repo 1,555.00 5.49 5.45-5.56 IV. Market Repo 1,323.00 5.86 5.75-6.00 V. Repo in Corporate Bond 229.00 7.40 7.40-7.40 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operatio",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-18T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63992",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "0C53CF3C-9D09-56A7-B1F3-05BDE331362C",
-      "title": "FINMA adopts measures aimed at relieving the burden on supervised institutions",
-      "summary": "The Swiss Financial Market Supervisory Authority FINMA is continuing to develop its supervisory and licensing processes. It aims to reduce the administrative burden on supervised institutions, simplify processes and focus its resources even more effectively on key risks. At the forefront are more efficient licensing procedures, including a fast track for particularly well-prepared applications with low-risk business models in the FinTech sector. In addition, FINMA is optimising its supervisory processes and data collection and will, in future, consult the relevant sector before publishing key guidance. It is contributing further proposals for simplifying financial market regulation to the work of the Federal Department of Finance (FDF).",
-      "regulatorCode": "FINMA",
-      "regulatorName": "Swiss Financial Market Supervisory Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-18T08:55:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.finma.ch/en/news/2026/11/20261118-mm-supervisory-simplification/",
       "tags": [
         "Trade Reporting"
       ],
