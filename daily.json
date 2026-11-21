@@ -1,231 +1,107 @@
 {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T01:51:30Z",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T01:41:31Z",
   "publications": [
     {
-      "id": "42253AE1-B2BB-53D3-BE54-96FE3D566A12",
-      "title": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 20, 2026",
-      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Friday, November 20, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 3 09:30 AM to 10:00 AM November 23, 2026 (Monday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022. Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1525",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-19T19:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64003",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "7529BFB8-14F1-5C34-885A-4BD2C0786F47",
-      "title": "Finances of Panchayati Raj Institutions",
-      "summary": "Today, the Reserve Bank released the second edition of its biennial Report titled \" Finances of Panchayati Raj Institutions \". The theme of this edition is &lsquo;Local Finances and Capacity Building in Rural India'. Drawing upon a balanced panel of 2.25 lakh Gram Panchayats for the period 2022-23 to 2024-25, the Report presents an assessment of their finances and their role in achieving sustainable and inclusive rural socio-economic development. Highlights: Gram Panchayat finances strengthened during 2022-23 and 2023-24; they, however, remain dependent on intergovernmental transfers, accounting for about 90 per cent of total receipts, while own source revenues (OSR) accounted for a modest share of about 10 per cent, predominantly driven by non-tax receipts such as interest receipts, Panchayati Raj programme funds and user charges. Expenditure patterns primarily reflected both the mandat",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-19T17:35:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64002",
-      "tags": [
-        "Trade Reporting",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "DA635040-E5D9-5F07-9296-F8CBFF5C82FA",
-      "title": "Geordie Shore star and illegal finfluencer sentenced for promoting high-risk investments on social media",
-      "summary": "Aaron Chalmers, a reality TV star and social media content creator, and finfluencer Jason Agbodza have been sentenced for illegally promoting an unauthorised foreign exchange trading scheme on social media. Chalmers, 39 and from Newcastle, was sentenced at City of London Magistrates Court. He previously pleaded guilty and today (19 November) was fined £3,072 and ordered to pay costs of £2,836.Having risen to fame on Geordie Shore, Chalmers has more than 2 million followers on Instagram. Agbodza, 35, of London, was also fined £1,173 and ordered to pay costs of £2,114 after pleading guilty.Both men encouraged followers to invest in foreign exchange (forex or FX) trading through contracts for difference (CFDs), without being authorised to promote them. CFDs are high-risk derivatives, and the Financial Conduct Authority (FCA) has previously found that approximately 80% of customers lose mone",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T17:19:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.0,
-      "url": "https://www.fca.org.uk/news/press-releases/geordie-shore-star-illegal-finfluencer-sentenced-promoting-high-risk-investments-social-media",
-      "tags": [
-        "Trade Reporting",
-        "Trading Venues",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "A57C9814-BD4E-5FDD-973D-58DDBC24CF2B",
-      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "id": "EDA28EB9-CCCF-5E91-9A05-8FC5B22669C3",
+      "title": "Federal Reserve announces College Fed Challenge winners",
+      "summary": "Federal Reserve announces College Fed Challenge winners",
       "regulatorCode": "FRB",
       "regulatorName": "Federal Reserve Board",
       "region": "Americas",
-      "publicationDate": "2026-11-19T16:00:00Z",
-      "documentType": "Enforcement Action",
-      "impactScore": 3.5,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "publicationDate": "2026-11-20T21:15:00Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
       "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "833E0DB3-4599-578C-98C7-2DC6FF399B53",
+      "title": "Conversion/Switch of State Government Securities",
+      "summary": "The following State Governments have announced the conversion/switch of their securities through auction for an aggregate amount of &#8377;10,800 crore (face value). The security-wise details of the conversion/switch are given as under: Date of Auction Source Securities Amount (FV) of Source Securities (in &#8377; crore) Destination Securities November 26, 2026 (Thursday) 7.55% Madhya Pradesh SDL 2027 (Maturing on Oct 11, 2027) 1,000 7.91% Madhya Pradesh SGS 2036 (Maturing on Oct 07, 2036) 8.05% Madhya Pradesh SDL 2028 (Maturing on Feb 14, 2028) 1,000 7.61% Madhya Pradesh SGS 2044 (Maturing on Jul 08, 2044) 7.63% Punjab SDL 2027 (Maturing on Apr 12, 2027) 800 7.65% Punjab SGS 2043 (Maturing on Aug 12, 2043) 7.02% Punjab SDL 2028 (Maturing on Mar 10, 2028) 1,000 7.75% Punjab SGS 2035 (Maturing on Sep 09, 2035) 7.45% Rajasthan SDL 2027 (Maturing on Sep 27, 2027) 1,000 7.64% Rajasthan SGS 2",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-20T19:45:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64017",
+      "tags": [
+        "Margin",
+        "Trade Reporting",
         "Market Conduct"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "9E4718F0-EC7B-5199-A2B9-45EDFD6C00FC",
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
+      "id": "113968BB-8D81-582A-9B35-87F551E44F40",
+      "title": "RBI to conduct 4-day Variable Rate Repo (VRR) auction under LAF on November 23, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Monday, November 23, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 4 9:30 AM to 10:00 AM November 27, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1538",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-20T19:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64016",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "737020C9-626A-573D-8EDA-227A2E5A8273",
+      "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+      "summary": "The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
       "regulatorCode": "SEC",
       "regulatorName": "Securities and Exchange Commission",
       "region": "Americas",
-      "publicationDate": "2026-11-19T14:39:02Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+      "publicationDate": "2026-11-20T18:03:24Z",
+      "documentType": "Proposed Rule",
+      "impactScore": 4.7,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
       "tags": [
-        "Trading Venues",
-        "Crypto Derivatives",
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3D5128B6-CF01-5E46-A289-A3B5CE815569",
-      "title": "Interest Rate Derivatives Trading Activity Reported in EU, UK and US Markets: First Half of 2026 and the Second Quarter of 2026",
-      "summary": "This report analyzes interest rate derivatives (IRD) trading activity reported in Europe. The analysis is... Read more Interest Rate Derivatives Trading Activity Reported in EU, UK and US Markets: First Half of 2026 and the Second Quarter of 2026",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-19T14:26:00Z",
-      "documentType": "Report",
-      "impactScore": 6.0,
-      "url": "https://www.isda.org/2026/11/19/interest-rate-derivatives-trading-activity-reported-in-eu-uk-and-us-markets-first-half-of-2026-and-the-second-quarter-of-2026/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "49F5781D-2AD3-514E-916A-64030B304261",
-      "title": "OSFI launches its Competitive Prudential Initiative, putting resilience to work to support greater competition across Canada's banking sector",
-      "summary": "OSFI launches its Competitive Prudential Initiative, putting resilience to work to support greater competition across Canada&#039;s banking sector Melody.Mazerolle@osfi-bsif.gc.ca Thu, 11/19/2026 - 09:00 Date November 19, 2026 Link /en/news/osfi-launches-its-competitive-prudential-initiative-putting-resilience…",
-      "regulatorCode": "OSFI",
-      "regulatorName": "Office of the Superintendent of Financial Institutions",
-      "region": "Americas",
-      "publicationDate": "2026-11-19T14:00:34Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.osfi-bsif.gc.ca/en/osfi-launches-its-competitive-prudential-initiative-putting-resilience-work-support-greater",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "710D5D83-41C0-5312-B520-562A17DF853E",
-      "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on November 19, 2026",
-      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of offers received (in &#8377; crore) 11,682 Amount accepted (in &#8377; crore) 11,682 Cut off Rate (%) 5.49 Weighted Average Rate (%) 5.49 Partial Acceptance Percentage of offers received at cut off rate NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1522",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-19T11:25:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64000",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E467245D-0182-561A-9116-25ABF9FBEEE3",
-      "title": "The courage to change",
-      "summary": "Speech by Sarah Pritchard, deputy chief executive, at TheCityUK National Conference 2026. Our willingness to do things differently in this country has helped make our financial services sector one of the most innovative in the world.We didn’t get here by accident.It took ambitious firms, given the right amount of room to experiment.The FCA recognised the importance of pushing the boundaries with Project Innovate in 2014.And the world’s first Regulatory Sandbox in 2016, allowing firms to test innovative ideas with dedicated FCA support.By 2024, fintech was the most significant job source in UK financial services.Fintech firms contribute positively to growth, productivity and infrastructure.No wonder the UK is Europe’s top spot for fintech investment.But we can’t take that position for granted.Investment is down. Global competition is up. Funding is getting harder to come by.And operationa",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T10:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.fca.org.uk/news/speeches/courage-change",
-      "tags": [
-        "Trade Reporting",
-        "Trading Venues",
-        "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "354D8A5B-436F-5B4C-A433-632FA1B4890A",
-      "title": "Insurance firms called on to improve claims handling",
-      "summary": "The FCA and Financial Ombudsman Service have published a report setting out what insurers need to focus on to ensure claims are dealt with promptly, clearly and fairly. We are helping firms learn from Financial Ombudsman complaints and strengthen their claims handling in line with our existing rules to improve service quality for insurance customers.The report highlights where claims handling can improve and explains the key rules firms need to meet.Building on findings in our 2025 review of home and travel insurance, it calls on insurers to:Keep claims moving.Give customers clear and timely updates.Take responsibility when problems arise with third parties working on their behalf.While 79% of people who make a claim are satisfied with claims handling (PDF), improvements are needed in consumer understanding and service quality.Chris Knight, director for insurance at the FCA, said: 'Most ",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T09:32:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/news-stories/insurance-firms-called-improve-claims-handling",
-      "tags": [
-        "Market Conduct"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "E6B47027-9217-53CA-A46C-5C43B853B687",
-      "title": "FCA launches world-first platform giving firms new insight into AI innovation",
-      "summary": "New resource brings together real-world examples of AI adoption across financial services, helping firms identify emerging trends and opportunities. The FCA has launched a world-first AI Spotlight Observatory that provides firms, academics and innovators with a comprehensive view of how AI is being adopted across financial services.Based on practical use cases from more than 200 organisations and spanning 150 areas of activity, the online platform highlights how firms are using AI across the industry and where trends are developing.Developed in partnership with the Centre for Finance, Technology and Entrepreneurship (CFTE) and technology partner NayaOne, the Observatory helps meet the growing demand for greater visibility of AI adoption across the sector.The resource highlights a range of AI use cases shaping financial services, from solutions designed to combat financial crime and enhan",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T09:01:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "49B6D246-921E-5081-B6A1-EA56D0769CB1",
-      "title": "Money Market Operations as on November 18, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 8,02,340.74 5.50 4.30-5.90 I. Call Money 15,496.85 5.55 4.30-5.70 II. Triparty Repo 5,74,038.00 5.48 5.20-5.68 III. Market Repo 2,04,275.04 5.54 4.75-5.70 IV. Repo in Corporate Bond 8,530.85 5.69 5.64-5.90 B. Term Segment I. Notice Money ** 165.40 5.39 5.20-5.60 II. Term Money @@ 789.00 - 5.70-8.10 III. Triparty Repo 2,387.25 5.47 5.30-5.55 IV. Market Repo 600.00 6.00 6.00-6.00 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Rep",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-19T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63998",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
         "Trading Venues"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "F1A2130B-9EDF-558F-B66D-F31EDC824F2C",
-      "title": "FINMA publishes guidance to optimise the supervision of portfolio managers and trustees",
-      "summary": "In new guidance, the Swiss Financial Market Supervisory Authority FINMA sets out measures designed to optimise the implementation of the two-tier supervisory system for portfolio managers and trustees, as far as the law allows. It is simplifying procedures for changes to licences, structuring fees in a way that is more in line with the principle of causation, and advocating for an even more risk-based supervisory approach.",
-      "regulatorCode": "FINMA",
-      "regulatorName": "Swiss Financial Market Supervisory Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T08:45:00Z",
-      "documentType": "Guidance",
-      "impactScore": 4.0,
-      "url": "https://www.finma.ch/en/news/2026/11/20261119-mm-am-07-26/",
+      "id": "1F18F9F3-F183-5333-96A2-F40EF4C24E10",
+      "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+      "summary": "1. Reserve Bank of India - Liabilities and Assets* (&#8377; Crore) Item 2025 2026 Variation Nov. 14 Nov. 6 Nov. 13 Week Year 1 2 3 4 5 4 Loans and Advances 4.1 Central Government 0 0 0 0 0 4.2 State Governments 31808 15415 21004 5589 -10804 * Data are provisional; difference, if any, is due to rounding off. 2. Foreign Exchange Reserves* Item As on November 13, 2026 Variation over Week End-March 2026 Year &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. &#8377; Cr. US$ Mn. 1 2 3 4 5 6 7 8 1 Total Reserves 6647812 705342 -111173 -14205 93951 14234 501730 12765 1.1 Foreign Currency Assets # 5499031 583452 -55669 -7897 261664 31170 509142 21163 1.2 Gold 929430 98613 -54947 -6183 -164879 -16782 -18848 -8244 1.3 SDRs 174527 18517 -281 -92 -2062 -104 9024 -132 1.4 Reserve Position in the IMF 44824 4758 -277 -32 -771 -50 2411 -21 * Difference, if any, is due to rounding off. # Exclude",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-20T17:00:00Z",
+      "documentType": "Report",
+      "impactScore": 6.3,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64013",
+      "tags": [
+        "Margin",
+        "Trade Reporting",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "350580C5-0BCE-5643-AFE4-7FD9FE3BA3B5",
+      "title": "ISDA and other Trade Associations Publish Paper on EU ETS Market",
+      "summary": "On November 19, ISDA, the Association for Financial Markets in Europe, the Energy Traders Europe,... Read more ISDA and other Trade Associations Publish Paper on EU ETS Market",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-20T15:07:40Z",
+      "documentType": "Publication",
+      "impactScore": 5.0,
+      "url": "https://www.isda.org/2026/11/20/isda-and-other-trade-associations-publish-paper-on-eu-ets-market/",
       "tags": [
         "General"
       ],
@@ -233,38 +109,52 @@
       "deadline": null
     },
     {
-      "id": "1FB2B2A9-B2FC-5444-8753-01C101B81EB7",
-      "title": "UK financial watchdogs clarify cyber expectations as attacks rise",
-      "summary": "UK’s financial regulators are proposing new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow. The Bank of England’s most recent Systemic Risk Survey cited cyber as one of the risks that would have the greatest impact on the UK financial system. October 2026 saw the second-highest monthly number of cyber incidents reported to the FCA in 5 years, and the highest in the past 18 months, 52% above the previous high recorded in May 2025.In response, the Bank, FCA and Prudential Regulation Authority (PRA) are bringing together existing requirements and lessons from supervisory experience to give firms greater clarity about what is expected of them.The proposed guidance aligns with recognised cyber frameworks, including the National Cyber Security Centre’s (NCSC) Cyber Assessment Framework. It sets out how firms should manage their cyber risk",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T08:02:00Z",
+      "id": "CFDB2CA4-3C2A-5FB1-92D5-09ADB0756F67",
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-11-20T15:00:00Z",
       "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/press-releases/uk-financial-watchdogs-clarify-cyber-expectations-attacks-rise",
+      "impactScore": 3.0,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "tags": [
-        "Trade Reporting",
-        "Crypto Derivatives",
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "945E7880-3A57-5F77-A9A2-C863882214DD",
+      "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+      "summary": "The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+      "regulatorCode": "SEC",
+      "regulatorName": "Securities and Exchange Commission",
+      "region": "Americas",
+      "publicationDate": "2026-11-20T14:28:28Z",
+      "documentType": "Publication",
+      "impactScore": 3.6,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+      "tags": [
+        "Trading Venues",
+        "Capital Requirements",
         "Market Conduct"
       ],
       "fullText": null,
-      "deadline": {
-        "date": "2027-02-26T00:00:00Z",
-        "label": "Consultation closes"
-      }
+      "deadline": null
     },
     {
-      "id": "AFA4D364-02B6-51DC-9D14-D2C961BAFD93",
-      "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
-      "summary": "UK’s financial regulators are proposing a new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T08:00:00Z",
-      "documentType": "Consultation Paper",
+      "id": "E4715DDF-4CA9-5854-9D06-D80AE0939778",
+      "title": "Result of the Second 3-day Variable Rate Repo (VRR) auction held on November 20, 2026",
+      "summary": "Tenor 3-day Notified Amount (in &#8377; crore) 25,000 Total amount of bids received (in &#8377; crore) 48,040 Amount allotted (in &#8377; crore) 25,007 Cut off Rate (%) 5.58 Weighted Average Rate (%) 5.61 Partial Allotment Percentage of bids received at cut off rate (%) 50.24 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1532",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-20T13:40:00Z",
+      "documentType": "Publication",
       "impactScore": 4.5,
-      "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64010",
       "tags": [
         "General"
       ],
@@ -272,16 +162,33 @@
       "deadline": null
     },
     {
-      "id": "37EDBC06-90D9-51C6-9F67-7C56B81DC9F2",
-      "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
-      "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
+      "id": "FE178302-EEE8-501F-8435-C63CA1377A2D",
+      "title": "RBI to conduct Second 3-day Variable Rate Repo (VRR) auction under LAF on November 20, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a second Variable Rate Repo (VRR) auction on Friday, November 20, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 25,000 3 12:45 PM to 1:15 PM November 23, 2026 (Monday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1530",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-20T12:35:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64008",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "ACB2D6A8-5397-5A52-A03F-2F1A55F3F68E",
+      "title": "Christine Lagarde: Acting in time",
+      "summary": "European Central Bank published: Christine Lagarde: Acting in time",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
       "region": "Europe",
-      "publicationDate": "2026-11-19T07:30:00Z",
+      "publicationDate": "2026-11-20T08:30:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
       "tags": [
         "General"
       ],
@@ -289,35 +196,35 @@
       "deadline": null
     },
     {
-      "id": "FAF2A93C-C616-533B-AB5C-5F20B4962C7C",
-      "title": "Developments in Real Exports and Real Imports",
-      "summary": "Bank of Japan published: Developments in Real Exports and Real Imports",
+      "id": "5BB1A7B8-21EB-59E5-8C34-358515DEAB88",
+      "title": "Circular to Licensed Corporations, SFC-licensed Virtual Asset Service Providers and Associated Entities - Anti-Money Laundering / Counter-Financing of Terrorism (1) FATF Statement on High-Risk Jurisdictions subject to a Call for Action (2) FATF Statement on Jurisdictions under Increased Monitoring (",
+      "summary": "Securities and Futures Commission published: Circular to Licensed Corporations, SFC-licensed Virtual Asset Service Providers and Associated Entities - Anti-Money Laundering / Counter-Financing of Terrorism (1) FATF Statement on High-Risk Jurisdictions subject to a Call for Action (2) FATF Statement on Jurisdictions under Increased Monitoring (3) Outcomes from the FATF Plenary, 28-30 October 2026",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-20T08:26:27Z",
+      "documentType": "Guidance",
+      "impactScore": 4.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/circular/aml/doc?refNo=26EC77",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9CCB1450-776B-5245-83F2-26D00E2EDC64",
+      "title": "Monetary and Economic Studies (2026)",
+      "summary": "Bank of Japan published: Monetary and Economic Studies (2026)",
       "regulatorCode": "BOJ",
       "regulatorName": "Bank of Japan",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-11-19T07:00:00Z",
+      "publicationDate": "2026-11-20T02:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/research/research_data/reri/index.htm",
+      "url": "http://www.boj.or.jp/en/research/imes/mes/mes26.htm",
       "tags": [
         "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "58D7201A-A22C-5D17-BA05-A98D8BE2818D",
-      "title": "DRSP supervisory responsibilities remain unchanged following ESMA assessment",
-      "summary": "DRSP supervisory responsibilities remain unchanged following ESMA assessment 18 November 2026 Market data Supervision The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has finalised its annual assessment of the derogation criteria for Data Reporting Services Providers (DRSPs) . ESMA’s supervisory responsibilities for DRSPs will remain unchanged, as the ten DRSPs currently supervised by ESMA continue to exceed the relevant derogation thresholds, while the derogated DRSPs remain under the supervision of their respective national competent authorities (NCAs). The assessment is based on data from the 2025 calendar year. Next steps Following the notification of the outcome of the assessment, ESMA will continue to monitor developments and engage with NCAs and supervised entities to ensure a smooth and transparent supervisory process. Bac",
-      "regulatorCode": "ESMA",
-      "regulatorName": "European Securities and Markets Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-19T01:57:56Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.esma.europa.eu/press-news/esma-news/drsp-supervisory-responsibilities-remain-unchanged-following-esma-assessment",
-      "tags": [
-        "Trade Reporting"
       ],
       "fullText": null,
       "deadline": null
