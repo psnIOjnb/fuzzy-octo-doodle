@@ -1,5 +1,262 @@
 {
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T01:04:52Z",
-  "publications": []
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T04:56:07Z",
+  "publications": [
+    {
+      "id": "2EC7337F-EFD6-5C00-BB77-AE344D79ACEC",
+      "title": "New speech by Kelvin Wong: Remarks at Listing Ceremony of the First Company under the New Uncertificated Securities Market Regime",
+      "summary": "Securities and Futures Commission published: New speech by Kelvin Wong: Remarks at Listing Ceremony of the First Company under the New Uncertificated Securities Market Regime",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-24T02:00:48Z",
+      "documentType": "Speech",
+      "impactScore": 1.5,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR198",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AE44CF25-3E83-5F49-B401-36F605259B9B",
+      "title": "Statistics on Securities Financing Transactions in Japan",
+      "summary": "Bank of Japan published: Statistics on Securities Financing Transactions in Japan",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-23T23:50:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "http://www.boj.or.jp/en/statistics/bis/repo/index.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "DB01C6CF-E2B7-5B56-A7EA-ED1D9322A1D7",
+      "title": "CFTC Staff Issues Advisory Concerning the Use of Crypto Assets to Satisfy Financial Resources Requirements",
+      "summary": "Commodity Futures Trading Commission published: CFTC Staff Issues Advisory Concerning the Use of Crypto Assets to Satisfy Financial Resources Requirements",
+      "regulatorCode": "CFTC",
+      "regulatorName": "Commodity Futures Trading Commission",
+      "region": "Americas",
+      "publicationDate": "2026-11-23T22:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9331-26",
+      "tags": [
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "3A585FDF-D7CB-5C46-B277-ABA38F9DEDAF",
+      "title": "CFTC Publishes Final Rule Concerning Data Reporting Requirements for Certain Event Contracts",
+      "summary": "Commodity Futures Trading Commission published: CFTC Publishes Final Rule Concerning Data Reporting Requirements for Certain Event Contracts",
+      "regulatorCode": "CFTC",
+      "regulatorName": "Commodity Futures Trading Commission",
+      "region": "Americas",
+      "publicationDate": "2026-11-23T21:00:00Z",
+      "documentType": "Final Rule",
+      "impactScore": 7.0,
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9330-26",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9BBAEFEE-B70E-59FD-81A6-7F6D5D208CDD",
+      "title": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on November 25, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Wednesday, November 25, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 09:30 AM to 10:00 AM November 26, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1555",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-23T19:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64033",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "B8420DBD-9E69-58E9-8C9C-7A892F6C58B2",
+      "title": "Auction of Government of India Dated Securities",
+      "summary": "Government of India (GoI) has announced the sale (re-issue) of four dated securities for a notified amount of &#8377;33,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (&#8377; Crore) GoI specific Notification Auction Date Settlement Date 1 6.20% GS 2029 Aug 17, 2029 9,000 F.No.4(1)-B(W&M)/2026 dated November 23, 2026 November 27, 2026 (Friday) November 30, 2026 (Monday) 2 6.57% GS 2033 Aug 17, 2033 12,000 3 7.63% GS 2056 Sep 15, 2056 9,000 4 7.50% GOI SGrB 2056 Apr 27, 2056 3,000 Total 33,000 2. GoI will have the option to retain additional subscription up to &#8377;2,000 crore against each security mentioned above. 3. The securities will be sold through Reserve Bank of India Mumbai Office, Fort, Mumbai&ndash;400001. The sale will be subject to the terms and conditions spelt out in the &lsquo;Specific Notification' mentioned above and the General",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-23T17:45:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64029",
+      "tags": [
+        "Trade Reporting",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "695745B4-C0F3-58F7-906F-46F09F636E90",
+      "title": "Kandoo Car Credit Ltd enters administration",
+      "summary": "On 23 November 2026, Kandoo Car Credit Ltd (Kandoo) was placed into administration. Steve Kenny and Richard Cole of KBL Advisory Limited were appointed as joint administrators. Kandoo Car Credit (firm reference number 936619) operated as a motor finance credit broker arranging finance for consumers purchasing vehicles from third-party car dealerships. The joint administrators, Steve Kenny and Richard Cole of KBL Advisory Ltd, are now responsible for Kandoo while it is in administration. If you have questions about the administration or a claim against Kandoo, contact the joint administrators.Email: kandoo.queries@kbl-advisory.comKandoo is no longer arranging finance. If you have an existing loan agreement arranged by Kandoo, your agreement is with your lender, not Kandoo. Continue making repayments to your lender as usual. If you have not received your vehicle, a payment has not reached ",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-23T14:54:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/news-stories/kandoo-car-credit-ltd-enters-administration",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "4BFF459C-CC12-57BD-8C1D-3E65721E2D94",
+      "title": "Philip R. Lane: Climate change and monetary policy",
+      "summary": "European Central Bank published: Philip R. Lane: Climate change and monetary policy",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-23T14:30:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AEEA7E50-B0FB-5865-8A1A-DD7688DD7D57",
+      "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "summary": "European Central Bank published: ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-23T10:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+      "tags": [
+        "Margin"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "CD4D3F65-E0C7-50AD-A009-8DC6AB3F3798",
+      "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
+      "summary": "The Prudential Regulation Authority (PRA) has today published the results of its 2026 Dynamic General Insurance Stress Test (DyGIST)",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-23T10:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "68A46B66-70A9-5F9D-AFA2-F1A5587CDBAF",
+      "title": "SFC issues restriction notice to DA YUE Financial Group Limited",
+      "summary": "Securities and Futures Commission published: SFC issues restriction notice to DA YUE Financial Group Limited",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-23T09:53:54Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR197",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A8D3D0F1-5B40-5103-9170-8F754F84E33D",
+      "title": "Bereaved families need support, not a battle with paperwork",
+      "summary": "Investment firms must do more to help people dealing with the death of a loved one, after a review found confusing communications, delays and gaps in support. The FCA reviewed how financial advisers, wealth managers and investment platforms support bereaved families and those handling someone’s estate.Some firms provided thoughtful, personal support. Others had processes that risked adding to people’s distress and financial pressure.Some firms left people unclear about what to do next or offered limited ways to get in touch. In some cases, advice fees were still being taken until an original death certificate was provided.Kate Tuckley, head of department, consumer investments at the FCA, said, 'Dealing with someone’s finances after a death should not mean a battle with paperwork. Firms should ease the burden, not add to it.'Families need clear information and help without needless delays",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-23T09:01:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/press-releases/bereaved-families-need-support-not-battle-paperwork",
+      "tags": [
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "AC1DC1E0-A5CE-5C36-8350-C336D95A0F08",
+      "title": "FSB publishes 2026 list of insurers subject to resolution standards",
+      "summary": "List of insurers subject to resolution standards rises from 17 to 24.",
+      "regulatorCode": "FSB",
+      "regulatorName": "Financial Stability Board",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-23T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.5,
+      "url": "https://www.fsb.org/2026/11/fsb-publishes-2026-list-of-insurers-subject-to-resolution-standards/",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "22E64FAE-1C99-5AE7-96E3-478352DE3B77",
+      "title": "Supervision of insurance intermediaries: additional costs to protect clients",
+      "summary": "To strengthen client protection, over 12,000 insurance intermediaries have been subject to ongoing supervision by the Swiss Financial Market Supervisory Authority FINMA since 2024, as required by law. After around three years, the supervisory authority is taking stock: Despite information and prevention campaigns, the problems identified in the intermediary market have so far proved to be more serious than expected. The supervisory levy for untied, registered intermediaries is insufficient to fund the supervisory tasks required by law and is therefore being increased. The new levy will come into force at the beginning of 2027.",
+      "regulatorCode": "FINMA",
+      "regulatorName": "Swiss Financial Market Supervisory Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-23T07:59:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.finma.ch/en/news/2026/11/20261123-mm-aa-versicherungsvermittler/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "CD4089CC-3940-546B-8ABC-822065989F33",
+      "title": "New speech by Kelvin Wong: Remarks at ChinaAMC Offshore RMB Bond ETF Launch Ceremony",
+      "summary": "Securities and Futures Commission published: New speech by Kelvin Wong: Remarks at ChinaAMC Offshore RMB Bond ETF Launch Ceremony",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-23T01:52:55Z",
+      "documentType": "Speech",
+      "impactScore": 1.5,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR196",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
 }
