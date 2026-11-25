@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T03:41:54Z",
+  "publications": [
+    {
+      "id": "3FDEE6E5-4371-52A7-89CF-9EE86AC3E9D2",
+      "title": "Money Market Operations as on November 23, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,92,140.65 5.73 4.25-6.10 I. Call Money 13,306.12 5.74 4.30-6.10 II. Triparty Repo 5,68,390.35 5.73 5.64-5.80 III. Market Repo 2,03,375.73 5.72 4.25-5.90 IV. Repo in Corporate Bond 7,068.45 5.84 5.75-6.00 B. Term Segment I. Notice Money ** 211.15 5.47 5.05-5.70 II. Term Money @@ 800.00 - 5.75-6.30 III. Triparty Repo 525.00 5.70 5.70-5.80 IV. Market Repo 1,011.00 6.17 6.00-6.20 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation Mon, 23/11/2026",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-25T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64034",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "6360F1F3-15C7-54A4-A584-0D17FFEC6E4C",
+      "title": "Bank of Japan Accounts (November 20)",
+      "summary": "Bank of Japan published: Bank of Japan Accounts (November 20)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-25T01:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261120.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E27084C3-E6DF-54D1-ACAA-51C1C057CEB8",
+      "title": "Average Contract Interest Rates on Loans and Discounts (Sept.)",
+      "summary": "Bank of Japan published: Average Contract Interest Rates on Loans and Discounts (Sept.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-24T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2609.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "D4F9984B-D63B-56CB-A078-B4B4CC5B9664",
+      "title": "Services Producer Price Index (Oct.)",
+      "summary": "Bank of Japan published: Services Producer Price Index (Oct.)",
+      "regulatorCode": "BOJ",
+      "regulatorName": "Bank of Japan",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-24T23:50:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2610.pdf",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "559AA14E-1EF2-560F-894E-51C8C56BCDC2",
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "regulatorCode": "FRB",
+      "regulatorName": "Federal Reserve Board",
+      "region": "Americas",
+      "publicationDate": "2026-11-24T19:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "0D445274-25DA-5DFE-A1EA-A23F48FE37C5",
+      "title": "ISDA Writes to FASB in Support of Codification Improvements",
+      "summary": "On November 19, ISDA wrote to the Financial Accounting Standards Board (FASB) to strongly support... Read more ISDA Writes to FASB in Support of Codification Improvements",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-24T16:09:09Z",
+      "documentType": "Publication",
+      "impactScore": 5.0,
+      "url": "https://www.isda.org/2026/11/24/isda-writes-to-fasb-in-support-of-codification-improvements/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "13EF399A-ECD2-554D-AAE5-54A84CFD21E2",
+      "title": "ISDA Responds to FASB on Cash Equivalents and Certain Digital Assets",
+      "summary": "On November 19, ISDA wrote to the Financial Accounting Standards Board (FASB) to respond to... Read more ISDA Responds to FASB on Cash Equivalents and Certain Digital Assets",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-24T16:05:09Z",
+      "documentType": "Publication",
+      "impactScore": 5.0,
+      "url": "https://www.isda.org/2026/11/24/isda-responds-to-fasb-on-cash-equivalents-and-certain-digital-assets/",
+      "tags": [
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A8BDE186-A73E-5B1C-96DE-60404770D87F",
+      "title": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
+      "summary": "Daniel E. Pinto has been appointed as an external member of the Financial Policy Committee.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-24T16:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/news/2026/november/daniel-pinto-appointment-fpc",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "4B6605E6-06A7-5A94-94F1-A26E45E1BE5B",
+      "title": "Smarter regulation means understanding the trade-offs",
+      "summary": "Regulation inevitably involves choices.Protecting consumers and maintaining confidence in our markets are fundamental to what we do. But rules also have costs. They can affect businesses’ decisions to invest, innovate and compete. Good regulation means recognising those trade-offs and using evidence to decide where intervention will make the biggest difference.That is why economics matters so much to good regulation.At our annual Economics Conference, economists, academics, regulators and industry experts came together to explore how smarter financial regulation can support sustainable growth and innovation. Across the day, speakers challenged us to think carefully about how regulation affects behaviour, markets and investment, and how better evidence can help us make better decisions.Being proportionate about riskA well-functioning financial system cannot be risk-free, nor should we try",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-24T14:04:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/blogs/smarter-regulation-means-understanding-trade-offs",
+      "tags": [
+        "Trade Reporting",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A312E24A-154A-5573-91A2-81BF96F1095E",
+      "title": "ISDA-Actrix US Treasury Repo Market Clearing Indicators October 2026",
+      "summary": "The ISDA-Actrix US Treasury Repo Market Clearing Indicators illustrate central clearing adoption in the US... Read more ISDA-Actrix US Treasury Repo Market Clearing Indicators October 2026",
+      "regulatorCode": "ISDA",
+      "regulatorName": "International Swaps and Derivatives Association",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-24T13:46:38Z",
+      "documentType": "Publication",
+      "impactScore": 5.6,
+      "url": "https://www.isda.org/2026/11/24/isda-actrix-us-treasury-repo-market-clearing-indicators-october-2026/",
+      "tags": [
+        "Clearing Obligation"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "45134090-8497-5CEA-9BF8-2FF3BCFC5FF7",
+      "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "summary": "European Central Bank published: Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-24T11:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "4A580258-B76F-5F6F-B049-FE61084C3547",
+      "title": "FSB Regional Consultative Group for Asia meets in Sydney",
+      "summary": "Reserve Bank of Australia hosts FSB Asia group in Sydney.",
+      "regulatorCode": "FSB",
+      "regulatorName": "Financial Stability Board",
+      "region": "International Bodies",
+      "publicationDate": "2026-11-24T06:30:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.5,
+      "url": "https://www.fsb.org/2026/11/fsb-regional-consultative-group-for-asia-meets-in-sydney-2/",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    }
+  ]
+}
