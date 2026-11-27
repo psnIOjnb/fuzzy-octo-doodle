@@ -1,330 +1,69 @@
 {
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-26T03:00:22Z",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T03:09:24Z",
   "publications": [
     {
-      "id": "7A6670CF-C53D-5260-AA9F-F1188C7C4AD1",
-      "title": "Speech by Board Member TAMURA in Yamanashi (Economic Activity, Prices, and Monetary Policy in Japan)",
-      "summary": "Bank of Japan published: Speech by Board Member TAMURA in Yamanashi (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "id": "1541A3B0-78DC-5D75-8A9C-BFD544A67040",
+      "title": "Notice of Demand under Recovery Certificate number 9326 of 2026 dated November 20, 2026, issued to Meenu Sharma [Defaulter] (PAN: KXYPS9957R) in the matter of Unregistered Investment Advisory Services by Meenu Sharma, Proprietor of Commodity Pandit.: under Recovery Certificate No. 9326 of 2026.",
+      "summary": "Notice of Demand under Recovery Certificate number 9326 of 2026 dated November 20, 2026, issued to Meenu Sharma [Defaulter] (PAN: KXYPS9957R) in the matter of Unregistered Investment Advisory Services by Meenu Sharma, Proprietor of Commodity Pandit.: under Recovery Certificate No. 9326 of 2026.",
+      "regulatorCode": "SEBI",
+      "regulatorName": "Securities and Exchange Board of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-27T03:09:09Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/notice-of-demand-under-recovery-certificate-number-9326-of-2026-dated-november-20-2026-issued-to-meenu-sharma-defaulter-pan-kxyps9957r-in-the-matter-of-unregistered-investment-advisory-services-_105921.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "DD3F5C49-F82F-58E5-B105-01E4E3B4CF88",
+      "title": "SEBI hosts IOSCO’s Asia-Pacific Regional Committee Regulatory Roundtable on Market Infrastructure Institutions",
+      "summary": "SEBI hosts IOSCO’s Asia-Pacific Regional Committee Regulatory Roundtable on Market Infrastructure Institutions",
+      "regulatorCode": "SEBI",
+      "regulatorName": "Securities and Exchange Board of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-27T03:09:09Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-hosts-iosco-s-asia-pacific-regional-committee-regulatory-roundtable-on-market-infrastructure-institutions_105848.html",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "9B52E45C-2D7A-561D-957A-7AD8E3613F41",
+      "title": "Keynote speech by Executive Director KAMIYAMA at the IMF MCM-OAP Seminar in Tokyo (Digital Money and Payments: Transitioning Toward a New Paradigm)",
+      "summary": "Bank of Japan published: Keynote speech by Executive Director KAMIYAMA at the IMF MCM-OAP Seminar in Tokyo (Digital Money and Payments: Transitioning Toward a New Paradigm)",
       "regulatorCode": "BOJ",
       "regulatorName": "Bank of Japan",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-11-26T01:00:00Z",
+      "publicationDate": "2026-11-27T01:15:00Z",
       "documentType": "Speech",
       "impactScore": 1.5,
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261126a.htm",
+      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261127a.htm",
       "tags": [
-        "General"
+        "Trade Reporting"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "1CA7736E-746C-5172-899D-9223F8EBEB13",
-      "title": "Quarterly superannuation statistics",
-      "summary": "Breadcrumb Home Statistical Publication Quarterly superannuation statistics Superannuation Published 26 November 2026 Print On this page On this page APRA publishes statistics on the superannuation industry on a quarterly basis. The industry performance statistics contains aggregate summaries of financial performance and position, asset allocation and key performance ratios. Statistics relating to corporate, industry, public sector and retail funds performance are also detailed. The MySuper statistics contains data relating to product profile, asset allocation targets and ranges, investment performance and net returns, as well as fees and costs. Statistics are presented at an individual product or lifecycle stage level. The Quarterly superannuation performance statistics media release is available at: APRA releases superannuation statistics for September 2026 . Quarterly superannuation p",
+      "id": "52AF1AA8-A424-526C-A428-D7A56E6CD164",
+      "title": "Quarterly private health insurance performance statistics",
+      "summary": "Breadcrumb Home Statistical Publication Quarterly private health insurance performance statistics Private health insurance Published 27 November 2026 Print On this page On this page APRA publishes statistics on the private health insurance industry on a quarterly basis. The industry performance statistics contain aggregate summaries of financial performance and position and capital adequacy. View the quarterly private health insurance memberships and benefits publication . Quarterly private health insurance performance statistics Quarterly private health insurance performance statistics - September 2023 to September 2026 The performance statistics contain data relating to financial performance and position at an industry aggregate level. Quarterly private health insurance performance statistics database - September 2023 to September 2026 XLSX 227.29 KB ‧ 27 November 2026 The database pre",
       "regulatorCode": "APRA",
       "regulatorName": "Australian Prudential Regulation Authority",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T23:00:00Z",
+      "publicationDate": "2026-11-27T00:00:00Z",
       "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://www.apra.gov.au/news-and-publications/quarterly-superannuation-statistics",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "4F83CD48-671F-5974-AE3E-403C09E0CCA0",
-      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-11-25T20:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C1F7DD27-7E5E-5F50-A73B-76A86F0A3A07",
-      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
-      "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
-      "regulatorCode": "FRB",
-      "regulatorName": "Federal Reserve Board",
-      "region": "Americas",
-      "publicationDate": "2026-11-25T20:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "D7AEEFA4-6D12-5A41-9201-7EDDEBB93D50",
-      "title": "RBI to conduct Overnight Variable Rate Repo (VRR) auction under LAF on November 26, 2026",
-      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Thursday, November 26, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 75,000 1 09:30 AM to 10:00 AM November 27, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1565",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T19:20:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64043",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "161236B2-8D36-53E5-9170-53A9FE997B3F",
-      "title": "47th Half-Yearly Report on Management of Foreign Exchange Reserves: April – September 2026",
-      "summary": "It may be recalled that in February 2004 , the Reserve Bank initiated the practice of compiling half-yearly reports on the management of foreign exchange reserves and making them public to promote greater transparency and enhance disclosure in the management of the country's foreign exchange reserves. In this connection, Reserve Bank of India has today released the 47th Half-Yearly Report on Management of Foreign Exchange Reserves with reference to end-September 2026. During April-September 2026, India's foreign exchange reserves increased from US$ 691.11 billion to US$ 737.78 billion. The latest position of India's foreign exchange reserves is available at the following link: https://www.rbi.org.in/scripts/WSSView.aspx?Id=28849 (Brij Raj) Chief General Manager Press Release: 2026-2027/1564",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T18:05:00Z",
-      "documentType": "Report",
-      "impactScore": 5.0,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64042",
-      "tags": [
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "7B9639F0-AB0E-517D-9259-4E6ED8B5A28F",
-      "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
-      "summary": "European Central Bank published: ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-11-25T17:30:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "EFF95791-1F51-5520-A44F-02B38508F8FF",
-      "title": "FSB publishes 2026 G-SIB list",
-      "summary": "Total number of global systemically important banks remains at 29, with two banks moving to different buckets.",
-      "regulatorCode": "FSB",
-      "regulatorName": "Financial Stability Board",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-25T17:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.5,
-      "url": "https://www.fsb.org/2026/11/fsb-publishes-2026-g-sib-list/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C4AA06B7-CAD7-521A-979A-9FC01EA184AF",
-      "title": "2026 List of Global Systemically Important Banks (G-SIBs)",
-      "summary": "2026 list of G-SIBs remains at 29, with one bank moving to a higher bucket and one bank moving to a lower bucket.",
-      "regulatorCode": "FSB",
-      "regulatorName": "Financial Stability Board",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-25T17:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.5,
-      "url": "https://www.fsb.org/2026/11/2026-list-of-global-systemically-important-banks-g-sibs/",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "05B4C578-BC15-5E2B-8923-52AEB300AABF",
-      "title": "How should investors evaluate performance?",
-      "summary": "Why fund performance needs a detailed review in concentrated marketsA fund’s headline return tells only part of the story. Before selling a fund that has underperformed its benchmark, investors should ask why and whether it still meets their needs.This matters when a small group of companies dominate stock market returns. A fund that spreads its investments more widely may underperform a concentrated index. That does not necessarily mean its manager has made poor decisions. Equally, diversification should not become an excuse for weak stock picking.There could also be a big impact on pensions, which play a vital role in people’s financial futures. We want pension schemes to deliver long-term value for savers. Firms and asset owners should look at the bigger picture, including a fund manager’s stated investment objective, strategy and style.How market concentration makes a real difference",
-      "regulatorCode": "FCA",
-      "regulatorName": "Financial Conduct Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-25T14:45:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.fca.org.uk/news/blogs/how-should-investors-evaluate-performance",
-      "tags": [
-        "Trade Reporting",
-        "Benchmarks"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "C034F2D9-8FCA-548F-B02E-FA6CF021E888",
-      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
-      "summary": "The Securities and Exchange Commission’s Investor Advisory Committee will hold a virtual public meeting on Dec. 3, at 9:30 a.m. ET to discuss the trading of tokenized securities, bankruptcy, and accounting oversight. The meeting will be webcast…",
-      "regulatorCode": "SEC",
-      "regulatorName": "Securities and Exchange Commission",
-      "region": "Americas",
-      "publicationDate": "2026-11-25T14:10:24Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
-      "tags": [
-        "Trading Venues",
-        "Crypto Derivatives"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "83CD4D36-E59F-5449-A136-BEED296E4BC8",
-      "title": "Result of the Second Overnight Variable Rate Repo (VRR) auction held on November 25, 2026",
-      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 75,246 Amount allotted (in &#8377; crore) 50,007 Cut off Rate (%) 5.68 Weighted Average Rate (%) 5.69 Partial Allotment Percentage of bids received at cut off rate (%) 86.37 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1560",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T12:50:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64038",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "99D87AD9-5152-53BF-9540-EF7D5371E21D",
-      "title": "RBI to conduct Second Overnight Variable Rate Repo (VRR) auction under LAF on November 25, 2026",
-      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a second Variable Rate Repo (VRR) auction on Wednesday, November 25, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 11:45 AM to 12:15 PM November 26, 2026 (Thursday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1559",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T11:30:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64037",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "9501FDC2-9F82-5571-91A5-4A4ED3042A8E",
-      "title": "Money Market Operations as on November 24, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Term Segment I. Notice Money ** 0.00 - - II. Term Money @@ 0.00 - - III. Triparty Repo 0.00 - - IV. Market Repo 0.00 - - V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation (b) Reverse Repo Operation 3. MSF # Tue, 24/11/2026 1 Wed, 25/11/2026 13,581.00 5.75 4. SDF Δ# Tue, 24/11/2026 1 Wed, 25/11/2026 1,19,829.00 5.25 5. Ne",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T10:40:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64036",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "931C4077-2AAB-573B-9537-A05DE4C7B238",
-      "title": "Result of the Overnight Variable Rate Repo (VRR) auction held on November 25, 2026",
-      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 1,62,017 Amount allotted (in &#8377; crore) 50,007 Cut off Rate (%) 5.66 Weighted Average Rate (%) 5.67 Partial Allotment Percentage of bids received at cut off rate (%) 50.55 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1557",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T10:25:00Z",
-      "documentType": "Publication",
-      "impactScore": 4.5,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64035",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "0A5F6F52-21C7-5A62-B0CE-9E53CBB35555",
-      "title": "Card payments edge past cash in shops; euro area consumers want both",
-      "summary": "European Central Bank published: Card payments edge past cash in shops; euro area consumers want both",
-      "regulatorCode": "ECB",
-      "regulatorName": "European Central Bank",
-      "region": "Europe",
-      "publicationDate": "2026-11-25T10:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
-      "tags": [
-        "General"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "35CB4110-A118-584C-8AFD-D28C72853330",
-      "title": "Regulators implement growth-friendly securitisation reforms",
-      "summary": "The Prudential Regulation Authority and Financial Conduct Authority have today published revised rules designed to support securitisation’s contribution to economic growth.",
-      "regulatorCode": "BOE",
-      "regulatorName": "Bank of England / PRA",
-      "region": "Europe",
-      "publicationDate": "2026-11-25T10:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
-      "tags": [
-        "Trade Reporting"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "3FDEE6E5-4371-52A7-89CF-9EE86AC3E9D2",
-      "title": "Money Market Operations as on November 23, 2026",
-      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,92,140.65 5.73 4.25-6.10 I. Call Money 13,306.12 5.74 4.30-6.10 II. Triparty Repo 5,68,390.35 5.73 5.64-5.80 III. Market Repo 2,03,375.73 5.72 4.25-5.90 IV. Repo in Corporate Bond 7,068.45 5.84 5.75-6.00 B. Term Segment I. Notice Money ** 211.15 5.47 5.05-5.70 II. Term Money @@ 800.00 - 5.75-6.30 III. Triparty Repo 525.00 5.70 5.70-5.80 IV. Market Repo 1,011.00 6.17 6.00-6.20 V. Repo in Corporate Bond 0.00 - - RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation Mon, 23/11/2026",
-      "regulatorCode": "RBI",
-      "regulatorName": "Reserve Bank of India",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T09:00:00Z",
-      "documentType": "Publication",
-      "impactScore": 5.9,
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64034",
-      "tags": [
-        "Margin",
-        "Clearing Obligation",
-        "Trading Venues"
-      ],
-      "fullText": null,
-      "deadline": null
-    },
-    {
-      "id": "CD902272-9FC3-58E8-84CC-0C48AA35FA2C",
-      "title": "FINMA assesses UBS’s crisis preparations",
-      "summary": "In its annual assessment of UBS’s crisis plans, the Swiss Financial Market Supervisory Authority FINMA notes that UBS’s resolvability improved in 2025 as a result of the advanced integration of Credit Suisse. FINMA considers the preferred resolution strategy (recapitalisation, restructuring and continuation of a restructured UBS) to be executable. In addition, progress has been made in integrating the emergency plan into Group-wide resolution planning. FINMA has approved the recovery plan submitted by UBS in 2025.",
-      "regulatorCode": "FINMA",
-      "regulatorName": "Swiss Financial Market Supervisory Authority",
-      "region": "Europe",
-      "publicationDate": "2026-11-25T08:59:00Z",
-      "documentType": "Publication",
-      "impactScore": 3.6,
-      "url": "https://www.finma.ch/en/news/2026/11/20261125-mm-resolution-ubs/",
+      "impactScore": 5.6,
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-private-health-insurance-performance-statistics",
       "tags": [
         "Trade Reporting",
         "Capital Requirements"
@@ -333,33 +72,69 @@
       "deadline": null
     },
     {
-      "id": "3CF7BF0C-E4BD-5BA4-BB0B-89C99DCFB464",
-      "title": "EU EMIR 3.0 Impact of Clearing Calculation and Threshold Changes",
-      "summary": "On November 10, 2026, Commission Delegated Regulation (EU) 2026/2343 amending the regulatory technical standards (RTS)... Read more EU EMIR 3.0 Impact of Clearing Calculation and Threshold Changes",
-      "regulatorCode": "ISDA",
-      "regulatorName": "International Swaps and Derivatives Association",
-      "region": "International Bodies",
-      "publicationDate": "2026-11-25T08:47:08Z",
-      "documentType": "Publication",
-      "impactScore": 6.2,
-      "url": "https://www.isda.org/2026/11/25/eu-emir-3-0-impact-of-clearing-calculation-and-threshold-changes/",
+      "id": "88E82C8E-1B36-58FF-B9D2-9A1DA0529060",
+      "title": "Quarterly life insurance performance statistics",
+      "summary": "Breadcrumb Home Statistical Publication Quarterly life insurance performance statistics Life insurance Published 27 November 2026 Print On this page On this page APRA publishes statistics on the performance of the life insurance industry on a quarterly basis. These statistics contain industry aggregate summaries of financial performance and position, capital adequacy, as well as details on the performance of individual product groups. Quarterly life insurance performance statistics Quarterly life insurance performance statistics - September 2023 to September 2026 The performance statistics contain data relating to the financial performance and position at an industry aggregate level. Statistics are also provided at a product group level and includes a split between ordinary and superannuation business. More information This publication was reissued on 20 March 2026 to incorporate materia",
+      "regulatorCode": "APRA",
+      "regulatorName": "Australian Prudential Regulation Authority",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T23:00:00Z",
+      "documentType": "Report",
+      "impactScore": 5.6,
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-life-insurance-performance-statistics",
       "tags": [
-        "Clearing Obligation"
+        "Trade Reporting",
+        "Capital Requirements"
       ],
       "fullText": null,
       "deadline": null
     },
     {
-      "id": "D2C5D70B-1C90-5406-B35D-3F37F4FAA56D",
-      "title": "Japanese Government Bonds Held by the Bank of Japan",
-      "summary": "Bank of Japan published: Japanese Government Bonds Held by the Bank of Japan",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
+      "id": "003C14CA-2DDB-5D62-8FF5-8AF0C4A26B24",
+      "title": "Quarterly general insurance performance statistics",
+      "summary": "Breadcrumb Home Statistical Publication Quarterly general insurance performance statistics General insurance Published 27 November 2026 Print On this page On this page APRA publishes statistics on the general insurance industry on a quarterly basis. The industry performance statistics contain aggregate summaries of financial performance and position, investments and capital adequacy. Statistics are also provided at a class of business and state level. Quarterly general insurance performance statistics Quarterly general insurance performance statistics - September 2023 to September 2026 The performance statistics contain data relating to financial performance and position at an industry aggregate level. Statistics are also provided at a class of business level. The database presents the performance statistics data in a database format. Quarterly general insurance performance statistics da",
+      "regulatorCode": "APRA",
+      "regulatorName": "Australian Prudential Regulation Authority",
       "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T08:00:00Z",
+      "publicationDate": "2026-11-26T23:00:00Z",
+      "documentType": "Report",
+      "impactScore": 5.6,
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-general-insurance-performance-statistics",
+      "tags": [
+        "Trade Reporting",
+        "Capital Requirements"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "E39BFC65-D895-51A5-9E3D-93F906E43079",
+      "title": "Quarterly private health insurance statistics",
+      "summary": "Breadcrumb Home Statistical Publication Quarterly private health insurance statistics Private health insurance Published 27 November 2026 Print APRA publishes statistics on the private health insurance industry (PHI) on a quarterly basis. The statistics cover the areas of membership, coverage, benefits paid, medical gap, medical devices or human tissue products, and medical services Quarterly private health insurance membership and benefits summary - September 2026 Private health insurance quarterly statistics glossary PDF 267.18 KB ‧ 20 August 2019 Membership and benefits statistics Quarterly Private Health Insurance Membership and Benefits September 2026 XLSX 17.16 MB ‧ 27 November 2026 The membership and benefits statistics contain data on policies, benefits paid for services by age group and gender, number of services, and gap benefits, on a state and territory basis. Membership and ",
+      "regulatorCode": "APRA",
+      "regulatorName": "Australian Prudential Regulation Authority",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T23:00:00Z",
+      "documentType": "Report",
+      "impactScore": 5.0,
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-private-health-insurance-statistics",
+      "tags": [
+        "Trade Reporting"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "968660A7-2605-5413-963F-B5D273BDF7E2",
+      "title": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 27, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a Variable Rate Repo (VRR) auction on Friday, November 27, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 75,000 3 09:30 AM to 10:00 AM November 30, 2026 (Monday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1573",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T19:25:00Z",
       "documentType": "Publication",
-      "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei261120.xlsx",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64051",
       "tags": [
         "General"
       ],
@@ -367,16 +142,223 @@
       "deadline": null
     },
     {
-      "id": "23A731E3-92A8-5B5B-93A3-C6FB346BE500",
-      "title": "Indicators for Core CPI",
-      "summary": "Bank of Japan published: Indicators for Core CPI",
-      "regulatorCode": "BOJ",
-      "regulatorName": "Bank of Japan",
-      "region": "Asia-Pacific",
-      "publicationDate": "2026-11-25T05:00:00Z",
+      "id": "6AA98BB7-9A63-54B9-AACA-AD0A7E210E5A",
+      "title": "Authorities complete 2026 review of payments Memorandum of Understanding",
+      "summary": "The Bank of England (the Bank), Financial Conduct Authority (FCA), Prudential Regulation Authority (PRA) and Payment Systems Regulator (PSR) have completed their annual review of the Memorandum of Understanding (MoU) on payments. Read the MoU (PDF)Outcome of the review: The review found that cooperation and coordination between the Authorities – the Bank, FCA, PRA and PSR – has strengthened and remains effective.We concluded that no changes to the MoU are needed at this time.To complement the MoU, we have updated our information explaining how our objectives, regulatory remits and key workstreams fit together.The Authorities have considered the effectiveness and efficiency of their coordination under the MoU. This includes feedback from industry and regulated firms to determine whether the MoU’s principles of coordination and cooperation continue to be met in practice. The review found t",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T15:00:00Z",
+      "documentType": "Report",
+      "impactScore": 3.5,
+      "url": "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026",
+      "tags": [
+        "Crypto Derivatives"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "97B7BDF3-9D90-5D71-A671-6B964778625D",
+      "title": "Payments systems Memorandum of Understanding",
+      "summary": "Bank of England, PRA, FCA and PSR review Memorandum of Understanding in relation to payment systems in the UK",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T15:00:00Z",
       "documentType": "Publication",
       "impactScore": 3.0,
-      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+      "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "71C4951E-DA7E-5774-82BB-0FBB0D633861",
+      "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+      "summary": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T12:33:57Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "64333D4C-2D9F-5489-A6B9-7C09FD66F3B3",
+      "title": "Meeting of 28-29 October 2026",
+      "summary": "European Central Bank published: Meeting of 28-29 October 2026",
+      "regulatorCode": "ECB",
+      "regulatorName": "European Central Bank",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T12:30:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "A47D91C4-5C02-53A9-876B-CE45BEB5B9C5",
+      "title": "Result of the Second Overnight Variable Rate Repo (VRR) auction held on November 26, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 50,000 Total amount of bids received (in &#8377; crore) 45,731 Amount allotted (in &#8377; crore) 45,731 Cut off Rate (%) 5.51 Weighted Average Rate (%) 5.65 Partial Allotment Percentage of bids received at cut off rate (%) NA Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1569",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T12:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64047",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "4F4576F5-9523-5204-A155-0FD3F8D203D5",
+      "title": "RBI to conduct Second Overnight Variable Rate Repo (VRR) auction under LAF on November 26, 2026",
+      "summary": "On a review of current and evolving liquidity conditions in the near term, it has been decided to conduct a second Variable Rate Repo (VRR) auction on Thursday, November 26, 2026, as under: Sl. No. Notified Amount (&#8377; crore) Tenor (day) Window Timing Date of Reversal 1 50,000 1 11:00 AM to 11:30 AM November 27, 2026 (Friday) 2. The operational guidelines for the auction will be same as given in Reserve Bank's Press Release 2021-2022/1572 dated January 20, 2022 . Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1568",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T10:35:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64046",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "B85A63B9-72C9-5A05-9BB2-509E72E014F4",
+      "title": "Financial Policy Committee Record – November 2026",
+      "summary": "Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.",
+      "regulatorCode": "BOE",
+      "regulatorName": "Bank of England / PRA",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T10:30:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "F3D81D46-1298-5457-AED5-72E4BB914E24",
+      "title": "Result of the Overnight Variable Rate Repo (VRR) auction held on November 26, 2026",
+      "summary": "Tenor 1-day Notified Amount (in &#8377; crore) 75,000 Total amount of bids received (in &#8377; crore) 1,40,535 Amount allotted (in &#8377; crore) 75,007 Cut off Rate (%) 5.68 Weighted Average Rate (%) 5.69 Partial Allotment Percentage of bids received at cut off rate (%) 56.95 Ajit Prasad Deputy General Manager (Communications) Press Release: 2026-2027/1567",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T10:25:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64045",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "7CBC4939-B480-5BD8-BA1B-3717C4212368",
+      "title": "Check the firm before you invest, FCA warns, as AI scams rise",
+      "summary": "A third (33%) of UK adults say they have seen an investment promotion in the past year that they believe used artificial intelligence (AI), new research from the FCA shows. Reports of investment fraud to Report Fraud that mention suspected use of AI have risen by nearly 400% in a year, up from 193 in 2024/25 to 956 in 2025/26. Investment fraud victims lost an average of £28,188 in 2025/26.Most people feel confident they could spot an AI investment scam, but that confidence is lower when a well-known person is involved. Almost two-thirds (62%) of adults say they could identify an investment scam that used AI. But less than half (49%) think they could tell whether a video or voice recording of a well-known person had been generated or altered by AI.Martin Lewis was the person most often named by those who thought they had seen a fake promotion featuring a well-known person.Under-35s are th",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T09:16:00Z",
+      "documentType": "Publication",
+      "impactScore": 4.5,
+      "url": "https://www.fca.org.uk/news/press-releases/check-firm-you-invest-fca-warns-ai-scams-rise",
+      "tags": [
+        "Trade Reporting",
+        "Market Conduct"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "90D4B699-8F82-507B-86F0-1E246387B515",
+      "title": "Money Market Operations as on November 25, 2026",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,79,137.97 5.72 4.30-5.94 I. Call Money 14,280.85 5.73 4.30-5.88 II. Triparty Repo 5,76,862.25 5.71 5.21-5.78 III. Market Repo 1,80,856.87 5.72 4.70-5.90 IV. Repo in Corporate Bond 7,138.00 5.83 5.80-5.94 B. Term Segment I. Notice Money ** 231.50 5.49 5.10-5.75 II. Term Money @@ 521.00 - 5.70-8.00 III. Triparty Repo 3,700.00 5.73 5.70-5.75 IV. Market Repo 48.24 6.20 6.20-6.20 V. Repo in Corporate Bond 339.00 7.50 7.50-7.50 RBI OPERATIONS @ --> RBI OPERATIONS @ --> RBI Operations @ Auction Date Tenor (Days) Maturity Date Amount Current Rate / Cut off Rate C. Liquidity Adjustment Facility (LAF), Marginal Standing Facility (MSF) & Standing Deposit Facility (SDF) I. Today's Operations 1. Fixed Rate 2. Variable Rate & (a) Repo Operation Wed",
+      "regulatorCode": "RBI",
+      "regulatorName": "Reserve Bank of India",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T09:00:00Z",
+      "documentType": "Publication",
+      "impactScore": 5.9,
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64044",
+      "tags": [
+        "Margin",
+        "Clearing Obligation",
+        "Trading Venues"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "BACBBDD1-3C70-56F3-88A5-60B3E01614E6",
+      "title": "SFC obtains disqualification orders against three former directors of China Longevity Group Company Limited over material financial misstatements and disclosure failures",
+      "summary": "Securities and Futures Commission published: SFC obtains disqualification orders against three former directors of China Longevity Group Company Limited over material financial misstatements and disclosure failures",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T08:59:38Z",
+      "documentType": "Statement",
+      "impactScore": 3.0,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR200",
+      "tags": [
+        "General"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "864BE029-90C4-51B2-926A-006E7A26FCAA",
+      "title": "New speech by Elisa Ng: Speech at the Capital Markets Hong Kong Forum 2026",
+      "summary": "Securities and Futures Commission published: New speech by Elisa Ng: Speech at the Capital Markets Hong Kong Forum 2026",
+      "regulatorCode": "SFC",
+      "regulatorName": "Securities and Futures Commission",
+      "region": "Asia-Pacific",
+      "publicationDate": "2026-11-26T08:21:48Z",
+      "documentType": "Speech",
+      "impactScore": 2.1,
+      "url": "https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR199",
+      "tags": [
+        "Capital Requirements"
+      ],
+      "fullText": null,
+      "deadline": null
+    },
+    {
+      "id": "940BF618-8D7F-53B8-ADC7-D663E3D008E6",
+      "title": "Motor finance compensation scheme calculation",
+      "summary": "While preparing our response to the legal challenges to our motor finance redress scheme, we identified some errors in how we categorised a small group of loan agreements. This data informed the annual percentage rate (APR) adjustment we use in our calculation of compensation. We set this at 17% for agreements from 1 April 2014. Our initial work to understand the impact of the errors suggests that, if there is any impact, this would be less than 1 percentage point either side of 17%.While the potential impact on average compensation is small – less than £10 per agreement, on average – we recognise this affects the ongoing litigation.We properly informed those challenging the scheme. Two of those challengers are due to serve their expert evidence on Friday 27 November 2026. We will discuss with the challengers and the court the impact on this deadline, and for the timeline of the litigati",
+      "regulatorCode": "FCA",
+      "regulatorName": "Financial Conduct Authority",
+      "region": "Europe",
+      "publicationDate": "2026-11-26T07:03:00Z",
+      "documentType": "Publication",
+      "impactScore": 3.0,
+      "url": "https://www.fca.org.uk/news/statements/motor-finance-compensation-scheme-calculation",
       "tags": [
         "General"
       ],
